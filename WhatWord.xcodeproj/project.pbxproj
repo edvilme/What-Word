@@ -14,6 +14,12 @@
 		9D6A136D2B0AF6A9000C7E98 /* WhatWordTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6A136C2B0AF6A9000C7E98 /* WhatWordTests.swift */; };
 		9D6A13772B0AF6A9000C7E98 /* WhatWordUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6A13762B0AF6A9000C7E98 /* WhatWordUITests.swift */; };
 		9D6A13792B0AF6A9000C7E98 /* WhatWordUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6A13782B0AF6A9000C7E98 /* WhatWordUITestsLaunchTests.swift */; };
+		9D6A13862B0AFA6F000C7E98 /* WordHierarchyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6A13852B0AFA6F000C7E98 /* WordHierarchyView.swift */; };
+		9D6A13882B0AFB00000C7E98 /* WordNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6A13872B0AFB00000C7E98 /* WordNode.swift */; };
+		9D6A138A2B0B01E5000C7E98 /* WordDrawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6A13892B0B01E5000C7E98 /* WordDrawView.swift */; };
+		9D6A13982B0BDEE5000C7E98 /* DrawnImageClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 9D6A13932B0BDDDD000C7E98 /* DrawnImageClassifier.mlmodel */; };
+		9D6A13992B0BDEE9000C7E98 /* cnnsketchclassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 9D6A13942B0BDDDD000C7E98 /* cnnsketchclassifier.mlmodel */; };
+		9D6A13A42B0BF953000C7E98 /* ImageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6A13A32B0BF953000C7E98 /* ImageExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +51,13 @@
 		9D6A13722B0AF6A9000C7E98 /* WhatWordUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhatWordUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D6A13762B0AF6A9000C7E98 /* WhatWordUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatWordUITests.swift; sourceTree = "<group>"; };
 		9D6A13782B0AF6A9000C7E98 /* WhatWordUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatWordUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9D6A13852B0AFA6F000C7E98 /* WordHierarchyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordHierarchyView.swift; sourceTree = "<group>"; };
+		9D6A13872B0AFB00000C7E98 /* WordNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordNode.swift; sourceTree = "<group>"; };
+		9D6A13892B0B01E5000C7E98 /* WordDrawView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordDrawView.swift; sourceTree = "<group>"; };
+		9D6A138D2B0B597B000C7E98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		9D6A13932B0BDDDD000C7E98 /* DrawnImageClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = DrawnImageClassifier.mlmodel; path = WhatWord/Models/DrawnImageClassifier.mlmodel; sourceTree = SOURCE_ROOT; };
+		9D6A13942B0BDDDD000C7E98 /* cnnsketchclassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = cnnsketchclassifier.mlmodel; path = WhatWord/Models/cnnsketchclassifier.mlmodel; sourceTree = SOURCE_ROOT; };
+		9D6A13A32B0BF953000C7E98 /* ImageExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +108,14 @@
 		9D6A13592B0AF6A8000C7E98 /* WhatWord */ = {
 			isa = PBXGroup;
 			children = (
+				9D6A13A22B0BF943000C7E98 /* Extensions */,
+				9D6A138D2B0B597B000C7E98 /* Info.plist */,
+				9D6A13922B0BDDDC000C7E98 /* Models */,
 				9D6A135A2B0AF6A8000C7E98 /* WhatWordApp.swift */,
 				9D6A135C2B0AF6A8000C7E98 /* ContentView.swift */,
+				9D6A13872B0AFB00000C7E98 /* WordNode.swift */,
+				9D6A13852B0AFA6F000C7E98 /* WordHierarchyView.swift */,
+				9D6A13892B0B01E5000C7E98 /* WordDrawView.swift */,
 				9D6A135E2B0AF6A9000C7E98 /* Assets.xcassets */,
 				9D6A13602B0AF6A9000C7E98 /* WhatWord.entitlements */,
 				9D6A13612B0AF6A9000C7E98 /* Preview Content */,
@@ -127,6 +146,23 @@
 				9D6A13782B0AF6A9000C7E98 /* WhatWordUITestsLaunchTests.swift */,
 			);
 			path = WhatWordUITests;
+			sourceTree = "<group>";
+		};
+		9D6A13922B0BDDDC000C7E98 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9D6A13932B0BDDDD000C7E98 /* DrawnImageClassifier.mlmodel */,
+				9D6A13942B0BDDDD000C7E98 /* cnnsketchclassifier.mlmodel */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9D6A13A22B0BF943000C7E98 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9D6A13A32B0BF953000C7E98 /* ImageExtensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,7 +296,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D6A135D2B0AF6A8000C7E98 /* ContentView.swift in Sources */,
+				9D6A13992B0BDEE9000C7E98 /* cnnsketchclassifier.mlmodel in Sources */,
+				9D6A13862B0AFA6F000C7E98 /* WordHierarchyView.swift in Sources */,
+				9D6A13A42B0BF953000C7E98 /* ImageExtensions.swift in Sources */,
 				9D6A135B2B0AF6A8000C7E98 /* WhatWordApp.swift in Sources */,
+				9D6A13982B0BDEE5000C7E98 /* DrawnImageClassifier.mlmodel in Sources */,
+				9D6A138A2B0B01E5000C7E98 /* WordDrawView.swift in Sources */,
+				9D6A13882B0AFB00000C7E98 /* WordNode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,6 +461,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WhatWord/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -457,6 +500,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WhatWord/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
