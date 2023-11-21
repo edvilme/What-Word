@@ -65,6 +65,32 @@ struct WordHierarchyView: View {
     var wordNode: WordNode
     @State var pinWordPromptIsOpen: Bool = false
     @State var pinWordPromptValue: String = ""
+    @State var unsplashImageUrl: String = ""
+    
+    func loadUnsplashImage(){
+        let unsplash_access_key = ProcessInfo.processInfo.environment["UNSPLASH_ACCESS_KEY"]!
+        guard let url = URL(string: "https://api.unsplash.com/search/photos/?client_id=\(unsplash_access_key)&orientation=landscape&query=\(wordNode.name)") else {
+            return
+        }
+        let request = URLRequest(url: url)
+        let task = URLSession.shared.dataTask(with: request) { data, response, error in
+            if let error = error { print("Error: \(error)")}
+            else if let data = data {
+                do {
+                    let json = try JSONSerialization.jsonObject(with: data, options: []) as? NSDictionary
+                    let results = (json?["results"] ?? []) as! [NSDictionary]
+                    if results.count > 0 {
+                        if let urls = results.first?["urls"] as? NSDictionary {
+                            unsplashImageUrl = urls["raw"] as? String ?? ""
+                        }
+                    }
+                } catch {
+                    print("Error parsing JSON: \(error)")
+                }
+            }
+        }
+        task.resume()
+    }
     
     init(word: String) {
         self.wordNode = WordNode(name: word)
@@ -72,6 +98,15 @@ struct WordHierarchyView: View {
     var body: some View {
         NavigationStack {
             ScrollView {
+                unsplashImageUrl != "" ?
+                    AsyncImage(url: URL(string: unsplashImageUrl)) {image in
+                        image.image?
+                            .resizable()
+                            .aspectRatio(contentMode: .fit)
+                            .padding()
+                    }
+                : nil
+                Spacer()
                 HStack{
                     Image(systemName: "pin.fill")
                     Text("Pinned")
@@ -143,6 +178,6 @@ struct WordHierarchyView: View {
                         // Text("Use")
                     } .buttonStyle(.borderedProminent)
                 })
-        }
+        } .onAppear(perform: loadUnsplashImage)
     }
 }

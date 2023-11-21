@@ -16,13 +16,25 @@ struct WordCameraView: View {
 
 struct SettingsView: View {
     var body: some View {
-        Text("Settings")
+        NavigationStack {
+            Form {
+                Section("App Data", content: {
+                    Button {} label: {
+                        Text("Delete App Data")
+                    }
+                })
+                Section("Aknowledgments", content: {
+                    Text("Joshua Newnham CNN Sketch Classifier (https://github.com/wikibook/coreml) for sketch classification")
+                    Text("Images fetched from Unsplash API")
+                })
+            }
+        } .navigationTitle("Settings")
     }
 }
 
 struct ContentView: View {
     @EnvironmentObject private var userGeneratedText: UserGeneratedText
-    @State var isSheetPresented = true
+    @State var isSheetPresented = false
     var body: some View {
         TabView {
             WordHierarchyView(word: "")
