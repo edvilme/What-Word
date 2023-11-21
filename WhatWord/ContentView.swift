@@ -21,11 +21,11 @@ struct SettingsView: View {
 }
 
 struct ContentView: View {
+    @EnvironmentObject private var userGeneratedText: UserGeneratedText
+    @State var isSheetPresented = true
     var body: some View {
         TabView {
-            NavigationView{
-                WordHierarchyView(word: "hello")
-            }
+            WordHierarchyView(word: "")
                 .tabItem {
                     Label("Pins", systemImage: "pin.fill")
                 }
@@ -42,8 +42,35 @@ struct ContentView: View {
                     Label("Settings", systemImage: "gearshape.fill")
                 }
         }
-        Text("Text will be rendered here...")
-            .italic()
+        Button {
+            isSheetPresented.toggle()
+        } label: {
+            HStack {
+                Text(userGeneratedText.text)
+                    .fontWeight(.bold)
+                    .padding()
+                    .clipped()
+                    .truncationMode(.head)
+                Spacer()
+                Image(systemName: "chevron.up.circle.fill")
+                    .padding()
+            } .padding()
+        }
+        .buttonStyle(.plain)
+        .frame(height: 50)
+        .sheet(isPresented: $isSheetPresented){
+            NavigationView {
+                VStack{
+                    Text(userGeneratedText.text)
+                        .font(.largeTitle)
+                }
+                    .navigationTitle("Generated Text")
+                    .navigationBarItems(
+                        leading: Button {} label: {Text("Copy")},
+                        trailing: Button {isSheetPresented = false} label: {Text("Cancel")}
+                    )
+            }
+        }
     }
 }
 

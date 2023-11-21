@@ -37,7 +37,7 @@ struct WordDrawView: View {
     
 
     var body: some View {
-        NavigationView{
+        NavigationStack{
             VStack{
                 _WordDrawView(canvas: $canvas, isDrawing: $isDrawing)
                 if (drawingClassification != ""){
