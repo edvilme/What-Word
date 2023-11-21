@@ -13,6 +13,9 @@ import Vision
 import UIKit
 
 struct WordDrawView: View {
+    @State var canvas: PKCanvasView = PKCanvasView()
+    @State var isDrawing: Bool = true
+    @State var drawingClassification: String = ""
     
     func preprocessImage(canvasView: PKCanvasView) -> UIImage{
         let image = self.canvas.drawing.image(from: canvasView.drawing.bounds, scale: 10.0)
@@ -26,41 +29,48 @@ struct WordDrawView: View {
                 guard let result = try? cnnsketchclassifier().prediction(image: pixelBuffer) else {
                     return nil
                 }
+                drawingClassification = result.classLabel
                 return result.classLabel
             }
             return nil
         }
     
-    @State var canvas = PKCanvasView()
-    @State var isDrawing = true
+
     var body: some View {
         NavigationView{
             VStack{
                 _WordDrawView(canvas: $canvas, isDrawing: $isDrawing)
-                Text("HI")
-                    .navigationTitle("Draw")
-                    .navigationBarTitleDisplayMode(.inline)
-                    .navigationBarItems(
-                        leading: Button {
-                            print(self.predictInput(canvasView: canvas))
-                            print("AAA")
-                        } label: {
-                            Image(systemName: "wand.and.stars")
-                        }, trailing: HStack {
-                            Button {
-                                print("Draw/Erase")
-                                isDrawing.toggle()
-                            } label: {
-                                Image(systemName: isDrawing ? "eraser.fill": "pencil.tip")
-                            }
-                            Button {
-                                canvas.drawing = PKDrawing()
-                            } label: {
-                                Image(systemName: "delete.left.fill")
-                            }
-                        }
-                    )
+                if (drawingClassification != ""){
+                    NavigationLink {
+                        WordHierarchyView(word: drawingClassification)
+                    } label: {
+                        WordHierarchyNodeCardView(word: drawingClassification)
+                    } .buttonStyle(.plain)
+                }
             }
+            .navigationTitle("Draw")
+            .navigationBarTitleDisplayMode(.inline)
+            .navigationBarItems(
+                leading: Button {
+                    print(self.predictInput(canvasView: canvas))
+                    print("AAA")
+                } label: {
+                    Image(systemName: "wand.and.stars")
+                }, trailing: HStack {
+                    Button {
+                        print("Draw/Erase")
+                        isDrawing.toggle()
+                    } label: {
+                        Image(systemName: isDrawing ? "eraser.fill": "pencil.tip")
+                    }
+                    Button {
+                        canvas.drawing = PKDrawing()
+                        self.drawingClassification = ""
+                    } label: {
+                        Image(systemName: "delete.left.fill")
+                    }
+                }
+            )
         }
     }
 }

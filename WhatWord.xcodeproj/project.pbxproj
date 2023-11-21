@@ -58,6 +58,7 @@
 		9D6A13932B0BDDDD000C7E98 /* DrawnImageClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = DrawnImageClassifier.mlmodel; path = WhatWord/Models/DrawnImageClassifier.mlmodel; sourceTree = SOURCE_ROOT; };
 		9D6A13942B0BDDDD000C7E98 /* cnnsketchclassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = cnnsketchclassifier.mlmodel; path = WhatWord/Models/cnnsketchclassifier.mlmodel; sourceTree = SOURCE_ROOT; };
 		9D6A13A32B0BF953000C7E98 /* ImageExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageExtensions.swift; sourceTree = "<group>"; };
+		9D6A13A62B0C077E000C7E98 /* PencilKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PencilKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.0.sdk/System/Library/Frameworks/PencilKit.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +93,7 @@
 				9D6A136B2B0AF6A9000C7E98 /* WhatWordTests */,
 				9D6A13752B0AF6A9000C7E98 /* WhatWordUITests */,
 				9D6A13582B0AF6A8000C7E98 /* Products */,
+				9D6A13A52B0C077D000C7E98 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -163,6 +165,14 @@
 				9D6A13A32B0BF953000C7E98 /* ImageExtensions.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		9D6A13A52B0C077D000C7E98 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9D6A13A62B0C077E000C7E98 /* PencilKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -462,6 +472,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = WhatWord/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -501,6 +512,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = WhatWord/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;

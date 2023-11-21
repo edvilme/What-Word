@@ -9,7 +9,8 @@ import SwiftUI
 
 struct WordCameraView: View {
     var body: some View {
-        Text("Word Camera")
+        Text("Word Camera Coming Soon!")
+            .font(.largeTitle)
     }
 }
 
@@ -22,7 +23,9 @@ struct SettingsView: View {
 struct ContentView: View {
     var body: some View {
         TabView {
-            WordHierarchyView()
+            NavigationView{
+                WordHierarchyView(word: "hello")
+            }
                 .tabItem {
                     Label("Pins", systemImage: "pin.fill")
                 }
@@ -39,7 +42,8 @@ struct ContentView: View {
                     Label("Settings", systemImage: "gearshape.fill")
                 }
         }
-        Text("Hello")
+        Text("Text will be rendered here...")
+            .italic()
     }
 }
 
