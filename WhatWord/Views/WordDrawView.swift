@@ -2,70 +2,72 @@
 //  WordDrawView.swift
 //  WhatWord
 //
-//  Created by Eduardo  Villalpando  on 19/11/23.
+//  Created by Eduardo  Villalpando  on 23/11/23.
 //
 
 import Foundation
 import SwiftUI
 import PencilKit
-import CoreML
-import Vision
-import UIKit
 
 struct WordDrawView: View {
+    /// Canvas
     @State var canvas: PKCanvasView = PKCanvasView()
     @State var isDrawing: Bool = true
+    /// Drawing classification
     @State var drawingClassification: String = ""
     
-    func preprocessImage(canvasView: PKCanvasView) -> UIImage{
-        let image = self.canvas.drawing.image(from: canvasView.drawing.bounds, scale: 10.0)
-        return image
+    /// Process image from canvas to be analyzed by ML model
+    func getCanvasImage(canvasView: PKCanvasView) -> UIImage {
+        return self.canvas.drawing.image(from: canvasView.drawing.bounds, scale: 10.0)
+    }
+    /// Get drawing classification
+    func getCanvasDrawingClassification(canvasView: PKCanvasView) -> String? {
+        // Get image and adjust
+        let image = self.getCanvasImage(canvasView: canvasView)
+        let sizeTrainedImage = CGSize(width: 256, height: 256)
+        if let resizedImage = image.fit(in: sizeTrainedImage, background: .white), let pixelBuffer = resizedImage.toCVPixelBuffer() {
+            // Try to get prediction
+            guard let predictionResult = try? cnnsketchclassifier().prediction(image: pixelBuffer) else {
+                return nil
+            }
+            // Return prediction
+            return predictionResult.classLabel
+        }
+        return nil
     }
     
-    func predictInput(canvasView: PKCanvasView) -> String? {
-            let image = self.preprocessImage(canvasView: canvasView)
-            let trainedImageSize = CGSize(width: 256, height: 256)
-            if let resizedImage = image.fit(in: trainedImageSize, background: .white), let pixelBuffer = resizedImage.toCVPixelBuffer() {
-                guard let result = try? cnnsketchclassifier().prediction(image: pixelBuffer) else {
-                    return nil
-                }
-                drawingClassification = result.classLabel
-                return result.classLabel
-            }
-            return nil
-        }
-    
-
     var body: some View {
-        NavigationStack{
-            VStack{
-                _WordDrawView(canvas: $canvas, isDrawing: $isDrawing)
-                if (drawingClassification != ""){
+        NavigationStack {
+            VStack {
+                WordDrawViewController(canvas: $canvas, isDrawing: $isDrawing)
+                // SHow only when there is a classification
+                if (drawingClassification != "") {
                     NavigationLink {
                         WordHierarchyView(word: drawingClassification)
                     } label: {
                         WordHierarchyNodeCardView(word: drawingClassification)
-                    } .buttonStyle(.plain)
+                    }   .buttonStyle(.plain)
                 }
             }
+            /// Navigation options
             .navigationTitle("Draw")
             .navigationBarTitleDisplayMode(.inline)
+            // TODO: Replace with `.toolbar`
             .navigationBarItems(
                 leading: Button {
-                    print(self.predictInput(canvasView: canvas))
-                    print("AAA")
+                    drawingClassification = getCanvasDrawingClassification(canvasView: canvas) ?? ""
                 } label: {
                     Image(systemName: "wand.and.stars")
-                }, trailing: HStack {
+                },
+                trailing: HStack {
                     Button {
-                        print("Draw/Erase")
                         isDrawing.toggle()
                     } label: {
-                        Image(systemName: isDrawing ? "eraser.fill": "pencil.tip")
+                        Image(systemName: isDrawing ? "eraser.fill" : "pencil.tip")
                     }
                     Button {
                         canvas.drawing = PKDrawing()
-                        self.drawingClassification = ""
+                        drawingClassification = ""
                     } label: {
                         Image(systemName: "goforward")
                     }
@@ -75,13 +77,15 @@ struct WordDrawView: View {
     }
 }
 
-struct _WordDrawView: UIViewRepresentable {
+struct WordDrawViewController: UIViewRepresentable {
     @Binding var canvas: PKCanvasView
     @Binding var isDrawing: Bool
+    /// Canvas tools
     let ink = PKInkingTool(.pencil, color: .black, width: 10)
     let eraser = PKEraserTool(.bitmap)
     
     func makeUIView(context: Context) -> PKCanvasView {
+        // Allow input without Pencil
         canvas.drawingPolicy = .anyInput
         canvas.tool = isDrawing ? ink : eraser
         return canvas

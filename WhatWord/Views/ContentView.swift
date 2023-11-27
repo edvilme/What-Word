@@ -14,24 +14,6 @@ struct WordCameraView: View {
     }
 }
 
-struct SettingsView: View {
-    var body: some View {
-        NavigationStack {
-            Form {
-                Section("App Data", content: {
-                    Button {} label: {
-                        Text("Delete App Data")
-                    }
-                })
-                Section("Aknowledgments", content: {
-                    Text("Joshua Newnham CNN Sketch Classifier (https://github.com/wikibook/coreml) for sketch classification")
-                    Text("Images fetched from Unsplash API")
-                })
-            }
-        } .navigationTitle("Settings")
-    }
-}
-
 struct ContentView: View {
     @EnvironmentObject private var userGeneratedText: UserGeneratedText
     @State var isSheetPresented = false
@@ -45,10 +27,10 @@ struct ContentView: View {
                 .tabItem {
                     Label("Draw", systemImage: "hand.draw.fill")
                 }
-            WordCameraView()
+            /*WordCameraView()
                 .tabItem {
                     Label("Camera", systemImage: "camera.fill")
-                }
+                }*/
             SettingsView()
                 .tabItem {
                     Label("Settings", systemImage: "gearshape.fill")
@@ -64,7 +46,7 @@ struct ContentView: View {
                     .clipped()
                     .truncationMode(.head)
                 Spacer()
-                Image(systemName: "chevron.up.circle.fill")
+                Image(systemName: "chevron.up")
                     .padding()
             } .padding()
         }
@@ -80,7 +62,7 @@ struct ContentView: View {
                     .navigationTitle("Generated Text")
                     .navigationBarItems(
                         leading: Button {UIPasteboard.general.string = userGeneratedText.text} label: {Text("Copy")},
-                        trailing: Button {isSheetPresented = false} label: {Text("Cancel")}
+                        trailing: Button {isSheetPresented = false} label: { Image(systemName: "chevron.down") }
                     )
             }
         }

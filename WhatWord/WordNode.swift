@@ -7,6 +7,9 @@
 
 import Foundation
 import NaturalLanguage
+import AVFoundation
+
+let synth = AVSpeechSynthesizer() //initialize synthesizer outside the function.
 
 class WordNode {
     var name: String
@@ -35,9 +38,20 @@ class WordNode {
         )
     }
     
+    func speak(){
+        do {
+            let utterance = AVSpeechUtterance(string: self.name)
+            // TODO: Review language
+            utterance.voice = AVSpeechSynthesisVoice(language: "en-US")
+            utterance.rate = 0.2
+            try synth.speak(utterance)
+        } catch {}
+    }
+    
     // Get related words
     func getRelatedWords(maximumNeighborCount: Int = 20) -> [String] {
         var relatedWords: [String] = []
+        // TODO: Review language
         NLEmbedding.wordEmbedding(for: .english)?.enumerateNeighbors(for: self.name, maximumCount: maximumNeighborCount){ neighbor, distance in
             relatedWords.append(neighbor)
             return true

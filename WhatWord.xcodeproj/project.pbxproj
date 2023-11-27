@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9D3A3BE82B0F282800341559 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3A3BE72B0F282800341559 /* SettingsView.swift */; };
+		9D3A3BEA2B0F2BB700341559 /* WordDrawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3A3BE92B0F2BB700341559 /* WordDrawView.swift */; };
 		9D6A135B2B0AF6A8000C7E98 /* WhatWordApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6A135A2B0AF6A8000C7E98 /* WhatWordApp.swift */; };
 		9D6A135D2B0AF6A8000C7E98 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6A135C2B0AF6A8000C7E98 /* ContentView.swift */; };
 		9D6A135F2B0AF6A9000C7E98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D6A135E2B0AF6A9000C7E98 /* Assets.xcassets */; };
@@ -16,7 +18,6 @@
 		9D6A13792B0AF6A9000C7E98 /* WhatWordUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6A13782B0AF6A9000C7E98 /* WhatWordUITestsLaunchTests.swift */; };
 		9D6A13862B0AFA6F000C7E98 /* WordHierarchyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6A13852B0AFA6F000C7E98 /* WordHierarchyView.swift */; };
 		9D6A13882B0AFB00000C7E98 /* WordNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6A13872B0AFB00000C7E98 /* WordNode.swift */; };
-		9D6A138A2B0B01E5000C7E98 /* WordDrawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6A13892B0B01E5000C7E98 /* WordDrawView.swift */; };
 		9D6A13982B0BDEE5000C7E98 /* DrawnImageClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 9D6A13932B0BDDDD000C7E98 /* DrawnImageClassifier.mlmodel */; };
 		9D6A13992B0BDEE9000C7E98 /* cnnsketchclassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 9D6A13942B0BDDDD000C7E98 /* cnnsketchclassifier.mlmodel */; };
 		9D6A13A42B0BF953000C7E98 /* ImageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6A13A32B0BF953000C7E98 /* ImageExtensions.swift */; };
@@ -40,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9D3A3BE72B0F282800341559 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		9D3A3BE92B0F2BB700341559 /* WordDrawView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordDrawView.swift; sourceTree = "<group>"; };
 		9D6A13572B0AF6A8000C7E98 /* WhatWord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhatWord.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D6A135A2B0AF6A8000C7E98 /* WhatWordApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatWordApp.swift; sourceTree = "<group>"; };
 		9D6A135C2B0AF6A8000C7E98 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,7 +56,6 @@
 		9D6A13782B0AF6A9000C7E98 /* WhatWordUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatWordUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		9D6A13852B0AFA6F000C7E98 /* WordHierarchyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordHierarchyView.swift; sourceTree = "<group>"; };
 		9D6A13872B0AFB00000C7E98 /* WordNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordNode.swift; sourceTree = "<group>"; };
-		9D6A13892B0B01E5000C7E98 /* WordDrawView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordDrawView.swift; sourceTree = "<group>"; };
 		9D6A138D2B0B597B000C7E98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		9D6A13932B0BDDDD000C7E98 /* DrawnImageClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = DrawnImageClassifier.mlmodel; path = WhatWord/Models/DrawnImageClassifier.mlmodel; sourceTree = SOURCE_ROOT; };
 		9D6A13942B0BDDDD000C7E98 /* cnnsketchclassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = cnnsketchclassifier.mlmodel; path = WhatWord/Models/cnnsketchclassifier.mlmodel; sourceTree = SOURCE_ROOT; };
@@ -169,8 +171,9 @@
 			isa = PBXGroup;
 			children = (
 				9D6A135C2B0AF6A8000C7E98 /* ContentView.swift */,
-				9D6A13892B0B01E5000C7E98 /* WordDrawView.swift */,
+				9D3A3BE92B0F2BB700341559 /* WordDrawView.swift */,
 				9D6A13852B0AFA6F000C7E98 /* WordHierarchyView.swift */,
+				9D3A3BE72B0F282800341559 /* SettingsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -308,10 +311,11 @@
 				9D6A135D2B0AF6A8000C7E98 /* ContentView.swift in Sources */,
 				9D6A13992B0BDEE9000C7E98 /* cnnsketchclassifier.mlmodel in Sources */,
 				9D6A13862B0AFA6F000C7E98 /* WordHierarchyView.swift in Sources */,
+				9D3A3BE82B0F282800341559 /* SettingsView.swift in Sources */,
 				9D6A13A42B0BF953000C7E98 /* ImageExtensions.swift in Sources */,
 				9D6A135B2B0AF6A8000C7E98 /* WhatWordApp.swift in Sources */,
 				9D6A13982B0BDEE5000C7E98 /* DrawnImageClassifier.mlmodel in Sources */,
-				9D6A138A2B0B01E5000C7E98 /* WordDrawView.swift in Sources */,
+				9D3A3BEA2B0F2BB700341559 /* WordDrawView.swift in Sources */,
 				9D6A13882B0AFB00000C7E98 /* WordNode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -467,7 +471,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = WhatWord/WhatWord.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_ASSET_PATHS = "\"WhatWord/Preview Content\"";
 				DEVELOPMENT_TEAM = 4HM8MJRNPP;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -487,11 +491,11 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 12.3;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.edvilme.WhatWord;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
@@ -511,7 +515,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = WhatWord/WhatWord.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_ASSET_PATHS = "\"WhatWord/Preview Content\"";
 				DEVELOPMENT_TEAM = 4HM8MJRNPP;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -531,11 +535,11 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 12.3;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.edvilme.WhatWord;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
