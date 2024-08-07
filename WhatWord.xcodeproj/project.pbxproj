@@ -21,6 +21,7 @@
 		9D6A13982B0BDEE5000C7E98 /* DrawnImageClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 9D6A13932B0BDDDD000C7E98 /* DrawnImageClassifier.mlmodel */; };
 		9D6A13992B0BDEE9000C7E98 /* cnnsketchclassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 9D6A13942B0BDDDD000C7E98 /* cnnsketchclassifier.mlmodel */; };
 		9D6A13A42B0BF953000C7E98 /* ImageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6A13A32B0BF953000C7E98 /* ImageExtensions.swift */; };
+		9DCA060F2C6416F800F12A30 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 9DCA060E2C6416F800F12A30 /* Localizable.xcstrings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,7 +61,7 @@
 		9D6A13932B0BDDDD000C7E98 /* DrawnImageClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = DrawnImageClassifier.mlmodel; path = WhatWord/Models/DrawnImageClassifier.mlmodel; sourceTree = SOURCE_ROOT; };
 		9D6A13942B0BDDDD000C7E98 /* cnnsketchclassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = cnnsketchclassifier.mlmodel; path = WhatWord/Models/cnnsketchclassifier.mlmodel; sourceTree = SOURCE_ROOT; };
 		9D6A13A32B0BF953000C7E98 /* ImageExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageExtensions.swift; sourceTree = "<group>"; };
-		9D8E26762B0C662700C5872C /* WhatWord copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "WhatWord copy-Info.plist"; path = "/Users/edvilme/Documents/WhatWord/WhatWord copy-Info.plist"; sourceTree = "<absolute>"; };
+		9DCA060E2C6416F800F12A30 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,11 +92,11 @@
 		9D6A134E2B0AF6A8000C7E98 = {
 			isa = PBXGroup;
 			children = (
+				9DCA060E2C6416F800F12A30 /* Localizable.xcstrings */,
 				9D6A13592B0AF6A8000C7E98 /* WhatWord */,
 				9D6A136B2B0AF6A9000C7E98 /* WhatWordTests */,
 				9D6A13752B0AF6A9000C7E98 /* WhatWordUITests */,
 				9D6A13582B0AF6A8000C7E98 /* Products */,
-				9D8E26762B0C662700C5872C /* WhatWord copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -264,6 +265,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"es-419",
 			);
 			mainGroup = 9D6A134E2B0AF6A8000C7E98;
 			productRefGroup = 9D6A13582B0AF6A8000C7E98 /* Products */;
@@ -284,6 +286,7 @@
 			files = (
 				9D6A13632B0AF6A9000C7E98 /* Preview Assets.xcassets in Resources */,
 				9D6A135F2B0AF6A9000C7E98 /* Assets.xcassets in Resources */,
+				9DCA060F2C6416F800F12A30 /* Localizable.xcstrings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -471,7 +474,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = WhatWord/WhatWord.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 5;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"WhatWord/Preview Content\"";
 				DEVELOPMENT_TEAM = 4HM8MJRNPP;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -487,15 +490,15 @@
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 12.3;
-				MARKETING_VERSION = 1.0.1;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.edvilme.WhatWord;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
@@ -515,7 +518,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = WhatWord/WhatWord.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 5;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"WhatWord/Preview Content\"";
 				DEVELOPMENT_TEAM = 4HM8MJRNPP;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -531,15 +534,15 @@
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 12.3;
-				MARKETING_VERSION = 1.0.1;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.edvilme.WhatWord;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;

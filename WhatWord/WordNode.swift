@@ -52,7 +52,9 @@ class WordNode {
     func getRelatedWords(maximumNeighborCount: Int = 20) -> [String] {
         var relatedWords: [String] = []
         // TODO: Review language
-        NLEmbedding.wordEmbedding(for: .english)?.enumerateNeighbors(for: self.name, maximumCount: maximumNeighborCount){ neighbor, distance in
+        NLEmbedding.wordEmbedding(for:
+                                    Locale.current.identifier.contains("en_") ? .english : .spanish
+        )?.enumerateNeighbors(for: self.name, maximumCount: maximumNeighborCount){ neighbor, distance in
             relatedWords.append(neighbor)
             return true
         }

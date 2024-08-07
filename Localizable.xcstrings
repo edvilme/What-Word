@@ -1,0 +1,274 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "@edvilme • Eduardo Villalpando Mello" : {
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "@edvilme • Eduardo Villalpando Mello"
+          }
+        }
+      }
+    },
+    "Aknowledgments" : {
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reconocimientos"
+          }
+        }
+      }
+    },
+    "App Data" : {
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Datos de aplicación"
+          }
+        }
+      }
+    },
+    "Are you sure" : {
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Estas seguro"
+          }
+        }
+      }
+    },
+    "BUTTON_NEW_WORD" : {
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Add new word..."
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Agregar nueva palabra..."
+          }
+        }
+      }
+    },
+    "Cancel" : {
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cancelar"
+          }
+        }
+      }
+    },
+    "Content will be generated here..." : {
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "El contenido se generará aquí..."
+          }
+        }
+      }
+    },
+    "Copy" : {
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copiar"
+          }
+        }
+      }
+    },
+    "Delete" : {
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Borrar"
+          }
+        }
+      }
+    },
+    "Delete App Data" : {
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Borrar datos de aplicación"
+          }
+        }
+      }
+    },
+    "Draw" : {
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dibujar"
+          }
+        }
+      }
+    },
+    "Enter a new word" : {
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ingrese una nueva palabra"
+          }
+        }
+      }
+    },
+    "Generated Text" : {
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Texto generado"
+          }
+        }
+      }
+    },
+    "Images fetched from Unsplash API (https://unsplash.com)" : {
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Imágenes obtenidas de Unsplash API (https://unsplash.com)"
+          }
+        }
+      }
+    },
+    "Joshua Newnham CNN Sketch Classifier (https://github.com/wikibook/coreml) for sketch classification" : {
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Joshua Newnham CNN Sketch Classifier (https://github.com/wikibook/coreml) para clasificación de bosquejos"
+          }
+        }
+      }
+    },
+    "Key" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Llave"
+          }
+        }
+      }
+    },
+    "New word" : {
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nueva Palabra"
+          }
+        }
+      }
+    },
+    "Pin" : {
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fijar"
+          }
+        }
+      }
+    },
+    "Pinned" : {
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Palabras Fijadas"
+          }
+        }
+      }
+    },
+    "Pins" : {
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Palabras Fijadas"
+          }
+        }
+      }
+    },
+    "Related" : {
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Relacionado"
+          }
+        }
+      }
+    },
+    "Remove" : {
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Borrar"
+          }
+        }
+      }
+    },
+    "Settings" : {
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajustes"
+          }
+        }
+      }
+    },
+    "Speak" : {
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hablar"
+          }
+        }
+      }
+    },
+    "v.1.1" : {
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "v.1.1"
+          }
+        }
+      }
+    },
+    "Word Camera Coming Soon!" : {
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Detección por cámara disponible pronto"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

@@ -15,7 +15,6 @@ class UserGeneratedText: ObservableObject {
     }
 }
 
-
 @main
 struct WhatWordApp: App {
     var body: some Scene {

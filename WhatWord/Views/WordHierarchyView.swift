@@ -143,7 +143,7 @@ struct WordHierarchyView: View {
                     Button {
                         pinWordPromptIsOpen.toggle()
                     } label: {
-                        WordHierarchyNodeView(word: "Add new word...")
+                        WordHierarchyNodeView(word: String(localized: "BUTTON_NEW_WORD", defaultValue: "Add new word..."))
                     }
                     ForEach(Array(wordNode.pinnedWords), id: \.self) { pinned in
                         NavigationLink {

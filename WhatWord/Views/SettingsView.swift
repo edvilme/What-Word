@@ -12,8 +12,6 @@ import SwiftUI
 struct SettingsView: View {
     /// Environment
     @EnvironmentObject private var userGeneratedText: UserGeneratedText
-    /// Language
-    @State var selectedLanguage: String = "English"
     /// Delete app data?
     @State var shouldShowDeletionConfirmation: Bool = false
     
@@ -28,12 +26,6 @@ struct SettingsView: View {
     var body: some View {
         NavigationStack {
             Form {
-                Section("Language"){
-                    Picker("Language", selection: $selectedLanguage){
-                        Text("English")
-                    }
-                    Text("More languages coming soon")
-                }
                 Section("App Data"){
                     Button {
                         shouldShowDeletionConfirmation.toggle()
@@ -47,6 +39,7 @@ struct SettingsView: View {
                 }
                 Section{
                     Text("@edvilme • Eduardo Villalpando Mello")
+                    Text("v.1.1")
                 }
             }
         }
