@@ -146,9 +146,6 @@
         }
       }
     },
-    "HI" : {
-
-    },
     "Images fetched from Unsplash API (https://unsplash.com)" : {
       "localizations" : {
         "es-419" : {
@@ -280,6 +277,7 @@
       }
     },
     "v.1.1" : {
+      "extractionState" : "stale",
       "localizations" : {
         "es-419" : {
           "stringUnit" : {
@@ -288,6 +286,9 @@
           }
         }
       }
+    },
+    "v.2" : {
+
     },
     "Word Camera Coming Soon!" : {
       "extractionState" : "stale",

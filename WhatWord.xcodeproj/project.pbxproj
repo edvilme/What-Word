@@ -15,7 +15,6 @@
 		9D6A136D2B0AF6A9000C7E98 /* WhatWordTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6A136C2B0AF6A9000C7E98 /* WhatWordTests.swift */; };
 		9D6A13772B0AF6A9000C7E98 /* WhatWordUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6A13762B0AF6A9000C7E98 /* WhatWordUITests.swift */; };
 		9D6A13792B0AF6A9000C7E98 /* WhatWordUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6A13782B0AF6A9000C7E98 /* WhatWordUITestsLaunchTests.swift */; };
-		9D6A13882B0AFB00000C7E98 /* WordNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6A13872B0AFB00000C7E98 /* WordNode.swift */; };
 		9DCA060F2C6416F800F12A30 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 9DCA060E2C6416F800F12A30 /* Localizable.xcstrings */; };
 		9DCA06162C6AC9A000F12A30 /* WWNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCA06152C6AC9A000F12A30 /* WWNode.swift */; };
 		9DCA06182C75CDF100F12A30 /* KeyboardContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCA06172C75CDF100F12A30 /* KeyboardContainerView.swift */; };
@@ -54,7 +53,6 @@
 		9D6A13722B0AF6A9000C7E98 /* WhatWordUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhatWordUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D6A13762B0AF6A9000C7E98 /* WhatWordUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatWordUITests.swift; sourceTree = "<group>"; };
 		9D6A13782B0AF6A9000C7E98 /* WhatWordUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatWordUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		9D6A13872B0AFB00000C7E98 /* WordNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordNode.swift; sourceTree = "<group>"; };
 		9D6A138D2B0B597B000C7E98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		9DCA060E2C6416F800F12A30 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		9DCA06152C6AC9A000F12A30 /* WWNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WWNode.swift; sourceTree = "<group>"; };
@@ -117,7 +115,6 @@
 				9D8E26632B0C48D900C5872C /* Views */,
 				9D6A138D2B0B597B000C7E98 /* Info.plist */,
 				9D6A135A2B0AF6A8000C7E98 /* WhatWordApp.swift */,
-				9D6A13872B0AFB00000C7E98 /* WordNode.swift */,
 				9D6A135E2B0AF6A9000C7E98 /* Assets.xcassets */,
 				9D6A13602B0AF6A9000C7E98 /* WhatWord.entitlements */,
 				9D6A13612B0AF6A9000C7E98 /* Preview Content */,
@@ -315,7 +312,6 @@
 				9DCA06182C75CDF100F12A30 /* KeyboardContainerView.swift in Sources */,
 				9DCA061F2C77E1DE00F12A30 /* KeyboardWordContainerView.swift in Sources */,
 				9D6A135B2B0AF6A8000C7E98 /* WhatWordApp.swift in Sources */,
-				9D6A13882B0AFB00000C7E98 /* WordNode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

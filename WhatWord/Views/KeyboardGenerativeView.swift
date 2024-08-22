@@ -9,7 +9,7 @@ import SwiftUI
 import Flow
 
 struct KeyboardGenerativeView: View {
-    static var rootNodeExternalId = "ww.node.word.apple"
+    static var rootNodeExternalId = "ww.node.root.root"
     var onWordSubmit: (String) -> Void
     var onWordDelete: (String) -> Void
     
