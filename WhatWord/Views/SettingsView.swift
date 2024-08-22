@@ -39,7 +39,7 @@ struct SettingsView: View {
                 }
                 Section{
                     Text("@edvilme • Eduardo Villalpando Mello")
-                    Text("v.1.1")
+                    Text("v.2")
                 }
             }
         }

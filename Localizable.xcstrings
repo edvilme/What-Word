@@ -1,6 +1,9 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
+    "" : {
+
+    },
     "@edvilme • Eduardo Villalpando Mello" : {
       "localizations" : {
         "es-419" : {
@@ -42,7 +45,7 @@
       }
     },
     "BUTTON_NEW_WORD" : {
-      "extractionState" : "extracted_with_value",
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -69,6 +72,7 @@
       }
     },
     "Content will be generated here..." : {
+      "extractionState" : "stale",
       "localizations" : {
         "es-419" : {
           "stringUnit" : {
@@ -79,6 +83,7 @@
       }
     },
     "Copy" : {
+      "extractionState" : "stale",
       "localizations" : {
         "es-419" : {
           "stringUnit" : {
@@ -109,6 +114,7 @@
       }
     },
     "Draw" : {
+      "extractionState" : "stale",
       "localizations" : {
         "es-419" : {
           "stringUnit" : {
@@ -119,6 +125,7 @@
       }
     },
     "Enter a new word" : {
+      "extractionState" : "stale",
       "localizations" : {
         "es-419" : {
           "stringUnit" : {
@@ -129,6 +136,7 @@
       }
     },
     "Generated Text" : {
+      "extractionState" : "stale",
       "localizations" : {
         "es-419" : {
           "stringUnit" : {
@@ -137,6 +145,9 @@
           }
         }
       }
+    },
+    "HI" : {
+
     },
     "Images fetched from Unsplash API (https://unsplash.com)" : {
       "localizations" : {
@@ -169,7 +180,11 @@
         }
       }
     },
+    "Keyboard Type" : {
+
+    },
     "New word" : {
+      "extractionState" : "stale",
       "localizations" : {
         "es-419" : {
           "stringUnit" : {
@@ -179,7 +194,11 @@
         }
       }
     },
+    "Open Settings" : {
+
+    },
     "Pin" : {
+      "extractionState" : "stale",
       "localizations" : {
         "es-419" : {
           "stringUnit" : {
@@ -190,6 +209,7 @@
       }
     },
     "Pinned" : {
+      "extractionState" : "stale",
       "localizations" : {
         "es-419" : {
           "stringUnit" : {
@@ -199,7 +219,11 @@
         }
       }
     },
+    "Pinned Nodes" : {
+
+    },
     "Pins" : {
+      "extractionState" : "stale",
       "localizations" : {
         "es-419" : {
           "stringUnit" : {
@@ -210,6 +234,7 @@
       }
     },
     "Related" : {
+      "extractionState" : "stale",
       "localizations" : {
         "es-419" : {
           "stringUnit" : {
@@ -219,7 +244,11 @@
         }
       }
     },
+    "Related Nodes" : {
+
+    },
     "Remove" : {
+      "extractionState" : "stale",
       "localizations" : {
         "es-419" : {
           "stringUnit" : {
@@ -240,6 +269,7 @@
       }
     },
     "Speak" : {
+      "extractionState" : "stale",
       "localizations" : {
         "es-419" : {
           "stringUnit" : {
@@ -260,6 +290,7 @@
       }
     },
     "Word Camera Coming Soon!" : {
+      "extractionState" : "stale",
       "localizations" : {
         "es-419" : {
           "stringUnit" : {

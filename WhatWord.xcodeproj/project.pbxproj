@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		9D3A3BE82B0F282800341559 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3A3BE72B0F282800341559 /* SettingsView.swift */; };
-		9D3A3BEA2B0F2BB700341559 /* WordDrawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3A3BE92B0F2BB700341559 /* WordDrawView.swift */; };
 		9D6A135B2B0AF6A8000C7E98 /* WhatWordApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6A135A2B0AF6A8000C7E98 /* WhatWordApp.swift */; };
 		9D6A135D2B0AF6A8000C7E98 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6A135C2B0AF6A8000C7E98 /* ContentView.swift */; };
 		9D6A135F2B0AF6A9000C7E98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D6A135E2B0AF6A9000C7E98 /* Assets.xcassets */; };
@@ -16,12 +15,13 @@
 		9D6A136D2B0AF6A9000C7E98 /* WhatWordTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6A136C2B0AF6A9000C7E98 /* WhatWordTests.swift */; };
 		9D6A13772B0AF6A9000C7E98 /* WhatWordUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6A13762B0AF6A9000C7E98 /* WhatWordUITests.swift */; };
 		9D6A13792B0AF6A9000C7E98 /* WhatWordUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6A13782B0AF6A9000C7E98 /* WhatWordUITestsLaunchTests.swift */; };
-		9D6A13862B0AFA6F000C7E98 /* WordHierarchyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6A13852B0AFA6F000C7E98 /* WordHierarchyView.swift */; };
 		9D6A13882B0AFB00000C7E98 /* WordNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6A13872B0AFB00000C7E98 /* WordNode.swift */; };
-		9D6A13982B0BDEE5000C7E98 /* DrawnImageClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 9D6A13932B0BDDDD000C7E98 /* DrawnImageClassifier.mlmodel */; };
-		9D6A13992B0BDEE9000C7E98 /* cnnsketchclassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 9D6A13942B0BDDDD000C7E98 /* cnnsketchclassifier.mlmodel */; };
-		9D6A13A42B0BF953000C7E98 /* ImageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6A13A32B0BF953000C7E98 /* ImageExtensions.swift */; };
 		9DCA060F2C6416F800F12A30 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 9DCA060E2C6416F800F12A30 /* Localizable.xcstrings */; };
+		9DCA06162C6AC9A000F12A30 /* WWNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCA06152C6AC9A000F12A30 /* WWNode.swift */; };
+		9DCA06182C75CDF100F12A30 /* KeyboardContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCA06172C75CDF100F12A30 /* KeyboardContainerView.swift */; };
+		9DCA061A2C75D75000F12A30 /* KeyboardGenerativeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCA06192C75D75000F12A30 /* KeyboardGenerativeView.swift */; };
+		9DCA061D2C75F23F00F12A30 /* Flow in Frameworks */ = {isa = PBXBuildFile; productRef = 9DCA061C2C75F23F00F12A30 /* Flow */; };
+		9DCA061F2C77E1DE00F12A30 /* KeyboardWordContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCA061E2C77E1DE00F12A30 /* KeyboardWordContainerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,7 +43,6 @@
 
 /* Begin PBXFileReference section */
 		9D3A3BE72B0F282800341559 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
-		9D3A3BE92B0F2BB700341559 /* WordDrawView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordDrawView.swift; sourceTree = "<group>"; };
 		9D6A13572B0AF6A8000C7E98 /* WhatWord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhatWord.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D6A135A2B0AF6A8000C7E98 /* WhatWordApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatWordApp.swift; sourceTree = "<group>"; };
 		9D6A135C2B0AF6A8000C7E98 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,13 +54,13 @@
 		9D6A13722B0AF6A9000C7E98 /* WhatWordUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhatWordUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D6A13762B0AF6A9000C7E98 /* WhatWordUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatWordUITests.swift; sourceTree = "<group>"; };
 		9D6A13782B0AF6A9000C7E98 /* WhatWordUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatWordUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		9D6A13852B0AFA6F000C7E98 /* WordHierarchyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordHierarchyView.swift; sourceTree = "<group>"; };
 		9D6A13872B0AFB00000C7E98 /* WordNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordNode.swift; sourceTree = "<group>"; };
 		9D6A138D2B0B597B000C7E98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		9D6A13932B0BDDDD000C7E98 /* DrawnImageClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = DrawnImageClassifier.mlmodel; path = WhatWord/Models/DrawnImageClassifier.mlmodel; sourceTree = SOURCE_ROOT; };
-		9D6A13942B0BDDDD000C7E98 /* cnnsketchclassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = cnnsketchclassifier.mlmodel; path = WhatWord/Models/cnnsketchclassifier.mlmodel; sourceTree = SOURCE_ROOT; };
-		9D6A13A32B0BF953000C7E98 /* ImageExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageExtensions.swift; sourceTree = "<group>"; };
 		9DCA060E2C6416F800F12A30 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		9DCA06152C6AC9A000F12A30 /* WWNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WWNode.swift; sourceTree = "<group>"; };
+		9DCA06172C75CDF100F12A30 /* KeyboardContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardContainerView.swift; sourceTree = "<group>"; };
+		9DCA06192C75D75000F12A30 /* KeyboardGenerativeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardGenerativeView.swift; sourceTree = "<group>"; };
+		9DCA061E2C77E1DE00F12A30 /* KeyboardWordContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardWordContainerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DCA061D2C75F23F00F12A30 /* Flow in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -113,10 +113,9 @@
 		9D6A13592B0AF6A8000C7E98 /* WhatWord */ = {
 			isa = PBXGroup;
 			children = (
+				9DCA06142C6AC98400F12A30 /* Models */,
 				9D8E26632B0C48D900C5872C /* Views */,
-				9D6A13A22B0BF943000C7E98 /* Extensions */,
 				9D6A138D2B0B597B000C7E98 /* Info.plist */,
-				9D6A13922B0BDDDC000C7E98 /* Models */,
 				9D6A135A2B0AF6A8000C7E98 /* WhatWordApp.swift */,
 				9D6A13872B0AFB00000C7E98 /* WordNode.swift */,
 				9D6A135E2B0AF6A9000C7E98 /* Assets.xcassets */,
@@ -151,32 +150,24 @@
 			path = WhatWordUITests;
 			sourceTree = "<group>";
 		};
-		9D6A13922B0BDDDC000C7E98 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				9D6A13932B0BDDDD000C7E98 /* DrawnImageClassifier.mlmodel */,
-				9D6A13942B0BDDDD000C7E98 /* cnnsketchclassifier.mlmodel */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		9D6A13A22B0BF943000C7E98 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				9D6A13A32B0BF953000C7E98 /* ImageExtensions.swift */,
-			);
-			path = Extensions;
-			sourceTree = "<group>";
-		};
 		9D8E26632B0C48D900C5872C /* Views */ = {
 			isa = PBXGroup;
 			children = (
 				9D6A135C2B0AF6A8000C7E98 /* ContentView.swift */,
-				9D3A3BE92B0F2BB700341559 /* WordDrawView.swift */,
-				9D6A13852B0AFA6F000C7E98 /* WordHierarchyView.swift */,
 				9D3A3BE72B0F282800341559 /* SettingsView.swift */,
+				9DCA06172C75CDF100F12A30 /* KeyboardContainerView.swift */,
+				9DCA061E2C77E1DE00F12A30 /* KeyboardWordContainerView.swift */,
+				9DCA06192C75D75000F12A30 /* KeyboardGenerativeView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		9DCA06142C6AC98400F12A30 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9DCA06152C6AC9A000F12A30 /* WWNode.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,6 +186,9 @@
 			dependencies = (
 			);
 			name = WhatWord;
+			packageProductDependencies = (
+				9DCA061C2C75F23F00F12A30 /* Flow */,
+			);
 			productName = WhatWord;
 			productReference = 9D6A13572B0AF6A8000C7E98 /* WhatWord.app */;
 			productType = "com.apple.product-type.application";
@@ -268,6 +262,9 @@
 				"es-419",
 			);
 			mainGroup = 9D6A134E2B0AF6A8000C7E98;
+			packageReferences = (
+				9DCA061B2C75F23F00F12A30 /* XCRemoteSwiftPackageReference "SwiftUI-Flow" */,
+			);
 			productRefGroup = 9D6A13582B0AF6A8000C7E98 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -312,13 +309,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D6A135D2B0AF6A8000C7E98 /* ContentView.swift in Sources */,
-				9D6A13992B0BDEE9000C7E98 /* cnnsketchclassifier.mlmodel in Sources */,
-				9D6A13862B0AFA6F000C7E98 /* WordHierarchyView.swift in Sources */,
+				9DCA06162C6AC9A000F12A30 /* WWNode.swift in Sources */,
 				9D3A3BE82B0F282800341559 /* SettingsView.swift in Sources */,
-				9D6A13A42B0BF953000C7E98 /* ImageExtensions.swift in Sources */,
+				9DCA061A2C75D75000F12A30 /* KeyboardGenerativeView.swift in Sources */,
+				9DCA06182C75CDF100F12A30 /* KeyboardContainerView.swift in Sources */,
+				9DCA061F2C77E1DE00F12A30 /* KeyboardWordContainerView.swift in Sources */,
 				9D6A135B2B0AF6A8000C7E98 /* WhatWordApp.swift in Sources */,
-				9D6A13982B0BDEE5000C7E98 /* DrawnImageClassifier.mlmodel in Sources */,
-				9D3A3BEA2B0F2BB700341559 /* WordDrawView.swift in Sources */,
 				9D6A13882B0AFB00000C7E98 /* WordNode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -493,12 +489,13 @@
 				INFOPLIST_KEY_UIStatusBarStyle = "";
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 12.3;
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.edvilme.WhatWord;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
@@ -537,12 +534,13 @@
 				INFOPLIST_KEY_UIStatusBarStyle = "";
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 12.3;
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.edvilme.WhatWord;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
@@ -685,6 +683,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9DCA061B2C75F23F00F12A30 /* XCRemoteSwiftPackageReference "SwiftUI-Flow" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/tevelee/SwiftUI-Flow.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9DCA061C2C75F23F00F12A30 /* Flow */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9DCA061B2C75F23F00F12A30 /* XCRemoteSwiftPackageReference "SwiftUI-Flow" */;
+			productName = Flow;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9D6A134F2B0AF6A8000C7E98 /* Project object */;
 }

@@ -7,64 +7,41 @@
 
 import SwiftUI
 
-struct WordCameraView: View {
-    var body: some View {
-        Text("Word Camera Coming Soon!")
-            .font(.largeTitle)
-    }
-}
 
 struct ContentView: View {
-    @EnvironmentObject private var userGeneratedText: UserGeneratedText
-    @State var isSheetPresented = false
+    var node = WWNode(externalId: "ww.node.word.cat")
+    @State private var wwGeneratedText: String = "AA"
+    @State private var systemKeyboardHidden: Bool = true
     var body: some View {
-        TabView {
-            WordHierarchyView(word: "")
-                .tabItem {
-                    Label("Pins", systemImage: "pin.fill")
+        VStack {
+            VStack{
+                HStack{
+                    Button("", systemImage: "plus", action: {
+                        wwGeneratedText = ""
+                    })
+                    Spacer()
+                    Button("", systemImage: "sparkles", action: {})
+                        .disabled(true)
+                    ShareLink("", item: wwGeneratedText)
                 }
-            WordDrawView()
-                .tabItem {
-                    Label("Draw", systemImage: "hand.draw.fill")
-                }
-            /*WordCameraView()
-                .tabItem {
-                    Label("Camera", systemImage: "camera.fill")
-                }*/
-            SettingsView()
-                .tabItem {
-                    Label("Settings", systemImage: "gearshape.fill")
-                }
-        }
-        Button {
-            isSheetPresented.toggle()
-        } label: {
-            HStack {
-                Text(userGeneratedText.text)
-                    .fontWeight(.bold)
+                    .padding(.horizontal)
+                TextEditor(text: $wwGeneratedText)
+                    .font(.system(size: 30, weight: .black, design: .rounded))
+                    .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .topLeading)
                     .padding()
-                    .clipped()
-                    .truncationMode(.head)
-                Spacer()
-                Image(systemName: "chevron.up")
-                    .padding()
-            } .padding()
-        }
-        .buttonStyle(.plain)
-        .frame(height: 50)
-        .sheet(isPresented: $isSheetPresented){
-            NavigationView {
-                VStack{
-                    TextField("Content will be generated here...", text: $userGeneratedText.text, axis: .vertical)
-                        .font(.largeTitle)
-                }
-                    .padding()
-                    .navigationTitle("Generated Text")
-                    .navigationBarItems(
-                        leading: Button {UIPasteboard.general.string = userGeneratedText.text} label: {Text("Copy")},
-                        trailing: Button {isSheetPresented = false} label: { Image(systemName: "chevron.down") }
-                    )
+                    .disabled(systemKeyboardHidden)
             }
+            KeyboardContainerView(
+                onKeyboardTypeChange: {keyboardType in
+                    systemKeyboardHidden = keyboardType.name != "keyboard"
+                },
+                onWordSubmit: {word in
+                    wwGeneratedText += " \(word)"
+                },
+                onWordDelete: {word in
+                    
+                }
+            )
         }
     }
 }

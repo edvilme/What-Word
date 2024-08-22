@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "swiftui-flow",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/tevelee/SwiftUI-Flow.git",
+      "state" : {
+        "revision" : "b528bd06ae70fbd2936d9561a456fb6ea65bc7ff",
+        "version" : "2.5.0"
+      }
+    }
+  ],
+  "version" : 2
+}
