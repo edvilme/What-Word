@@ -21,6 +21,7 @@
 		9DCA061A2C75D75000F12A30 /* KeyboardGenerativeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCA06192C75D75000F12A30 /* KeyboardGenerativeView.swift */; };
 		9DCA061D2C75F23F00F12A30 /* Flow in Frameworks */ = {isa = PBXBuildFile; productRef = 9DCA061C2C75F23F00F12A30 /* Flow */; };
 		9DCA061F2C77E1DE00F12A30 /* KeyboardWordContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCA061E2C77E1DE00F12A30 /* KeyboardWordContainerView.swift */; };
+		9DCA06212C784B3E00F12A30 /* KeyboardGenerativeViewSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCA06202C784B3E00F12A30 /* KeyboardGenerativeViewSettings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		9DCA06172C75CDF100F12A30 /* KeyboardContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardContainerView.swift; sourceTree = "<group>"; };
 		9DCA06192C75D75000F12A30 /* KeyboardGenerativeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardGenerativeView.swift; sourceTree = "<group>"; };
 		9DCA061E2C77E1DE00F12A30 /* KeyboardWordContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardWordContainerView.swift; sourceTree = "<group>"; };
+		9DCA06202C784B3E00F12A30 /* KeyboardGenerativeViewSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardGenerativeViewSettings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +157,7 @@
 				9DCA06172C75CDF100F12A30 /* KeyboardContainerView.swift */,
 				9DCA061E2C77E1DE00F12A30 /* KeyboardWordContainerView.swift */,
 				9DCA06192C75D75000F12A30 /* KeyboardGenerativeView.swift */,
+				9DCA06202C784B3E00F12A30 /* KeyboardGenerativeViewSettings.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -311,6 +314,7 @@
 				9DCA061A2C75D75000F12A30 /* KeyboardGenerativeView.swift in Sources */,
 				9DCA06182C75CDF100F12A30 /* KeyboardContainerView.swift in Sources */,
 				9DCA061F2C77E1DE00F12A30 /* KeyboardWordContainerView.swift in Sources */,
+				9DCA06212C784B3E00F12A30 /* KeyboardGenerativeViewSettings.swift in Sources */,
 				9D6A135B2B0AF6A8000C7E98 /* WhatWordApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

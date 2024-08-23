@@ -7,6 +7,7 @@
 
 import Foundation
 import NaturalLanguage
+import Combine
 
 enum WWNodeType {
     case empty
@@ -14,19 +15,30 @@ enum WWNodeType {
     case contact
 }
 
-class WWNode {
+class WWNode: ObservableObject {
     var externalId: String = "ww.node.empty.empty"
     var name: String = "empty"
     var type: WWNodeType = .empty
-    var pinnedNodeIds: Set<String> = []
+    
+    // Internal private stored property to trigger updates
+    @Published private var pinnedNodeIdsInternal: [String] = []
+    
+    // Computed property to access pinnedNodeIds
+    var pinnedNodeIds: [String] {
+        get {
+            return pinnedNodeIdsInternal
+        }
+        set {
+            pinnedNodeIdsInternal = Array(Set(newValue))  // Ensure uniqueness
+            UserDefaults.standard.set(pinnedNodeIdsInternal, forKey: externalId)
+        }
+    }
     
     init (externalId: String) {
         if let regexMatches = try! /ww\.node\.(\w+)\.(\w+)/.firstMatch(in: externalId) {
             self.externalId = externalId
             self.name = String(regexMatches.2)
-            self.pinnedNodeIds = Set(
-                UserDefaults.standard.array(forKey: externalId) as? [String] ?? []
-            )
+            pinnedNodeIdsInternal = UserDefaults.standard.array(forKey: externalId) as? [String] ?? []
             switch regexMatches.1 {
                 case "contact":
                     self.type = .contact
@@ -35,27 +47,13 @@ class WWNode {
             }
         }
     }
-    
-    func pinNode(externalId: String) {
-        self.pinnedNodeIds.insert(externalId)
-        UserDefaults.standard.set(
-            Array(self.pinnedNodeIds), forKey: self.externalId
-        )
-    }
-    
-    func unpinNode(externalId: String) {
-        self.pinnedNodeIds.remove(externalId)
-        UserDefaults.standard.set(
-            Array(self.pinnedNodeIds), forKey: self.externalId
-        )
-    }
-    
+        
     func getRelatedNodeExternalIds() -> [String]{
         var relatedNodeExternalIds: [String] = []
         // Word embeddings
         NLEmbedding.wordEmbedding(for: .english)?.enumerateNeighbors(
             for: self.name,
-            maximumCount: 20
+            maximumCount: 30
         ) { neighbor, distance in
             relatedNodeExternalIds.append("ww.node.word.\(neighbor)")
             return true

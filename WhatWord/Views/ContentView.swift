@@ -9,8 +9,7 @@ import SwiftUI
 
 
 struct ContentView: View {
-    var node = WWNode(externalId: "ww.node.word.cat")
-    @State private var wwGeneratedText: String = "AA"
+    @State private var wwGeneratedText: String = ""
     @State private var systemKeyboardHidden: Bool = true
     var body: some View {
         VStack {
