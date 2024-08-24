@@ -11,10 +11,10 @@ import Flow
 struct KeyboardGenerativeView: View {
     static var rootNodeExternalId = "ww.node.root.root"
     var onWordSubmit: (String) -> Void
-    var onWordDelete: (String) -> Void
+    var onWordDelete: () -> Void
     
     @State var wwNodeExternalIdsStack: [String] = [KeyboardGenerativeView.rootNodeExternalId]
-    @State var showingSettings: Bool = false
+    @State var showingWordDetail: Bool = false
     
     var currentWWNode: Binding<WWNode> { Binding(
         get: {WWNode(externalId: self.wwNodeExternalIdsStack.last!)},
@@ -28,14 +28,15 @@ struct KeyboardGenerativeView: View {
                 wwNodeExternalIdsStack.append(externalId)
             })
                 .buttonStyle(.bordered)
-                .tint(.primary)
+                .background(.background)
+                .foregroundStyle(.primary)
         }
     }
     
     var body: some View {
         VStack{
             KeyboardWordContainerView(
-                onWordSubmit: {word in
+                onWordSubmit: { word in
                     onWordSubmit(word)
                     wwNodeExternalIdsStack = [KeyboardGenerativeView.rootNodeExternalId]
                 },
@@ -43,44 +44,41 @@ struct KeyboardGenerativeView: View {
                     if(currentWWNode.wrappedValue.externalId != KeyboardGenerativeView.rootNodeExternalId){
                         wwNodeExternalIdsStack.removeLast()
                     }
+                    else {
+                        onWordDelete()
+                    }
                 },
                 deleteKeyIcon: currentWWNode.wrappedValue.externalId == KeyboardGenerativeView.rootNodeExternalId ? "delete.backward.fill" : "chevron.backward", 
                 currentWord: currentWWNode.name
             )
             ScrollView(content: {
+                Section {
+                    
+                }
                 // Pinned words
                 Section {
-                    HFlow {
+                    HFlow(horizontalAlignment: .center, verticalAlignment: .top) {
                         Button("Edit...", systemImage: "pencil", action: {
-                            showingSettings.toggle()
+                            showingWordDetail.toggle()
                         })
                         .buttonStyle(.bordered)
                         self.generateWordKeysFromExternalIds(externalIds: currentWWNode.pinnedNodeIds.wrappedValue)
                     }
                     .padding(.bottom)
-                } header: {
-                    HStack {
-                        Image(systemName: "pin.fill")
-                        Text("Pinned Nodes")
-                            .font(.headline)
-                    }
                 }
+                Divider()
                 // Related words
                 Section {
-                    HFlow {
+                    HFlow(horizontalAlignment: .center, verticalAlignment: .top) {
                         self.generateWordKeysFromExternalIds(externalIds: currentWWNode.wrappedValue.getRelatedNodeExternalIds())
                     }
                     .padding(.bottom)
-                } header: {
-                    HStack {
-                        Image(systemName: "sparkles")
-                        Text("Related Nodes")
-                            .font(.headline)
-                    }
                 }
             })
-        } .sheet(isPresented: $showingSettings, content: {
-            KeyboardGenerativeViewSettings(currentNode: currentWWNode.wrappedValue)
-        })
+                .frame(maxWidth: .infinity)
+        } 
+            .sheet(isPresented: $showingWordDetail, content: {
+                WordDetailView(currentNode: currentWWNode.wrappedValue)
+            })
     }
 }

@@ -15,7 +15,7 @@ struct ContentView: View {
         VStack {
             VStack{
                 HStack{
-                    Button("", systemImage: "plus", action: {
+                    Button("", systemImage: "xmark", action: {
                         wwGeneratedText = ""
                     })
                     Spacer()
@@ -31,14 +31,14 @@ struct ContentView: View {
                     .disabled(systemKeyboardHidden)
             }
             KeyboardContainerView(
-                onKeyboardTypeChange: {keyboardType in
+                onKeyboardTypeChange: { keyboardType in
                     systemKeyboardHidden = keyboardType.name != "keyboard"
                 },
-                onWordSubmit: {word in
+                onWordSubmit: { word in
                     wwGeneratedText += " \(word)"
                 },
-                onWordDelete: {word in
-                    
+                onWordDelete: {
+                    wwGeneratedText = wwGeneratedText.replacing(/\w+\s*$/, with: "") 
                 }
             )
         }

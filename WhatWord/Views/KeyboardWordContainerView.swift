@@ -21,12 +21,14 @@ struct KeyboardWordContainerView: View {
                 .tint(.red)
                 .labelStyle(.iconOnly)
                 .controlSize(.regular)
-            Text(currentWord)
+            Button(currentWord, action: {})
                 .frame(maxWidth: .infinity)
                 .fontWeight(.black)
                 .fontDesign(.rounded)
             Button("", systemImage: "return", action: {
-                onWordSubmit(currentWord)
+                if (currentWord != "") {
+                    onWordSubmit(currentWord)
+                }
             })
                 .buttonStyle(.borderedProminent)
                 .labelStyle(.iconOnly)
@@ -34,6 +36,5 @@ struct KeyboardWordContainerView: View {
         }
             .padding(.horizontal)
             .padding(.bottom, 1)
-        Divider()
     }
 }

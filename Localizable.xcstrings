@@ -2,7 +2,14 @@
   "sourceLanguage" : "en",
   "strings" : {
     "" : {
-
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : ""
+          }
+        }
+      }
     },
     "@edvilme • Eduardo Villalpando Mello" : {
       "localizations" : {
@@ -39,24 +46,17 @@
         "es-419" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Estas seguro"
+            "value" : "¿Estás seguro?"
           }
         }
       }
     },
-    "BUTTON_NEW_WORD" : {
-      "extractionState" : "stale",
+    "Camera coming soon!" : {
       "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Add new word..."
-          }
-        },
         "es-419" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Agregar nueva palabra..."
+            "value" : "¡Esta característica estará disponible pronto!"
           }
         }
       }
@@ -67,28 +67,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cancelar"
-          }
-        }
-      }
-    },
-    "Content will be generated here..." : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "es-419" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "El contenido se generará aquí..."
-          }
-        }
-      }
-    },
-    "Copy" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "es-419" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Copiar"
           }
         }
       }
@@ -113,35 +91,33 @@
         }
       }
     },
-    "Draw" : {
-      "extractionState" : "stale",
+    "Done" : {
       "localizations" : {
         "es-419" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Dibujar"
+            "value" : "Hecho"
           }
         }
       }
     },
-    "Enter a new word" : {
+    "Drawing coming soon!" : {
       "extractionState" : "stale",
       "localizations" : {
         "es-419" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ingrese una nueva palabra"
+            "value" : "¡Esta característica estará disponible pronto!"
           }
         }
       }
     },
-    "Generated Text" : {
-      "extractionState" : "stale",
+    "Edit..." : {
       "localizations" : {
         "es-419" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Texto generado"
+            "value" : "Editar..."
           }
         }
       }
@@ -178,79 +154,61 @@
       }
     },
     "Keyboard Type" : {
-
-    },
-    "New word" : {
-      "extractionState" : "stale",
       "localizations" : {
         "es-419" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Nueva Palabra"
+            "value" : "Tipo de Teclado"
+          }
+        }
+      }
+    },
+    "New node" : {
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nuevo nodo"
+          }
+        }
+      }
+    },
+    "New..." : {
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nuevo..."
+          }
+        }
+      }
+    },
+    "OK" : {
+      "localizations" : {
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
           }
         }
       }
     },
     "Open Settings" : {
-
-    },
-    "Pin" : {
-      "extractionState" : "stale",
       "localizations" : {
         "es-419" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Fijar"
+            "value" : "Abrir Ajustes"
           }
         }
       }
     },
     "Pinned" : {
-      "extractionState" : "stale",
       "localizations" : {
         "es-419" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Palabras Fijadas"
-          }
-        }
-      }
-    },
-    "Pinned Nodes" : {
-
-    },
-    "Pins" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "es-419" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Palabras Fijadas"
-          }
-        }
-      }
-    },
-    "Related" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "es-419" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Relacionado"
-          }
-        }
-      }
-    },
-    "Related Nodes" : {
-
-    },
-    "Remove" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "es-419" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Borrar"
+            "value" : "Fijado"
           }
         }
       }
@@ -265,38 +223,12 @@
         }
       }
     },
-    "Speak" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "es-419" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Hablar"
-          }
-        }
-      }
-    },
-    "v.1.1" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "es-419" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "v.1.1"
-          }
-        }
-      }
-    },
     "v.2" : {
-
-    },
-    "Word Camera Coming Soon!" : {
-      "extractionState" : "stale",
       "localizations" : {
         "es-419" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Detección por cámara disponible pronto"
+            "value" : "v.2"
           }
         }
       }

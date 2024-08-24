@@ -23,7 +23,7 @@ var wwKeyboardViewTypes: [WWKeyboardViewType] = [
 struct KeyboardContainerView: View {
     var onKeyboardTypeChange: (WWKeyboardViewType) -> Void
     var onWordSubmit: (String) -> Void
-    var onWordDelete: (String) -> Void
+    var onWordDelete: () -> Void
     @State private var wwKeyboardType = 0
     @State private var showingSettings = false
     @State var currentWord: String = ""
@@ -34,25 +34,19 @@ struct KeyboardContainerView: View {
                     Image(systemName: wwKeyboardViewTypes[index].icon)
                 }
             }
+                .pickerStyle(.segmented)
+                .padding()
                 .onReceive([self.wwKeyboardType].publisher.first(), perform: { keyboardType in
                     self.onKeyboardTypeChange(wwKeyboardViewTypes[keyboardType])
                 })
-                .pickerStyle(.segmented)
-                .padding()
-            // Current Word
-            /*if (wwKeyboardViewTypes[wwKeyboardType].name != "keyboard" && wwKeyboardViewTypes[wwKeyboardType].name != "settings") {
-                KeyboardWordContainerView(
-                    currentWord: $currentWord,
-                    onWordSubmit: {word in
-                        
-                    }
-                )
-            }*/
             // Keyboards
             switch(wwKeyboardViewTypes[wwKeyboardType].name) {
                 case "generative":
                     KeyboardGenerativeView(onWordSubmit: onWordSubmit, onWordDelete: onWordDelete)
                 case "drawing":
+                    KeyboardDrawingView(onWordSubmit: onWordSubmit, onWordDelete: onWordDelete)
+                case "camera":
+                    Text("Camera coming soon!")
                     Spacer()
                 case "settings":
                     Button("Open Settings") {
@@ -77,6 +71,6 @@ struct KeyboardContainerView: View {
             print("HI")
         },
         onWordSubmit: {word in},
-        onWordDelete: {word in}
+        onWordDelete: {}
     )
 }

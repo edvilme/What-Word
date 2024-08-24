@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9D3A3BE82B0F282800341559 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3A3BE72B0F282800341559 /* SettingsView.swift */; };
+		9D69F57A2C7989700011C741 /* KeyboardDrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D69F5792C7989700011C741 /* KeyboardDrawingView.swift */; };
 		9D6A135B2B0AF6A8000C7E98 /* WhatWordApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6A135A2B0AF6A8000C7E98 /* WhatWordApp.swift */; };
 		9D6A135D2B0AF6A8000C7E98 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6A135C2B0AF6A8000C7E98 /* ContentView.swift */; };
 		9D6A135F2B0AF6A9000C7E98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D6A135E2B0AF6A9000C7E98 /* Assets.xcassets */; };
@@ -21,7 +22,7 @@
 		9DCA061A2C75D75000F12A30 /* KeyboardGenerativeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCA06192C75D75000F12A30 /* KeyboardGenerativeView.swift */; };
 		9DCA061D2C75F23F00F12A30 /* Flow in Frameworks */ = {isa = PBXBuildFile; productRef = 9DCA061C2C75F23F00F12A30 /* Flow */; };
 		9DCA061F2C77E1DE00F12A30 /* KeyboardWordContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCA061E2C77E1DE00F12A30 /* KeyboardWordContainerView.swift */; };
-		9DCA06212C784B3E00F12A30 /* KeyboardGenerativeViewSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCA06202C784B3E00F12A30 /* KeyboardGenerativeViewSettings.swift */; };
+		9DCA06212C784B3E00F12A30 /* WordDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCA06202C784B3E00F12A30 /* WordDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 
 /* Begin PBXFileReference section */
 		9D3A3BE72B0F282800341559 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		9D69F5792C7989700011C741 /* KeyboardDrawingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardDrawingView.swift; sourceTree = "<group>"; };
 		9D6A13572B0AF6A8000C7E98 /* WhatWord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhatWord.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D6A135A2B0AF6A8000C7E98 /* WhatWordApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatWordApp.swift; sourceTree = "<group>"; };
 		9D6A135C2B0AF6A8000C7E98 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -60,7 +62,7 @@
 		9DCA06172C75CDF100F12A30 /* KeyboardContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardContainerView.swift; sourceTree = "<group>"; };
 		9DCA06192C75D75000F12A30 /* KeyboardGenerativeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardGenerativeView.swift; sourceTree = "<group>"; };
 		9DCA061E2C77E1DE00F12A30 /* KeyboardWordContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardWordContainerView.swift; sourceTree = "<group>"; };
-		9DCA06202C784B3E00F12A30 /* KeyboardGenerativeViewSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardGenerativeViewSettings.swift; sourceTree = "<group>"; };
+		9DCA06202C784B3E00F12A30 /* WordDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,7 +159,8 @@
 				9DCA06172C75CDF100F12A30 /* KeyboardContainerView.swift */,
 				9DCA061E2C77E1DE00F12A30 /* KeyboardWordContainerView.swift */,
 				9DCA06192C75D75000F12A30 /* KeyboardGenerativeView.swift */,
-				9DCA06202C784B3E00F12A30 /* KeyboardGenerativeViewSettings.swift */,
+				9DCA06202C784B3E00F12A30 /* WordDetailView.swift */,
+				9D69F5792C7989700011C741 /* KeyboardDrawingView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -314,7 +317,8 @@
 				9DCA061A2C75D75000F12A30 /* KeyboardGenerativeView.swift in Sources */,
 				9DCA06182C75CDF100F12A30 /* KeyboardContainerView.swift in Sources */,
 				9DCA061F2C77E1DE00F12A30 /* KeyboardWordContainerView.swift in Sources */,
-				9DCA06212C784B3E00F12A30 /* KeyboardGenerativeViewSettings.swift in Sources */,
+				9D69F57A2C7989700011C741 /* KeyboardDrawingView.swift in Sources */,
+				9DCA06212C784B3E00F12A30 /* WordDetailView.swift in Sources */,
 				9D6A135B2B0AF6A8000C7E98 /* WhatWordApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -470,7 +474,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = WhatWord/WhatWord.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_ASSET_PATHS = "\"WhatWord/Preview Content\"";
 				DEVELOPMENT_TEAM = 4HM8MJRNPP;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -515,7 +519,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = WhatWord/WhatWord.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_ASSET_PATHS = "\"WhatWord/Preview Content\"";
 				DEVELOPMENT_TEAM = 4HM8MJRNPP;
 				ENABLE_HARDENED_RUNTIME = YES;
