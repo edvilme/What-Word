@@ -17,6 +17,9 @@ class UserGeneratedText: ObservableObject {
 
 @main
 struct WhatWordApp: App {
+    init(){
+        loadDefaultPins()
+    }
     var body: some Scene {
         WindowGroup {
             ContentView()

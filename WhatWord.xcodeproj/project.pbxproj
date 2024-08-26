@@ -7,9 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9D1FFC232C7C1AA1005870E2 /* DrawingDetection.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 9D1FFC222C7C1AA1005870E2 /* DrawingDetection.mlmodel */; };
+		9D1FFC272C7C25DF005870E2 /* cnnsketchclassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 9D1FFC262C7C25DF005870E2 /* cnnsketchclassifier.mlmodel */; };
+		9D1FFC292C7C312D005870E2 /* ImageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1FFC282C7C312D005870E2 /* ImageExtensions.swift */; };
+		9D1FFC2B2C7C3407005870E2 /* DefaultPins.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1FFC2A2C7C3407005870E2 /* DefaultPins.swift */; };
 		9D3A3BE82B0F282800341559 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3A3BE72B0F282800341559 /* SettingsView.swift */; };
 		9D69F57A2C7989700011C741 /* KeyboardDrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D69F5792C7989700011C741 /* KeyboardDrawingView.swift */; };
-		9D69F58C2C7AF7E80011C741 /* DrawingDetection.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 9D69F5892C7AF6800011C741 /* DrawingDetection.mlmodel */; settings = {ATTRIBUTES = (project_codegen, ); }; };
 		9D6A135B2B0AF6A8000C7E98 /* WhatWordApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6A135A2B0AF6A8000C7E98 /* WhatWordApp.swift */; };
 		9D6A135D2B0AF6A8000C7E98 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6A135C2B0AF6A8000C7E98 /* ContentView.swift */; };
 		9D6A135F2B0AF6A9000C7E98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D6A135E2B0AF6A9000C7E98 /* Assets.xcassets */; };
@@ -44,9 +47,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9D1FFC222C7C1AA1005870E2 /* DrawingDetection.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = DrawingDetection.mlmodel; sourceTree = "<group>"; };
+		9D1FFC262C7C25DF005870E2 /* cnnsketchclassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = cnnsketchclassifier.mlmodel; sourceTree = "<group>"; };
+		9D1FFC282C7C312D005870E2 /* ImageExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageExtensions.swift; path = Extensions/ImageExtensions.swift; sourceTree = "<group>"; };
+		9D1FFC2A2C7C3407005870E2 /* DefaultPins.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DefaultPins.swift; path = Data/DefaultPins.swift; sourceTree = "<group>"; };
 		9D3A3BE72B0F282800341559 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		9D69F5792C7989700011C741 /* KeyboardDrawingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardDrawingView.swift; sourceTree = "<group>"; };
-		9D69F5892C7AF6800011C741 /* DrawingDetection.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = DrawingDetection.mlmodel; sourceTree = "<group>"; };
 		9D6A13572B0AF6A8000C7E98 /* WhatWord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhatWord.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D6A135A2B0AF6A8000C7E98 /* WhatWordApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatWordApp.swift; sourceTree = "<group>"; };
 		9D6A135C2B0AF6A8000C7E98 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -117,7 +123,9 @@
 		9D6A13592B0AF6A8000C7E98 /* WhatWord */ = {
 			isa = PBXGroup;
 			children = (
-				9D69F5892C7AF6800011C741 /* DrawingDetection.mlmodel */,
+				9D1FFC282C7C312D005870E2 /* ImageExtensions.swift */,
+				9D1FFC262C7C25DF005870E2 /* cnnsketchclassifier.mlmodel */,
+				9D1FFC222C7C1AA1005870E2 /* DrawingDetection.mlmodel */,
 				9DCA06142C6AC98400F12A30 /* Models */,
 				9D8E26632B0C48D900C5872C /* Views */,
 				9D6A138D2B0B597B000C7E98 /* Info.plist */,
@@ -172,6 +180,7 @@
 			isa = PBXGroup;
 			children = (
 				9DCA06152C6AC9A000F12A30 /* WWNode.swift */,
+				9D1FFC2A2C7C3407005870E2 /* DefaultPins.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -315,13 +324,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D6A135D2B0AF6A8000C7E98 /* ContentView.swift in Sources */,
-				9D69F58C2C7AF7E80011C741 /* DrawingDetection.mlmodel in Sources */,
+				9D1FFC232C7C1AA1005870E2 /* DrawingDetection.mlmodel in Sources */,
 				9DCA06162C6AC9A000F12A30 /* WWNode.swift in Sources */,
 				9D3A3BE82B0F282800341559 /* SettingsView.swift in Sources */,
 				9DCA061A2C75D75000F12A30 /* KeyboardGenerativeView.swift in Sources */,
+				9D1FFC272C7C25DF005870E2 /* cnnsketchclassifier.mlmodel in Sources */,
 				9DCA06182C75CDF100F12A30 /* KeyboardContainerView.swift in Sources */,
 				9DCA061F2C77E1DE00F12A30 /* KeyboardWordContainerView.swift in Sources */,
 				9D69F57A2C7989700011C741 /* KeyboardDrawingView.swift in Sources */,
+				9D1FFC2B2C7C3407005870E2 /* DefaultPins.swift in Sources */,
+				9D1FFC292C7C312D005870E2 /* ImageExtensions.swift in Sources */,
 				9DCA06212C784B3E00F12A30 /* WordDetailView.swift in Sources */,
 				9D6A135B2B0AF6A8000C7E98 /* WhatWordApp.swift in Sources */,
 			);
@@ -478,7 +490,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = WhatWord/WhatWord.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 6;
+				CURRENT_PROJECT_VERSION = 7;
 				DEVELOPMENT_ASSET_PATHS = "\"WhatWord/Preview Content\"";
 				DEVELOPMENT_TEAM = 4HM8MJRNPP;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -523,7 +535,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = WhatWord/WhatWord.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 6;
+				CURRENT_PROJECT_VERSION = 7;
 				DEVELOPMENT_ASSET_PATHS = "\"WhatWord/Preview Content\"";
 				DEVELOPMENT_TEAM = 4HM8MJRNPP;
 				ENABLE_HARDENED_RUNTIME = YES;

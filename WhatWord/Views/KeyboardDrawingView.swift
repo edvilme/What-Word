@@ -6,19 +6,20 @@
 //
 
 import Foundation
-import Combine
-import Vision
-import VisionKit
 import SwiftUI
 import PencilKit
+import CoreML
+import Vision
+import UIKit
 
 struct DrawingView: UIViewRepresentable {
     @Binding var canvas: PKCanvasView
     var onCanvasViewDrawingDidChange: (PKCanvasView) -> Void
     func makeUIView(context: Context) -> PKCanvasView {
         canvas.drawingPolicy = .anyInput
-        canvas.backgroundColor = .white
+        canvas.backgroundColor = .clear
         canvas.delegate = context.coordinator
+        canvas.tool = PKInkingTool(.pencil, color: .black, width: 10)
         return canvas
     }
     func updateUIView(_ uiView: PKCanvasView, context: Context) { }
@@ -42,9 +43,24 @@ struct KeyboardDrawingView: View {
     var onWordDelete: () -> Void
     
     @State var canvas: PKCanvasView = PKCanvasView()
-    @State var currentWord = "Hello"
+    @State var currentWord = ""
     @State private var generatedImage: UIImage?
     
+    @Environment(\.colorScheme) var colorScheme
+
+    func predictInput(canvasView: PKCanvasView) -> Void {
+        var image = self.canvas.drawing.image(from: canvasView.drawing.bounds, scale: 10.0)
+        if (colorScheme == .dark){
+            image = image.invert()
+        }
+        let trainedImageSize = CGSize(width: 256, height: 256)
+        if let resizedImage = image.fit(in: trainedImageSize, background: .white), let pixelBuffer = resizedImage.toCVPixelBuffer() {
+            guard let result = try? cnnsketchclassifier().prediction(image: pixelBuffer) else {
+                return currentWord = ""
+            }
+            currentWord = result.classLabel
+        }
+    }
     var body: some View {
         VStack{
             KeyboardWordContainerView(
@@ -66,22 +82,9 @@ struct KeyboardDrawingView: View {
             )
             if (generatedImage != nil) {
                 Image(uiImage: generatedImage!)
-                    .resizable()
                     .frame(width: 32.0, height: 32.0)
             }
-            DrawingView(canvas: $canvas, onCanvasViewDrawingDidChange: { canvasView in
-                print("NEW FUNCTION HERE!")
-                generatedImage = canvasView.drawing.image(from: canvasView.drawing.bounds, scale: 1)
-                let modelConfig = MLModelConfiguration()
-                #if targetEnvironment(simulator)
-                modelConfig.computeUnits = .cpuOnly
-                #endif
-                let model = try? DrawingDetection(configuration: modelConfig)
-                do {
-                    let prediction = try? model?.prediction(input: .init(imageWith: generatedImage!.cgImage!))
-                    currentWord = prediction?.target ?? ""
-                }
-            })
+            DrawingView(canvas: $canvas, onCanvasViewDrawingDidChange: predictInput)
         }
     }
 }

@@ -71,6 +71,1863 @@
         }
       }
     },
+    "DEFAULT_ACTIVITY" : {
+      "comment" : "default word",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "activity"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "actividad"
+          }
+        }
+      }
+    },
+    "DEFAULT_ANGRY" : {
+      "comment" : "default word",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "angry"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "enojado"
+          }
+        }
+      }
+    },
+    "DEFAULT_ARM" : {
+      "comment" : "default word",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "arm"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "brazo"
+          }
+        }
+      }
+    },
+    "DEFAULT_AUNT" : {
+      "comment" : "default word",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "aunt"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "tía"
+          }
+        }
+      }
+    },
+    "DEFAULT_BACK" : {
+      "comment" : "default word",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "back"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "atrás"
+          }
+        }
+      }
+    },
+    "DEFAULT_BANK" : {
+      "comment" : "default word",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "bank"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "banco"
+          }
+        }
+      }
+    },
+    "DEFAULT_BATH" : {
+      "comment" : "default word",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "bath"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "bañarse"
+          }
+        }
+      }
+    },
+    "DEFAULT_BATHROOM" : {
+      "comment" : "default word",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "bathroom"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "baño"
+          }
+        }
+      }
+    },
+    "DEFAULT_BED" : {
+      "comment" : "default word",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "bed"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "cama"
+          }
+        }
+      }
+    },
+    "DEFAULT_BODY" : {
+      "comment" : "default word",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "body"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "cuerpo"
+          }
+        }
+      }
+    },
+    "DEFAULT_BROTHER" : {
+      "comment" : "default word",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "brother"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "hermano"
+          }
+        }
+      }
+    },
+    "DEFAULT_CAR" : {
+      "comment" : "default word",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "car"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "coche"
+          }
+        }
+      }
+    },
+    "DEFAULT_CARD" : {
+      "comment" : "default word",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "card"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "tarjeta"
+          }
+        }
+      }
+    },
+    "DEFAULT_CHILD" : {
+      "comment" : "default word",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "child"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "niño"
+          }
+        }
+      }
+    },
+    "DEFAULT_CINEMA" : {
+      "comment" : "default word",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "cinema"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "cine"
+          }
+        }
+      }
+    },
+    "DEFAULT_CLOTHES" : {
+      "comment" : "default word",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "clothes"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ropa"
+          }
+        }
+      }
+    },
+    "DEFAULT_COOK" : {
+      "comment" : "default word",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "cook"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "cocinero"
+          }
+        }
+      }
+    },
+    "DEFAULT_COUSIN" : {
+      "comment" : "default word",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "cousin"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "primo"
+          }
+        }
+      }
+    },
+    "DEFAULT_DAUGHTER" : {
+      "comment" : "default word",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "daughter"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "hija"
+          }
+        }
+      }
+    },
+    "DEFAULT_DINING" : {
+      "comment" : "default word",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "dining"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "cenar"
+          }
+        }
+      }
+    },
+    "DEFAULT_DIRECTIONS" : {
+      "comment" : "default word",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "directions"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "direcciones"
+          }
+        }
+      }
+    },
+    "DEFAULT_DOCTOR" : {
+      "comment" : "default word",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "doctor"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "doctor"
+          }
+        }
+      }
+    },
+    "DEFAULT_DOOR" : {
+      "comment" : "default word",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "door"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "puerta"
+          }
+        }
+      }
+    },
+    "DEFAULT_DOWN" : {
+      "comment" : "default word",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "down"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "abajo"
+          }
+        }
+      }
+    },
+    "DEFAULT_DRESS" : {
+      "comment" : "default word",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "dress"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "vestirse"
+          }
+        }
+      }
+    },
+    "DEFAULT_DRINK" : {
+      "comment" : "default word",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "drink"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "beber"
+          }
+        }
+      }
+    },
+    "DEFAULT_DRIVER" : {
+      "comment" : "default word",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "driver"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "conductor"
+          }
+        }
+      }
+    },
+    "DEFAULT_EARS" : {
+      "comment" : "default word",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ears"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "orejas"
+          }
+        }
+      }
+    },
+    "DEFAULT_EAT" : {
+      "comment" : "default word",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "eat"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "comer"
+          }
+        }
+      }
+    },
+    "DEFAULT_ELBOW" : {
+      "comment" : "default word",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "elbow"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "codo"
+          }
+        }
+      }
+    },
+    "DEFAULT_EYE" : {
+      "comment" : "default word",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "eye"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ojo"
+          }
+        }
+      }
+    },
+    "DEFAULT_FAMILY" : {
+      "comment" : "default word",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "family"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "familia"
+          }
+        }
+      }
+    },
+    "DEFAULT_FATHER" : {
+      "comment" : "default word",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "father"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "padre"
+          }
+        }
+      }
+    },
+    "DEFAULT_FEELING" : {
+      "comment" : "default word",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "feeling"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "sentimiento"
+          }
+        }
+      }
+    },
+    "DEFAULT_FINGER" : {
+      "comment" : "default word",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "finger"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "dedo"
+          }
+        }
+      }
+    },
+    "DEFAULT_FOOT" : {
+      "comment" : "default word",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "foot"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "pie"
+          }
+        }
+      }
+    },
+    "DEFAULT_FRIEND" : {
+      "comment" : "default word",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "friend"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "amigo"
+          }
+        }
+      }
+    },
+    "DEFAULT_FRONT" : {
+      "comment" : "default word",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "front"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "delante"
+          }
+        }
+      }
+    },
+    "DEFAULT_GLASSES" : {
+      "comment" : "default word",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "glasses"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "lentes"
+          }
+        }
+      }
+    },
+    "DEFAULT_GRANDAUGHTER" : {
+      "comment" : "default word",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "granddaughter"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "nieta"
+          }
+        }
+      }
+    },
+    "DEFAULT_GRANDSON" : {
+      "comment" : "default word",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "grandson"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "nieto"
+          }
+        }
+      }
+    },
+    "DEFAULT_HAIR" : {
+      "comment" : "default word",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "hair"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "pelo"
+          }
+        }
+      }
+    },
+    "DEFAULT_HAND" : {
+      "comment" : "default word",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "hand"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "mano"
+          }
+        }
+      }
+    },
+    "DEFAULT_HAPPY" : {
+      "comment" : "default word",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "happy"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "feliz"
+          }
+        }
+      }
+    },
+    "DEFAULT_HEAD" : {
+      "comment" : "default word",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "head"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "cabeza"
+          }
+        }
+      }
+    },
+    "DEFAULT_HOSPITAL" : {
+      "comment" : "default word",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "hospital"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "hospital"
+          }
+        }
+      }
+    },
+    "DEFAULT_HOUSE" : {
+      "comment" : "default word",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "house"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "casa"
+          }
+        }
+      }
+    },
+    "DEFAULT_HUNGRY" : {
+      "comment" : "default word",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "hungry"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "hambriento"
+          }
+        }
+      }
+    },
+    "DEFAULT_HUSBAND" : {
+      "comment" : "default word",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "husband"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "esposo"
+          }
+        }
+      }
+    },
+    "DEFAULT_ILL" : {
+      "comment" : "default word",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ill"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "enfermo"
+          }
+        }
+      }
+    },
+    "DEFAULT_INLAW" : {
+      "comment" : "default word",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "inlaw"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "político"
+          }
+        }
+      }
+    },
+    "DEFAULT_INSIDE" : {
+      "comment" : "default word",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "inside"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "adentro"
+          }
+        }
+      }
+    },
+    "DEFAULT_JACKET" : {
+      "comment" : "default word",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "jacket"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "abrigo"
+          }
+        }
+      }
+    },
+    "DEFAULT_KEY" : {
+      "comment" : "default word",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "key"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "llave"
+          }
+        }
+      }
+    },
+    "DEFAULT_KITCHEN" : {
+      "comment" : "default word",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "kitchen"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "cocina"
+          }
+        }
+      }
+    },
+    "DEFAULT_KNEE" : {
+      "comment" : "default word",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "knee"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "rodilla"
+          }
+        }
+      }
+    },
+    "DEFAULT_LEFT" : {
+      "comment" : "default word",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "left"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "izquierda"
+          }
+        }
+      }
+    },
+    "DEFAULT_LEG" : {
+      "comment" : "default word",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "leg"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "pierna"
+          }
+        }
+      }
+    },
+    "DEFAULT_LIGHTS" : {
+      "comment" : "default word",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "lights"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "luces"
+          }
+        }
+      }
+    },
+    "DEFAULT_LIVING" : {
+      "comment" : "default word",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "living"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "sala"
+          }
+        }
+      }
+    },
+    "DEFAULT_LOVE" : {
+      "comment" : "default word",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "love"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "amor"
+          }
+        }
+      }
+    },
+    "DEFAULT_MAIL" : {
+      "comment" : "default word",
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "mail"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "correo"
+          }
+        }
+      }
+    },
+    "DEFAULT_MALL" : {
+      "comment" : "default word"
+    },
+    "DEFAULT_MAN" : {
+      "comment" : "default word",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "man"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "hombre"
+          }
+        }
+      }
+    },
+    "DEFAULT_MARKET" : {
+      "comment" : "default word",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "market"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "mercado"
+          }
+        }
+      }
+    },
+    "DEFAULT_MOTHER" : {
+      "comment" : "default word",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "mother"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "madre"
+          }
+        }
+      }
+    },
+    "DEFAULT_MOUTH" : {
+      "comment" : "default word",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "mouth"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "boca"
+          }
+        }
+      }
+    },
+    "DEFAULT_NERVOUS" : {
+      "comment" : "default word",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "nervous"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "nervioso"
+          }
+        }
+      }
+    },
+    "DEFAULT_NIECE" : {
+      "comment" : "default word",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "niece"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "sobrino"
+          }
+        }
+      }
+    },
+    "DEFAULT_NO" : {
+      "comment" : "default word",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "no"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "no"
+          }
+        }
+      }
+    },
+    "DEFAULT_NOSE" : {
+      "comment" : "default word",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "nose"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "nariz"
+          }
+        }
+      }
+    },
+    "DEFAULT_NURSE" : {
+      "comment" : "default word",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "nurse"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "enfermero"
+          }
+        }
+      }
+    },
+    "DEFAULT_OUTSIDE" : {
+      "comment" : "default word",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "outside"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "afuera"
+          }
+        }
+      }
+    },
+    "DEFAULT_PAIN" : {
+      "comment" : "default word",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "pain"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "dolor"
+          }
+        }
+      }
+    },
+    "DEFAULT_PANTS" : {
+      "comment" : "default word",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "pants"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "pantalones"
+          }
+        }
+      }
+    },
+    "DEFAULT_PARK" : {
+      "comment" : "default word",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "park"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "parque"
+          }
+        }
+      }
+    },
+    "DEFAULT_PEN" : {
+      "comment" : "default word",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "pen"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "pluma"
+          }
+        }
+      }
+    },
+    "DEFAULT_PEOPLE" : {
+      "comment" : "default word",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "people"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "gente"
+          }
+        }
+      }
+    },
+    "DEFAULT_PHONE" : {
+      "comment" : "default word",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "phone"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "teléfono"
+          }
+        }
+      }
+    },
+    "DEFAULT_PLACE" : {
+      "comment" : "default word",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "place"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "lugar"
+          }
+        }
+      }
+    },
+    "DEFAULT_READ" : {
+      "comment" : "default word",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "read"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "leer"
+          }
+        }
+      }
+    },
+    "DEFAULT_REMOTE" : {
+      "comment" : "default word",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "remote"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "control"
+          }
+        }
+      }
+    },
+    "DEFAULT_RIGHT" : {
+      "comment" : "default word",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "right"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "derecho"
+          }
+        }
+      }
+    },
+    "DEFAULT_SAD" : {
+      "comment" : "default word",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "sad"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "triste"
+          }
+        }
+      }
+    },
+    "DEFAULT_SCHOOL" : {
+      "comment" : "default word",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "school"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "escuela"
+          }
+        }
+      }
+    },
+    "DEFAULT_SHIRT" : {
+      "comment" : "default word",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "shirt"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "playera"
+          }
+        }
+      }
+    },
+    "DEFAULT_SHOE" : {
+      "comment" : "default word",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "shoe"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "zapato"
+          }
+        }
+      }
+    },
+    "DEFAULT_SHOWER" : {
+      "comment" : "default word",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "shower"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "bañarse"
+          }
+        }
+      }
+    },
+    "DEFAULT_SISTER" : {
+      "comment" : "default word",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "sister"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "hermana"
+          }
+        }
+      }
+    },
+    "DEFAULT_SLEEP" : {
+      "comment" : "default word",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "sleep"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "dormir"
+          }
+        }
+      }
+    },
+    "DEFAULT_SON" : {
+      "comment" : "default word",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "son"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "hijo"
+          }
+        }
+      }
+    },
+    "DEFAULT_SPEAK" : {
+      "comment" : "default word",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "speak"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "hablar"
+          }
+        }
+      }
+    },
+    "DEFAULT_STAIRS" : {
+      "comment" : "default word",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "stairs"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "escaleras"
+          }
+        }
+      }
+    },
+    "DEFAULT_STORE" : {
+      "comment" : "default word",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "store"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "tienda"
+          }
+        }
+      }
+    },
+    "DEFAULT_THERAPIST" : {
+      "comment" : "default word",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "therapist"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "terapeuta"
+          }
+        }
+      }
+    },
+    "DEFAULT_THERAPY" : {
+      "comment" : "default word",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "therapy"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "terapia"
+          }
+        }
+      }
+    },
+    "DEFAULT_THING" : {
+      "comment" : "default word",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "thing"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "cosa"
+          }
+        }
+      }
+    },
+    "DEFAULT_THIRSTY" : {
+      "comment" : "default word",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "thirsty"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "sediento"
+          }
+        }
+      }
+    },
+    "DEFAULT_TIRED" : {
+      "comment" : "default word",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "tired"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "cansado"
+          }
+        }
+      }
+    },
+    "DEFAULT_TOOTH" : {
+      "comment" : "default word",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "tooth"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "diente"
+          }
+        }
+      }
+    },
+    "DEFAULT_TORSO" : {
+      "comment" : "default word",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "torso"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "torso"
+          }
+        }
+      }
+    },
+    "DEFAULT_TRAVEL" : {
+      "comment" : "default word",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "travel"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "viajar"
+          }
+        }
+      }
+    },
+    "DEFAULT_TV" : {
+      "comment" : "default word",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "tv"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "tv"
+          }
+        }
+      }
+    },
+    "DEFAULT_UNCLE" : {
+      "comment" : "default word",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "uncle"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "tío"
+          }
+        }
+      }
+    },
+    "DEFAULT_UP" : {
+      "comment" : "default word",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "up"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "arriba"
+          }
+        }
+      }
+    },
+    "DEFAULT_WALLET" : {
+      "comment" : "default word",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "wallet"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "cartera"
+          }
+        }
+      }
+    },
+    "DEFAULT_WATCH" : {
+      "comment" : "default word",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "watch"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "reloj"
+          }
+        }
+      }
+    },
+    "DEFAULT_WIFE" : {
+      "comment" : "default word",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "wife"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "esposa"
+          }
+        }
+      }
+    },
+    "DEFAULT_WOMAN" : {
+      "comment" : "default word",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "woman"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "mujer"
+          }
+        }
+      }
+    },
+    "DEFAULT_YES" : {
+      "comment" : "default word",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "yes"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "si"
+          }
+        }
+      }
+    },
     "Delete" : {
       "localizations" : {
         "es-419" : {
@@ -97,17 +1954,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hecho"
-          }
-        }
-      }
-    },
-    "Drawing coming soon!" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "es-419" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "¡Esta característica estará disponible pronto!"
           }
         }
       }
