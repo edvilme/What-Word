@@ -10,7 +10,8 @@
 		9D1FFC232C7C1AA1005870E2 /* DrawingDetection.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 9D1FFC222C7C1AA1005870E2 /* DrawingDetection.mlmodel */; };
 		9D1FFC272C7C25DF005870E2 /* cnnsketchclassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 9D1FFC262C7C25DF005870E2 /* cnnsketchclassifier.mlmodel */; };
 		9D1FFC292C7C312D005870E2 /* ImageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1FFC282C7C312D005870E2 /* ImageExtensions.swift */; };
-		9D1FFC2B2C7C3407005870E2 /* DefaultPins.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1FFC2A2C7C3407005870E2 /* DefaultPins.swift */; };
+		9D1FFC2E2C7C5EFA005870E2 /* DefaultPins.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1FFC2D2C7C5EFA005870E2 /* DefaultPins.swift */; };
+		9D1FFC302C7C5F0D005870E2 /* DrawingClassificationLabels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1FFC2F2C7C5F0D005870E2 /* DrawingClassificationLabels.swift */; };
 		9D3A3BE82B0F282800341559 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3A3BE72B0F282800341559 /* SettingsView.swift */; };
 		9D69F57A2C7989700011C741 /* KeyboardDrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D69F5792C7989700011C741 /* KeyboardDrawingView.swift */; };
 		9D6A135B2B0AF6A8000C7E98 /* WhatWordApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6A135A2B0AF6A8000C7E98 /* WhatWordApp.swift */; };
@@ -50,7 +51,8 @@
 		9D1FFC222C7C1AA1005870E2 /* DrawingDetection.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = DrawingDetection.mlmodel; sourceTree = "<group>"; };
 		9D1FFC262C7C25DF005870E2 /* cnnsketchclassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = cnnsketchclassifier.mlmodel; sourceTree = "<group>"; };
 		9D1FFC282C7C312D005870E2 /* ImageExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageExtensions.swift; path = Extensions/ImageExtensions.swift; sourceTree = "<group>"; };
-		9D1FFC2A2C7C3407005870E2 /* DefaultPins.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DefaultPins.swift; path = Data/DefaultPins.swift; sourceTree = "<group>"; };
+		9D1FFC2D2C7C5EFA005870E2 /* DefaultPins.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultPins.swift; sourceTree = "<group>"; };
+		9D1FFC2F2C7C5F0D005870E2 /* DrawingClassificationLabels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingClassificationLabels.swift; sourceTree = "<group>"; };
 		9D3A3BE72B0F282800341559 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		9D69F5792C7989700011C741 /* KeyboardDrawingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardDrawingView.swift; sourceTree = "<group>"; };
 		9D6A13572B0AF6A8000C7E98 /* WhatWord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhatWord.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -99,6 +101,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9D1FFC2C2C7C5EFA005870E2 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				9D1FFC2D2C7C5EFA005870E2 /* DefaultPins.swift */,
+				9D1FFC2F2C7C5F0D005870E2 /* DrawingClassificationLabels.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
 		9D6A134E2B0AF6A8000C7E98 = {
 			isa = PBXGroup;
 			children = (
@@ -123,6 +134,7 @@
 		9D6A13592B0AF6A8000C7E98 /* WhatWord */ = {
 			isa = PBXGroup;
 			children = (
+				9D1FFC2C2C7C5EFA005870E2 /* Data */,
 				9D1FFC282C7C312D005870E2 /* ImageExtensions.swift */,
 				9D1FFC262C7C25DF005870E2 /* cnnsketchclassifier.mlmodel */,
 				9D1FFC222C7C1AA1005870E2 /* DrawingDetection.mlmodel */,
@@ -180,7 +192,6 @@
 			isa = PBXGroup;
 			children = (
 				9DCA06152C6AC9A000F12A30 /* WWNode.swift */,
-				9D1FFC2A2C7C3407005870E2 /* DefaultPins.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -275,6 +286,7 @@
 				en,
 				Base,
 				"es-419",
+				es,
 			);
 			mainGroup = 9D6A134E2B0AF6A8000C7E98;
 			packageReferences = (
@@ -332,8 +344,9 @@
 				9DCA06182C75CDF100F12A30 /* KeyboardContainerView.swift in Sources */,
 				9DCA061F2C77E1DE00F12A30 /* KeyboardWordContainerView.swift in Sources */,
 				9D69F57A2C7989700011C741 /* KeyboardDrawingView.swift in Sources */,
-				9D1FFC2B2C7C3407005870E2 /* DefaultPins.swift in Sources */,
+				9D1FFC2E2C7C5EFA005870E2 /* DefaultPins.swift in Sources */,
 				9D1FFC292C7C312D005870E2 /* ImageExtensions.swift in Sources */,
+				9D1FFC302C7C5F0D005870E2 /* DrawingClassificationLabels.swift in Sources */,
 				9DCA06212C784B3E00F12A30 /* WordDetailView.swift in Sources */,
 				9D6A135B2B0AF6A8000C7E98 /* WhatWordApp.swift in Sources */,
 			);

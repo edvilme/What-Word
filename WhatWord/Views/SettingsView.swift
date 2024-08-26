@@ -10,39 +10,42 @@ import SwiftUI
 
 /// # Settings Page
 struct SettingsView: View {
-    /// Environment
-    @EnvironmentObject private var userGeneratedText: UserGeneratedText
     /// Delete app data?
     @State var shouldShowDeletionConfirmation: Bool = false
-    
     func deleteAppData(){
         if let appDomain = Bundle.main.bundleIdentifier {
             UserDefaults.standard.removePersistentDomain(forName: appDomain)
             UserDefaults.standard.synchronize()
-            userGeneratedText.text = ""
+            loadDefaultPins()
         }
     }
     
     var body: some View {
-        NavigationStack {
+        NavigationView {
             Form {
                 Section("App Data"){
                     Button {
                         shouldShowDeletionConfirmation.toggle()
                     } label: {
-                        Text("Delete App Data")
+                        Text("Restore App Data")
                     }   .tint(.red)
                 }
                 Section("Aknowledgments"){
                     Text("Joshua Newnham CNN Sketch Classifier (https://github.com/wikibook/coreml) for sketch classification")
                     Text("Images fetched from Unsplash API (https://unsplash.com)")
                 }
+                Section("Translations"){
+                    Text("More translations coming soon. Reach out to suggest new languages")
+                }
                 Section{
-                    Text("@edvilme • Eduardo Villalpando Mello")
-                    Text("v.2")
+                    Text("Designed and developed with <3 by Eduardo Villalpando Mello (@edvilme)")
+                        .font(.caption)
+                    Text("Version 2.0")
+                        .font(.caption2)
                 }
             }
         }
+            .navigationBarTitleDisplayMode(.large)
             /// Navigation options
             .navigationTitle("Settings")
             /// Attached alerts and sheets

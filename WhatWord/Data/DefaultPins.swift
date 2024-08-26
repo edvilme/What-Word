@@ -127,6 +127,13 @@ let DEFAULT_PIN_HIERARCHY = [
             "ww.node.word.\( NSLocalizedString("DEFAULT_COUSIN", comment: "default word"))",
             "ww.node.word.\( NSLocalizedString("DEFAULT_NIECE", comment: "default word"))",
             "ww.node.word.\( NSLocalizedString("DEFAULT_INLAW", comment: "default word"))"
+        ],
+        "ww.node.word.\( NSLocalizedString("DEFAULT_EXPRESSION", comment: "default word"))": [
+            "ww.node.word.\( NSLocalizedString("DEFAULT_HELLO", comment: "default word"))",
+            "ww.node.word.\( NSLocalizedString("DEFAULT_BYE", comment: "default word"))",
+            "ww.node.word.\( NSLocalizedString("DEFAULT_PLEASE", comment: "default word"))",
+            "ww.node.word.\( NSLocalizedString("DEFAULT_THANKS", comment: "default word"))",
+            "ww.node.word.\( NSLocalizedString("DEFAULT_QUESTION", comment: "default word"))"
         ]
     ]
 ]

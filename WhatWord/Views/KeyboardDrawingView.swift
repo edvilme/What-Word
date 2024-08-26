@@ -58,7 +58,7 @@ struct KeyboardDrawingView: View {
             guard let result = try? cnnsketchclassifier().prediction(image: pixelBuffer) else {
                 return currentWord = ""
             }
-            currentWord = result.classLabel
+            currentWord = translateDrawingClassificationLabel(label: result.classLabel)
         }
     }
     var body: some View {
@@ -68,7 +68,6 @@ struct KeyboardDrawingView: View {
                     onWordSubmit(word)
                     currentWord = ""
                     canvas.drawing = PKDrawing()
-                    canvas.backgroundColor = .white
                 },
                 onWordDelete: {
                     if (canvas.drawing.strokes.isEmpty) {

@@ -11,18 +11,14 @@
         }
       }
     },
-    "@edvilme • Eduardo Villalpando Mello" : {
-      "localizations" : {
-        "es-419" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "@edvilme • Eduardo Villalpando Mello"
-          }
-        }
-      }
-    },
     "Aknowledgments" : {
       "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reconocimientos"
+          }
+        },
         "es-419" : {
           "stringUnit" : {
             "state" : "translated",
@@ -33,6 +29,12 @@
     },
     "App Data" : {
       "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Datos de aplicación"
+          }
+        },
         "es-419" : {
           "stringUnit" : {
             "state" : "translated",
@@ -43,6 +45,12 @@
     },
     "Are you sure" : {
       "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¿Estás seguro?"
+          }
+        },
         "es-419" : {
           "stringUnit" : {
             "state" : "translated",
@@ -53,6 +61,12 @@
     },
     "Camera coming soon!" : {
       "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¡Esta característica estará disponible pronto!"
+          }
+        },
         "es-419" : {
           "stringUnit" : {
             "state" : "translated",
@@ -63,6 +77,12 @@
     },
     "Cancel" : {
       "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cancelar"
+          }
+        },
         "es-419" : {
           "stringUnit" : {
             "state" : "translated",
@@ -78,6 +98,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "activity"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "actividad"
           }
         },
         "es-419" : {
@@ -97,6 +123,12 @@
             "value" : "angry"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "enojado"
+          }
+        },
         "es-419" : {
           "stringUnit" : {
             "state" : "translated",
@@ -112,6 +144,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "arm"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "brazo"
           }
         },
         "es-419" : {
@@ -131,6 +169,12 @@
             "value" : "aunt"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "tía"
+          }
+        },
         "es-419" : {
           "stringUnit" : {
             "state" : "translated",
@@ -146,6 +190,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "back"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "atrás"
           }
         },
         "es-419" : {
@@ -165,6 +215,12 @@
             "value" : "bank"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "banco"
+          }
+        },
         "es-419" : {
           "stringUnit" : {
             "state" : "translated",
@@ -180,6 +236,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "bath"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "bañarse"
           }
         },
         "es-419" : {
@@ -199,6 +261,12 @@
             "value" : "bathroom"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "baño"
+          }
+        },
         "es-419" : {
           "stringUnit" : {
             "state" : "translated",
@@ -214,6 +282,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "bed"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "cama"
           }
         },
         "es-419" : {
@@ -233,6 +307,12 @@
             "value" : "body"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "cuerpo"
+          }
+        },
         "es-419" : {
           "stringUnit" : {
             "state" : "translated",
@@ -250,10 +330,39 @@
             "value" : "brother"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "hermano"
+          }
+        },
         "es-419" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "hermano"
+          }
+        }
+      }
+    },
+    "DEFAULT_BYE" : {
+      "comment" : "default word",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "bye"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "adiós"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "adiós"
           }
         }
       }
@@ -265,6 +374,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "car"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "carro"
           }
         },
         "es-419" : {
@@ -284,6 +399,12 @@
             "value" : "card"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "tarjeta"
+          }
+        },
         "es-419" : {
           "stringUnit" : {
             "state" : "translated",
@@ -299,6 +420,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "child"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "niño"
           }
         },
         "es-419" : {
@@ -318,6 +445,12 @@
             "value" : "cinema"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "cine"
+          }
+        },
         "es-419" : {
           "stringUnit" : {
             "state" : "translated",
@@ -333,6 +466,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "clothes"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ropa"
           }
         },
         "es-419" : {
@@ -352,6 +491,12 @@
             "value" : "cook"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "cocinero"
+          }
+        },
         "es-419" : {
           "stringUnit" : {
             "state" : "translated",
@@ -367,6 +512,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "cousin"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "primo"
           }
         },
         "es-419" : {
@@ -386,6 +537,12 @@
             "value" : "daughter"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "hija"
+          }
+        },
         "es-419" : {
           "stringUnit" : {
             "state" : "translated",
@@ -401,6 +558,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "dining"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "cena"
           }
         },
         "es-419" : {
@@ -420,6 +583,12 @@
             "value" : "directions"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "direcciones"
+          }
+        },
         "es-419" : {
           "stringUnit" : {
             "state" : "translated",
@@ -432,6 +601,12 @@
       "comment" : "default word",
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "doctor"
+          }
+        },
+        "es" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "doctor"
@@ -454,6 +629,12 @@
             "value" : "door"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "puerta"
+          }
+        },
         "es-419" : {
           "stringUnit" : {
             "state" : "translated",
@@ -469,6 +650,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "down"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "abajo"
           }
         },
         "es-419" : {
@@ -488,6 +675,12 @@
             "value" : "dress"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "vestirse"
+          }
+        },
         "es-419" : {
           "stringUnit" : {
             "state" : "translated",
@@ -503,6 +696,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "drink"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "beber"
           }
         },
         "es-419" : {
@@ -522,6 +721,12 @@
             "value" : "driver"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "conductor"
+          }
+        },
         "es-419" : {
           "stringUnit" : {
             "state" : "translated",
@@ -537,6 +742,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ears"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "orejas"
           }
         },
         "es-419" : {
@@ -556,6 +767,12 @@
             "value" : "eat"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "comer"
+          }
+        },
         "es-419" : {
           "stringUnit" : {
             "state" : "translated",
@@ -573,10 +790,39 @@
             "value" : "elbow"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "codo"
+          }
+        },
         "es-419" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "codo"
+          }
+        }
+      }
+    },
+    "DEFAULT_EXPRESSION" : {
+      "comment" : "default word",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "expression"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "expresión"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "expresión"
           }
         }
       }
@@ -588,6 +834,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "eye"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ojo"
           }
         },
         "es-419" : {
@@ -607,6 +859,12 @@
             "value" : "family"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "familia"
+          }
+        },
         "es-419" : {
           "stringUnit" : {
             "state" : "translated",
@@ -622,6 +880,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "father"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "padre"
           }
         },
         "es-419" : {
@@ -641,6 +905,12 @@
             "value" : "feeling"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "sentimiento"
+          }
+        },
         "es-419" : {
           "stringUnit" : {
             "state" : "translated",
@@ -656,6 +926,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "finger"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "dedo"
           }
         },
         "es-419" : {
@@ -675,6 +951,12 @@
             "value" : "foot"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "pie"
+          }
+        },
         "es-419" : {
           "stringUnit" : {
             "state" : "translated",
@@ -690,6 +972,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "friend"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "amigo"
           }
         },
         "es-419" : {
@@ -709,6 +997,12 @@
             "value" : "front"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "frente"
+          }
+        },
         "es-419" : {
           "stringUnit" : {
             "state" : "translated",
@@ -724,6 +1018,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "glasses"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "gafas"
           }
         },
         "es-419" : {
@@ -743,6 +1043,12 @@
             "value" : "granddaughter"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "nieta"
+          }
+        },
         "es-419" : {
           "stringUnit" : {
             "state" : "translated",
@@ -758,6 +1064,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "grandson"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "nieto"
           }
         },
         "es-419" : {
@@ -777,6 +1089,12 @@
             "value" : "hair"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "cabello"
+          }
+        },
         "es-419" : {
           "stringUnit" : {
             "state" : "translated",
@@ -792,6 +1110,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "hand"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "mano"
           }
         },
         "es-419" : {
@@ -811,6 +1135,12 @@
             "value" : "happy"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "feliz"
+          }
+        },
         "es-419" : {
           "stringUnit" : {
             "state" : "translated",
@@ -828,6 +1158,12 @@
             "value" : "head"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "cabeza"
+          }
+        },
         "es-419" : {
           "stringUnit" : {
             "state" : "translated",
@@ -836,10 +1172,39 @@
         }
       }
     },
+    "DEFAULT_HELLO" : {
+      "comment" : "default word",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "hello"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "hola"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "hola"
+          }
+        }
+      }
+    },
     "DEFAULT_HOSPITAL" : {
       "comment" : "default word",
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "hospital"
+          }
+        },
+        "es" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "hospital"
@@ -862,6 +1227,12 @@
             "value" : "house"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "casa"
+          }
+        },
         "es-419" : {
           "stringUnit" : {
             "state" : "translated",
@@ -877,6 +1248,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "hungry"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "hambriento"
           }
         },
         "es-419" : {
@@ -896,6 +1273,12 @@
             "value" : "husband"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "esposo"
+          }
+        },
         "es-419" : {
           "stringUnit" : {
             "state" : "translated",
@@ -911,6 +1294,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ill"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "enfermo"
           }
         },
         "es-419" : {
@@ -930,6 +1319,12 @@
             "value" : "inlaw"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "político"
+          }
+        },
         "es-419" : {
           "stringUnit" : {
             "state" : "translated",
@@ -945,6 +1340,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "inside"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "adentro"
           }
         },
         "es-419" : {
@@ -964,6 +1365,12 @@
             "value" : "jacket"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "chaqueta"
+          }
+        },
         "es-419" : {
           "stringUnit" : {
             "state" : "translated",
@@ -979,6 +1386,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "key"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "llave"
           }
         },
         "es-419" : {
@@ -998,6 +1411,12 @@
             "value" : "kitchen"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "cocina"
+          }
+        },
         "es-419" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1013,6 +1432,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "knee"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "rodilla"
           }
         },
         "es-419" : {
@@ -1032,6 +1457,12 @@
             "value" : "left"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "izquierda"
+          }
+        },
         "es-419" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1047,6 +1478,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "leg"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "brazo"
           }
         },
         "es-419" : {
@@ -1066,6 +1503,12 @@
             "value" : "lights"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "luces"
+          }
+        },
         "es-419" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1081,6 +1524,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "living"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "estancia"
           }
         },
         "es-419" : {
@@ -1100,6 +1549,12 @@
             "value" : "love"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "amor"
+          }
+        },
         "es-419" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1108,26 +1563,28 @@
         }
       }
     },
-    "DEFAULT_MAIL" : {
+    "DEFAULT_MALL" : {
       "comment" : "default word",
-      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "mail"
+            "value" : "mall"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "plaza"
           }
         },
         "es-419" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "correo"
+            "value" : "plaza"
           }
         }
       }
-    },
-    "DEFAULT_MALL" : {
-      "comment" : "default word"
     },
     "DEFAULT_MAN" : {
       "comment" : "default word",
@@ -1136,6 +1593,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "man"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "hombre"
           }
         },
         "es-419" : {
@@ -1155,6 +1618,12 @@
             "value" : "market"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "mercado"
+          }
+        },
         "es-419" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1170,6 +1639,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "mother"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "madre"
           }
         },
         "es-419" : {
@@ -1189,6 +1664,12 @@
             "value" : "mouth"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "boca"
+          }
+        },
         "es-419" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1204,6 +1685,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "nervous"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "nervioso"
           }
         },
         "es-419" : {
@@ -1223,6 +1710,12 @@
             "value" : "niece"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "sobrino"
+          }
+        },
         "es-419" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1235,6 +1728,12 @@
       "comment" : "default word",
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "no"
+          }
+        },
+        "es" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "no"
@@ -1257,6 +1756,12 @@
             "value" : "nose"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "nariz"
+          }
+        },
         "es-419" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1272,6 +1777,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "nurse"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "enfermera"
           }
         },
         "es-419" : {
@@ -1291,6 +1802,12 @@
             "value" : "outside"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "afuera"
+          }
+        },
         "es-419" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1306,6 +1823,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "pain"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "dolor"
           }
         },
         "es-419" : {
@@ -1325,6 +1848,12 @@
             "value" : "pants"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "pantalones"
+          }
+        },
         "es-419" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1340,6 +1869,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "park"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "parque"
           }
         },
         "es-419" : {
@@ -1359,6 +1894,12 @@
             "value" : "pen"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "pluma"
+          }
+        },
         "es-419" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1374,6 +1915,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "people"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "gente"
           }
         },
         "es-419" : {
@@ -1393,6 +1940,12 @@
             "value" : "phone"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "teléfono"
+          }
+        },
         "es-419" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1410,10 +1963,62 @@
             "value" : "place"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "lugar"
+          }
+        },
         "es-419" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "lugar"
+          }
+        }
+      }
+    },
+    "DEFAULT_PLEASE" : {
+      "comment" : "default word",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "please"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "favor"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "favor"
+          }
+        }
+      }
+    },
+    "DEFAULT_QUESTION" : {
+      "comment" : "default word",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "question"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "pregunta"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "pregunta"
           }
         }
       }
@@ -1425,6 +2030,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "read"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "leer"
           }
         },
         "es-419" : {
@@ -1444,6 +2055,12 @@
             "value" : "remote"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "control"
+          }
+        },
         "es-419" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1459,6 +2076,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "right"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "derecha"
           }
         },
         "es-419" : {
@@ -1478,6 +2101,12 @@
             "value" : "sad"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "triste"
+          }
+        },
         "es-419" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1493,6 +2122,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "school"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "escuela"
           }
         },
         "es-419" : {
@@ -1512,6 +2147,12 @@
             "value" : "shirt"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "camisa"
+          }
+        },
         "es-419" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1527,6 +2168,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "shoe"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "zapato"
           }
         },
         "es-419" : {
@@ -1546,6 +2193,12 @@
             "value" : "shower"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ducha"
+          }
+        },
         "es-419" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1561,6 +2214,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "sister"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "hermana"
           }
         },
         "es-419" : {
@@ -1580,6 +2239,12 @@
             "value" : "sleep"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "dormir"
+          }
+        },
         "es-419" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1595,6 +2260,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "son"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "hijo"
           }
         },
         "es-419" : {
@@ -1614,6 +2285,12 @@
             "value" : "speak"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "hablar"
+          }
+        },
         "es-419" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1629,6 +2306,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "stairs"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "escaleras"
           }
         },
         "es-419" : {
@@ -1648,10 +2331,39 @@
             "value" : "store"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "tienda"
+          }
+        },
         "es-419" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "tienda"
+          }
+        }
+      }
+    },
+    "DEFAULT_THANKS" : {
+      "comment" : "default word",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "thanks"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "gracias"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "gracias"
           }
         }
       }
@@ -1663,6 +2375,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "therapist"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "terapeuta"
           }
         },
         "es-419" : {
@@ -1682,6 +2400,12 @@
             "value" : "therapy"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "terapia"
+          }
+        },
         "es-419" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1697,6 +2421,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "thing"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "cosa"
           }
         },
         "es-419" : {
@@ -1716,6 +2446,12 @@
             "value" : "thirsty"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "sediento"
+          }
+        },
         "es-419" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1731,6 +2467,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "tired"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "cansado"
           }
         },
         "es-419" : {
@@ -1750,6 +2492,12 @@
             "value" : "tooth"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "diente"
+          }
+        },
         "es-419" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1762,6 +2510,12 @@
       "comment" : "default word",
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "torso"
+          }
+        },
+        "es" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "torso"
@@ -1784,6 +2538,12 @@
             "value" : "travel"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "viaje"
+          }
+        },
         "es-419" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1799,6 +2559,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "tv"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "televisión"
           }
         },
         "es-419" : {
@@ -1818,6 +2584,12 @@
             "value" : "uncle"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "tío"
+          }
+        },
         "es-419" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1833,6 +2605,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "up"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "arriba"
           }
         },
         "es-419" : {
@@ -1852,6 +2630,12 @@
             "value" : "wallet"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "cartera"
+          }
+        },
         "es-419" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1867,6 +2651,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "watch"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "reloj"
           }
         },
         "es-419" : {
@@ -1886,6 +2676,12 @@
             "value" : "wife"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "esposa"
+          }
+        },
         "es-419" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1901,6 +2697,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "woman"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "mujer"
           }
         },
         "es-419" : {
@@ -1920,6 +2722,12 @@
             "value" : "yes"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "sí"
+          }
+        },
         "es-419" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1930,6 +2738,12 @@
     },
     "Delete" : {
       "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Borrar"
+          }
+        },
         "es-419" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1940,6 +2754,12 @@
     },
     "Delete App Data" : {
       "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Borrar datos de la aplicación"
+          }
+        },
         "es-419" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1948,8 +2768,30 @@
         }
       }
     },
+    "Designed and developed with <3 by Eduardo Villalpando Mello (@edvilme)" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Diseñado y desarrollado con <3 por Eduardo Villalpando Mello (@edvilme)"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Diseñado y desarrollado con <3 por Eduardo Villalpando Mello (@edvilme)"
+          }
+        }
+      }
+    },
     "Done" : {
       "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hecho"
+          }
+        },
         "es-419" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1958,8 +2800,4591 @@
         }
       }
     },
+    "DRAWING_AIRPLANE" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "airplane"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "avión"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "avión"
+          }
+        }
+      }
+    },
+    "DRAWING_ANGEL" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "angel"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ángel"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ángel"
+          }
+        }
+      }
+    },
+    "DRAWING_ANT" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ant"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "hormiga"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "hormiga"
+          }
+        }
+      }
+    },
+    "DRAWING_APPLE" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "apple"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "manzana"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "manzana"
+          }
+        }
+      }
+    },
+    "DRAWING_ARM" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "arm"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "brazo"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "brazo"
+          }
+        }
+      }
+    },
+    "DRAWING_ASHTRAY" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ashtray"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "cenicero"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "cenicero"
+          }
+        }
+      }
+    },
+    "DRAWING_AXE" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "axe"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "hacha"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "hacha"
+          }
+        }
+      }
+    },
+    "DRAWING_BACKPACK" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "backpack"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "mochila"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "mochila"
+          }
+        }
+      }
+    },
+    "DRAWING_BALLOON" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "balloon"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "globo"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "globo"
+          }
+        }
+      }
+    },
+    "DRAWING_BANANA" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "banana"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "plátano"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "plátano"
+          }
+        }
+      }
+    },
+    "DRAWING_BARN" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "barn"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "granero"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "granero"
+          }
+        }
+      }
+    },
+    "DRAWING_BASEBALL" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "baseball"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "beísbol"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "beisból"
+          }
+        }
+      }
+    },
+    "DRAWING_BASKET" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "basket"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "cesto"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "canasta"
+          }
+        }
+      }
+    },
+    "DRAWING_BATH" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "bath"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "baño"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "baño"
+          }
+        }
+      }
+    },
+    "DRAWING_BEAR" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "bear"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "oso"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "oso"
+          }
+        }
+      }
+    },
+    "DRAWING_BED" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "bed"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "cama"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "cama"
+          }
+        }
+      }
+    },
+    "DRAWING_BEE" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "bee"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "abeja"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "abeja"
+          }
+        }
+      }
+    },
+    "DRAWING_BEER" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "beer"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "cerveza"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "cerveza"
+          }
+        }
+      }
+    },
+    "DRAWING_BELL" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "bell"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "campana"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "campana"
+          }
+        }
+      }
+    },
+    "DRAWING_BENCH" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "bench"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "banca"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "banca"
+          }
+        }
+      }
+    },
+    "DRAWING_BICYCLE" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "bicycle"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "bicicleta"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "bicicleta"
+          }
+        }
+      }
+    },
+    "DRAWING_BIRD" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "bird"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "pájaro"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "pájaro"
+          }
+        }
+      }
+    },
+    "DRAWING_BLIMP" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "blimp"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "dirigible"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "dirigible"
+          }
+        }
+      }
+    },
+    "DRAWING_BOAT" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "boat"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "bote"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "bote"
+          }
+        }
+      }
+    },
+    "DRAWING_BOOKSHELF" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "bookshelf"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "librero"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "librero"
+          }
+        }
+      }
+    },
+    "DRAWING_BOTTLE" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "bottle"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "botella"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "botella"
+          }
+        }
+      }
+    },
+    "DRAWING_BOWL" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "bowl"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "plato"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "plato"
+          }
+        }
+      }
+    },
+    "DRAWING_BRIDGE" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "bridge"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "puente"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "puente"
+          }
+        }
+      }
+    },
+    "DRAWING_BULLDOZER" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "bulldozer"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "buldozer"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "buldozer"
+          }
+        }
+      }
+    },
+    "DRAWING_BUS" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "bus"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "bus"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "bus"
+          }
+        }
+      }
+    },
+    "DRAWING_BUTTERFLY" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "butterfly"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "mariposa"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "mariposa"
+          }
+        }
+      }
+    },
+    "DRAWING_CACTUS" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "cactus"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "cáctus"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "cáctus"
+          }
+        }
+      }
+    },
+    "DRAWING_CAKE" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "cake"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "pastel"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "pastel"
+          }
+        }
+      }
+    },
+    "DRAWING_CALCULATOR" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "calculator"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "calculadora"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "calculadora"
+          }
+        }
+      }
+    },
+    "DRAWING_CAMEL" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "camel"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "camello"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "camello"
+          }
+        }
+      }
+    },
+    "DRAWING_CAMERA" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "camera"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "cámara"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "cámara"
+          }
+        }
+      }
+    },
+    "DRAWING_CANDLE" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "candle"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "vela"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "vela"
+          }
+        }
+      }
+    },
+    "DRAWING_CANNON" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "cannon"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "cañón"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "cañón"
+          }
+        }
+      }
+    },
+    "DRAWING_CAR" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "car"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "carro"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "carro"
+          }
+        }
+      }
+    },
+    "DRAWING_CASTLE" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "castle"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "castillo"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "castillo"
+          }
+        }
+      }
+    },
+    "DRAWING_CAT" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "cat"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "gato"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "gato"
+          }
+        }
+      }
+    },
+    "DRAWING_CHAIR" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "chair"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "silla"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "silla"
+          }
+        }
+      }
+    },
+    "DRAWING_CHRISTMAS" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "christmas"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "navidad"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "navidad"
+          }
+        }
+      }
+    },
+    "DRAWING_CHURCH" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "church"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "iglesia"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "iglesia"
+          }
+        }
+      }
+    },
+    "DRAWING_CIGARETTE" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "cigarette"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "cigarrillo"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "cigarro"
+          }
+        }
+      }
+    },
+    "DRAWING_CLOCK" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "clock"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "reloj"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "reloj"
+          }
+        }
+      }
+    },
+    "DRAWING_CLOUD" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "cloud"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "nube"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "nube"
+          }
+        }
+      }
+    },
+    "DRAWING_COW" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "cow"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "vaca"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "vaca"
+          }
+        }
+      }
+    },
+    "DRAWING_CRAB" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "crab"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "cangrejo"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "cangrejo"
+          }
+        }
+      }
+    },
+    "DRAWING_CRANE_MACHINE" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "crane"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "grúa"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "grúa"
+          }
+        }
+      }
+    },
+    "DRAWING_CROCODILE" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "crocodile"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "cocodrilo"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "cocodrilo"
+          }
+        }
+      }
+    },
+    "DRAWING_CROWN" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "crown"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "corona"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "corona"
+          }
+        }
+      }
+    },
+    "DRAWING_CUP" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "cup"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "vaso"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "vaso"
+          }
+        }
+      }
+    },
+    "DRAWING_DOG" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "dog"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "perro"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "perro"
+          }
+        }
+      }
+    },
+    "DRAWING_DOLPHIN" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "dolphin"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "delfín"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "delfín"
+          }
+        }
+      }
+    },
+    "DRAWING_DRAGON" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "dragon"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "dragón"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "dragón"
+          }
+        }
+      }
+    },
+    "DRAWING_DUCK" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "duck"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "pato"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "pato"
+          }
+        }
+      }
+    },
+    "DRAWING_ELEPHANT" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "elephant"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "elefante"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "elefante"
+          }
+        }
+      }
+    },
+    "DRAWING_ENVELOPE" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "enevelope"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "sobre"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "sobre"
+          }
+        }
+      }
+    },
+    "DRAWING_EYE" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "eye"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ojo"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ojo"
+          }
+        }
+      }
+    },
+    "DRAWING_EYEGLASSES" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "eyeglasses"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "gafas"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "anteojos"
+          }
+        }
+      }
+    },
+    "DRAWING_FACE" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "face"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "cara"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "cara"
+          }
+        }
+      }
+    },
+    "DRAWING_FAN" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "fan"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ventilador"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ventilador"
+          }
+        }
+      }
+    },
+    "DRAWING_FISH" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "fish"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "pez"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "pez"
+          }
+        }
+      }
+    },
+    "DRAWING_FLASHLIGHT" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "flashlight"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "linterna"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "linterna"
+          }
+        }
+      }
+    },
+    "DRAWING_FLOWER" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "flower"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "flor"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "flor"
+          }
+        }
+      }
+    },
+    "DRAWING_FOOT" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "foot"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "pie"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "pie"
+          }
+        }
+      }
+    },
+    "DRAWING_FROG" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "frog"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "rana"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "rana"
+          }
+        }
+      }
+    },
+    "DRAWING_GIRAFFE" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "giraffe"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "jirafa"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "jirafa"
+          }
+        }
+      }
+    },
+    "DRAWING_GUITAR" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "guitar"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "guitarra"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "guitarra"
+          }
+        }
+      }
+    },
+    "DRAWING_HAMMER" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "hammer"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "martillo"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "martillo"
+          }
+        }
+      }
+    },
+    "DRAWING_HAND" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "hand"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "mano"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "mano"
+          }
+        }
+      }
+    },
+    "DRAWING_HAT" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "hat"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "sombrero"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "sombrero"
+          }
+        }
+      }
+    },
+    "DRAWING_HEAD" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "head"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "cabeza"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "cabeza"
+          }
+        }
+      }
+    },
+    "DRAWING_HEDGEHOG" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "hedgehog"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "erizo"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "erizo"
+          }
+        }
+      }
+    },
+    "DRAWING_HELICOPTER" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "helicopter"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "helicóptero"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "helicóptero"
+          }
+        }
+      }
+    },
+    "DRAWING_HORSE" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "horse"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "caballo"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "caballo"
+          }
+        }
+      }
+    },
+    "DRAWING_HOTDOG" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "hotdog"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "hotdog"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "hotdog"
+          }
+        }
+      }
+    },
+    "DRAWING_HOURGLASS" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "hourglass"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "reloj"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "reloj"
+          }
+        }
+      }
+    },
+    "DRAWING_HOUSE" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "house"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "casa"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "casa"
+          }
+        }
+      }
+    },
+    "DRAWING_HYDRANT" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "hydrant"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "hidrante"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "hidrante"
+          }
+        }
+      }
+    },
+    "DRAWING_ICECREAM" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ice cream"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "helado"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "helado"
+          }
+        }
+      }
+    },
+    "DRAWING_IPOD" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "iPod"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "iPod"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "iPod"
+          }
+        }
+      }
+    },
+    "DRAWING_KANGAROO" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "kangaroo"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "canguro"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "canguro"
+          }
+        }
+      }
+    },
+    "DRAWING_KEY" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "key"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "llave"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "llave"
+          }
+        }
+      }
+    },
+    "DRAWING_KEYBOARD" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "keyboard"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "teclado"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "teclado"
+          }
+        }
+      }
+    },
+    "DRAWING_KNIFE" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "knife"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "cuchillo"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "cuchillo"
+          }
+        }
+      }
+    },
+    "DRAWING_LADDER" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ladder"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "escalera"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "escalera"
+          }
+        }
+      }
+    },
+    "DRAWING_LAMP" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "lamp"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "lámpara"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "lámpara"
+          }
+        }
+      }
+    },
+    "DRAWING_LAPTOP" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "laptop"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "laptop"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "laptop"
+          }
+        }
+      }
+    },
+    "DRAWING_LEAF" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "leaf"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "hoja"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "hoja"
+          }
+        }
+      }
+    },
+    "DRAWING_LIGHTBULB" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "lightbulb"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "foco"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "foco"
+          }
+        }
+      }
+    },
+    "DRAWING_LION" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "lion"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "león"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "león"
+          }
+        }
+      }
+    },
+    "DRAWING_LOBSTER" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "lobster"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "langosta"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "langosta"
+          }
+        }
+      }
+    },
+    "DRAWING_MAILBOX" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "mailbox"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "buzón"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "buzón"
+          }
+        }
+      }
+    },
+    "DRAWING_MEGAPHONE" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "megaphone"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "megáfono"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "megáfono"
+          }
+        }
+      }
+    },
+    "DRAWING_MERMAID" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "mermaid"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "sirena"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "sirena"
+          }
+        }
+      }
+    },
+    "DRAWING_MICROPHONE" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "microphone"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "micrófono"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "micrófono"
+          }
+        }
+      }
+    },
+    "DRAWING_MICROSCOPE" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "microscope"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "microscopio"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "microscopio"
+          }
+        }
+      }
+    },
+    "DRAWING_MONITOR" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "monitor"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "monitor"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "monitor"
+          }
+        }
+      }
+    },
+    "DRAWING_MONKEY" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "monkey"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "mono"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "mono"
+          }
+        }
+      }
+    },
+    "DRAWING_MOON" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "moon"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "luna"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "luna"
+          }
+        }
+      }
+    },
+    "DRAWING_MOSQUITO" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "mosquito"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "mosquito"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "mosquito"
+          }
+        }
+      }
+    },
+    "DRAWING_MOTORBIKE" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "motorbike"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "motocicleta"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "motocicleta"
+          }
+        }
+      }
+    },
+    "DRAWING_MOUSE" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "mouse"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ratón"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ratón"
+          }
+        }
+      }
+    },
+    "DRAWING_MOUTH" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "mouth"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "boca"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "boca"
+          }
+        }
+      }
+    },
+    "DRAWING_MUG" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "mug"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "taza"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "taza"
+          }
+        }
+      }
+    },
+    "DRAWING_MUSHROOM" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "mushroom"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "hongo"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "hongo"
+          }
+        }
+      }
+    },
+    "DRAWING_NOSE" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "nose"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "nariz"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "nariz"
+          }
+        }
+      }
+    },
+    "DRAWING_OCTOPUS" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "octopus"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "pulpo"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "pulpo"
+          }
+        }
+      }
+    },
+    "DRAWING_OWL" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "owl"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "búho"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "búho"
+          }
+        }
+      }
+    },
+    "DRAWING_PALM" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "palm"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "palma"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "palma"
+          }
+        }
+      }
+    },
+    "DRAWING_PANDA" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "panda"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "panda"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "panda"
+          }
+        }
+      }
+    },
+    "DRAWING_PAPERCLIP" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "paperclip"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "clip"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "clip"
+          }
+        }
+      }
+    },
+    "DRAWING_PARACHUTE" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "parachute"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "paracaídas"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "paracaídas"
+          }
+        }
+      }
+    },
+    "DRAWING_PARKING" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "parking"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "estacionamiento"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "estacionamiento"
+          }
+        }
+      }
+    },
+    "DRAWING_PARROT" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "parrot"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "perico"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "perico"
+          }
+        }
+      }
+    },
+    "DRAWING_PEAR" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "pear"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "pera"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "pera"
+          }
+        }
+      }
+    },
+    "DRAWING_PEN" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "pen"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "bolígrafo"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "pluma"
+          }
+        }
+      }
+    },
+    "DRAWING_PENGUIN" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "penguin"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "pingüino"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "pingüino"
+          }
+        }
+      }
+    },
+    "DRAWING_PHONE" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "phone"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "teléfono"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "teléfono"
+          }
+        }
+      }
+    },
+    "DRAWING_PIANO" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "piano"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "piano"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "piano"
+          }
+        }
+      }
+    },
+    "DRAWING_PIG" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "pig"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "cerdo"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "cerdo"
+          }
+        }
+      }
+    },
+    "DRAWING_PIGEON" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "pigeon"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "paloma"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "paloma"
+          }
+        }
+      }
+    },
+    "DRAWING_PIPE" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "pipe"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "pipa"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "pipa"
+          }
+        }
+      }
+    },
+    "DRAWING_PIZZA" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "pizza"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "pizza"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "pizza"
+          }
+        }
+      }
+    },
+    "DRAWING_PLANT" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "plant"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "planta"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "planta"
+          }
+        }
+      }
+    },
+    "DRAWING_POWER_OUTLET" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "power outlet"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "enchufe"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "enchufe"
+          }
+        }
+      }
+    },
+    "DRAWING_PRESENT" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "present"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "presente"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "presente"
+          }
+        }
+      }
+    },
+    "DRAWING_PUMPKIN" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "pumpkin"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "calabaza"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "calabaza"
+          }
+        }
+      }
+    },
+    "DRAWING_RABBIT" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "rabbit"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "conejo"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "conejo"
+          }
+        }
+      }
+    },
+    "DRAWING_RACING" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "racing"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "carreras"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "carreras"
+          }
+        }
+      }
+    },
+    "DRAWING_RADIO" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "radio"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "radio"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "radio"
+          }
+        }
+      }
+    },
+    "DRAWING_RAINBOW" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "rainbow"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "arcoíris"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "arcoíris"
+          }
+        }
+      }
+    },
+    "DRAWING_REVOLVER" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "revolver"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "revólver"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "revólver"
+          }
+        }
+      }
+    },
+    "DRAWING_RIFLE" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "rifle"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "rifle"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "rifle"
+          }
+        }
+      }
+    },
+    "DRAWING_ROLLERBLADES" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "rollerblades"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "patines"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "patines"
+          }
+        }
+      }
+    },
+    "DRAWING_ROOSTER" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "rooster"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "perico"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "gallo"
+          }
+        }
+      }
+    },
+    "DRAWING_SAILBOAT" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "sailboat"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "velero"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "velero"
+          }
+        }
+      }
+    },
+    "DRAWING_SATELLITE" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "satellite"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "satélite"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "satélite"
+          }
+        }
+      }
+    },
+    "DRAWING_SAUCER" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "saucer"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "platillo"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "platillo"
+          }
+        }
+      }
+    },
+    "DRAWING_SAXOPHONE" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "saxophone"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "saxofón"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "saxofón"
+          }
+        }
+      }
+    },
+    "DRAWING_SCISSORS" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "scissors"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "tijeras"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "tijeras"
+          }
+        }
+      }
+    },
+    "DRAWING_SCREWDRIVER" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "screwdriver"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "desatornillador"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "desarmador"
+          }
+        }
+      }
+    },
+    "DRAWING_SEAGULL" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "seagull"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "gaviota"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "gaviota"
+          }
+        }
+      }
+    },
+    "DRAWING_SHARK" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "shark"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "tiburón"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "tiburón"
+          }
+        }
+      }
+    },
+    "DRAWING_SHEEP" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "sheep"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "oveja"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "borrego"
+          }
+        }
+      }
+    },
+    "DRAWING_SHIP" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ship"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "barco"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "barco"
+          }
+        }
+      }
+    },
+    "DRAWING_SHIRT" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "shirt"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "camisa"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "playera"
+          }
+        }
+      }
+    },
+    "DRAWING_SHOE" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "shoe"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "zapato"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "zapato"
+          }
+        }
+      }
+    },
+    "DRAWING_SHOVEL" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "shovel"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "pala"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "pala"
+          }
+        }
+      }
+    },
+    "DRAWING_SIT" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "sit"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "sentarse"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "sentarse"
+          }
+        }
+      }
+    },
+    "DRAWING_SKELETON" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "skeleton"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "esqueleto"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "esqueleto"
+          }
+        }
+      }
+    },
+    "DRAWING_SKULL" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "skull"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "cráneo"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "cráneo"
+          }
+        }
+      }
+    },
+    "DRAWING_SKYSCRAPER" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "skyscrapper"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "rascacielos"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "rascacielos"
+          }
+        }
+      }
+    },
+    "DRAWING_SNAIL" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "snail"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "caracol"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "caracol"
+          }
+        }
+      }
+    },
+    "DRAWING_SNAKE" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "snake"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "serpiente"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "serpiente"
+          }
+        }
+      }
+    },
+    "DRAWING_SNOWMAN" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "snowman"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "nieve"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "nieve"
+          }
+        }
+      }
+    },
+    "DRAWING_SPACE_SHUTTLE" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "space shuttle"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "cohete"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "cohete"
+          }
+        }
+      }
+    },
+    "DRAWING_SPEAKER" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "speaker"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "bocina"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "bocina"
+          }
+        }
+      }
+    },
+    "DRAWING_SPIDER" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "spider"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "araña"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "araña"
+          }
+        }
+      }
+    },
+    "DRAWING_SQUIRREL" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "squirrel"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ardilla"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ardilla"
+          }
+        }
+      }
+    },
+    "DRAWING_STRAWBERRY" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "strawberry"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "fresa"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "fresa"
+          }
+        }
+      }
+    },
+    "DRAWING_STREETLIGHT" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "streetlight"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "poste"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "poste"
+          }
+        }
+      }
+    },
+    "DRAWING_SUBMARINE" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "submarine"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "submarino"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "submarino"
+          }
+        }
+      }
+    },
+    "DRAWING_SUITCASE" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "suitcase"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "maletín"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "maleta"
+          }
+        }
+      }
+    },
+    "DRAWING_SUN" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "sun"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "sol"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "sol"
+          }
+        }
+      }
+    },
+    "DRAWING_SUV" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "suv"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "suv"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "suv"
+          }
+        }
+      }
+    },
+    "DRAWING_SWAN" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "swan"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "cisne"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "cisne"
+          }
+        }
+      }
+    },
+    "DRAWING_SWORD" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "sword"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "espada"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "espada"
+          }
+        }
+      }
+    },
+    "DRAWING_SYRINGE" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "syringe"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "jeringa"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "jeringa"
+          }
+        }
+      }
+    },
+    "DRAWING_TABLE" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "table"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "mesa"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "mesa"
+          }
+        }
+      }
+    },
+    "DRAWING_TEACUP" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "tea"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "té"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "té"
+          }
+        }
+      }
+    },
+    "DRAWING_TEAPOT" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "teapot"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "tetera"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "tetera"
+          }
+        }
+      }
+    },
+    "DRAWING_TEDDY" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "teddy"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "peluche"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "peluche"
+          }
+        }
+      }
+    },
+    "DRAWING_TELEPHONE" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "telephone"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "teléfono"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "teléfono"
+          }
+        }
+      }
+    },
+    "DRAWING_TENNIS" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "tennis"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "tennis"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "tennis"
+          }
+        }
+      }
+    },
+    "DRAWING_TENT" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "tent"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "acampar"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "acampar"
+          }
+        }
+      }
+    },
+    "DRAWING_TIGER" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "tiger"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "tigre"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "tigre"
+          }
+        }
+      }
+    },
+    "DRAWING_TOMATO" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "tomato"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "tomate"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "tomate"
+          }
+        }
+      }
+    },
+    "DRAWING_TRACTOR" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "tractor"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "tractor"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "tractor"
+          }
+        }
+      }
+    },
+    "DRAWING_TRAFFIC_LIGHT" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "traffic light"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "semáforo"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "semáforo"
+          }
+        }
+      }
+    },
+    "DRAWING_TRAIN" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "train"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "tren"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "tren"
+          }
+        }
+      }
+    },
+    "DRAWING_TREE" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "tree"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "árbol"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "árbol"
+          }
+        }
+      }
+    },
+    "DRAWING_TROUSERS" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "trousers"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "pantalones"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "pantalones"
+          }
+        }
+      }
+    },
+    "DRAWING_TRUCK" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "truck"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "camión"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "camión"
+          }
+        }
+      }
+    },
+    "DRAWING_TRUMPET" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "trumpet"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "trompeta"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "trompeta"
+          }
+        }
+      }
+    },
+    "DRAWING_TURTLE" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "turtle"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "tortuga"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "tortuga"
+          }
+        }
+      }
+    },
+    "DRAWING_TV" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "tv"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "televisión"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "televisión"
+          }
+        }
+      }
+    },
+    "DRAWING_UMBRELLA" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "umbrella"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "sombrilla"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "sombrilla"
+          }
+        }
+      }
+    },
+    "DRAWING_VAN" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "van"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "camioneta"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "camioneta"
+          }
+        }
+      }
+    },
+    "DRAWING_VASE" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "vase"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "florero"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "florero"
+          }
+        }
+      }
+    },
+    "DRAWING_VIOLIN" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "violin"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "violín"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "violin"
+          }
+        }
+      }
+    },
+    "DRAWING_WALK" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "walk"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "walk"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "caminar"
+          }
+        }
+      }
+    },
+    "DRAWING_WATCH" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "watch"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "reloj"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "reloj"
+          }
+        }
+      }
+    },
+    "DRAWING_WHEEL" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "wheel"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "rueda"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "rueda"
+          }
+        }
+      }
+    },
+    "DRAWING_WINDMILL" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "windmill"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "molino"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "molino"
+          }
+        }
+      }
+    },
+    "DRAWING_WINEGLASS" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "wineglass"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "copa"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "copa"
+          }
+        }
+      }
+    },
+    "DRAWING_ZEBRA" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "zebra"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "cebra"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "cebra"
+          }
+        }
+      }
+    },
     "Edit..." : {
       "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Editar..."
+          }
+        },
         "es-419" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1970,6 +7395,12 @@
     },
     "Images fetched from Unsplash API (https://unsplash.com)" : {
       "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Imágenes obtenidas de Unsplash API (https://unsplash.com)"
+          }
+        },
         "es-419" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1980,6 +7411,12 @@
     },
     "Joshua Newnham CNN Sketch Classifier (https://github.com/wikibook/coreml) for sketch classification" : {
       "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Joshua Newnham CNN Sketch Classifier (https://github.com/wikibook/coreml) para clasificación de bosquejos"
+          }
+        },
         "es-419" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1991,6 +7428,12 @@
     "Key" : {
       "extractionState" : "manual",
       "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Llave"
+          }
+        },
         "es-419" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2001,6 +7444,12 @@
     },
     "Keyboard Type" : {
       "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tipo de Teclado"
+          }
+        },
         "es-419" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2009,8 +7458,30 @@
         }
       }
     },
+    "More translations coming soon. Reach out to suggest new languages" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Más traducciones pronto. Contáctame para sugerir nuevos idiomas"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Más traducciones pronto. Contáctame para sugerir nuevos idiomas"
+          }
+        }
+      }
+    },
     "New node" : {
       "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nuevo nodo"
+          }
+        },
         "es-419" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2021,6 +7492,12 @@
     },
     "New..." : {
       "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nuevo..."
+          }
+        },
         "es-419" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2031,6 +7508,12 @@
     },
     "OK" : {
       "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
+          }
+        },
         "es-419" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2041,16 +7524,34 @@
     },
     "Open Settings" : {
       "localizations" : {
-        "es-419" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Abrir Ajustes"
+            "value" : "Open Settings..."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Abrir Ajustes..."
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Abrir Ajustes..."
           }
         }
       }
     },
     "Pinned" : {
       "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fijado"
+          }
+        },
         "es-419" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2061,6 +7562,12 @@
     },
     "Settings" : {
       "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajustes"
+          }
+        },
         "es-419" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2069,12 +7576,34 @@
         }
       }
     },
-    "v.2" : {
+    "Translations" : {
       "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Traducciones"
+          }
+        },
         "es-419" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "v.2"
+            "value" : "Traducciones"
+          }
+        }
+      }
+    },
+    "Version 2.0" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Versión 2.0"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Versión 2.0"
           }
         }
       }
