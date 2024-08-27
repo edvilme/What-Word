@@ -11,6 +11,15 @@
         }
       }
     },
+    "Add contact..." : {
+
+    },
+    "Add word..." : {
+
+    },
+    "Add..." : {
+
+    },
     "Aknowledgments" : {
       "localizations" : {
         "es" : {
@@ -2753,6 +2762,7 @@
       }
     },
     "Delete App Data" : {
+      "extractionState" : "stale",
       "localizations" : {
         "es" : {
           "stringUnit" : {
@@ -7491,6 +7501,7 @@
       }
     },
     "New..." : {
+      "extractionState" : "stale",
       "localizations" : {
         "es" : {
           "stringUnit" : {
@@ -7559,6 +7570,9 @@
           }
         }
       }
+    },
+    "Restore App Data" : {
+
     },
     "Settings" : {
       "localizations" : {

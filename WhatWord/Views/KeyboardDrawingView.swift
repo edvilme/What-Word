@@ -12,6 +12,8 @@ import CoreML
 import Vision
 import UIKit
 
+let TRAINED_IMAGE_SIZE = CGSize(width: 256, height: 256)
+
 struct DrawingView: UIViewRepresentable {
     @Binding var canvas: PKCanvasView
     var onCanvasViewDrawingDidChange: (PKCanvasView) -> Void
@@ -43,22 +45,25 @@ struct KeyboardDrawingView: View {
     var onWordDelete: () -> Void
     
     @State var canvas: PKCanvasView = PKCanvasView()
-    @State var currentWord = ""
+    @State private var currentWwNode: WWNode = WWNode(externalId: "")
     @State private var generatedImage: UIImage?
     
     @Environment(\.colorScheme) var colorScheme
 
     func predictInput(canvasView: PKCanvasView) -> Void {
-        var image = self.canvas.drawing.image(from: canvasView.drawing.bounds, scale: 10.0)
-        if (colorScheme == .dark){
-            image = image.invert()
-        }
-        let trainedImageSize = CGSize(width: 256, height: 256)
-        if let resizedImage = image.fit(in: trainedImageSize, background: .white), let pixelBuffer = resizedImage.toCVPixelBuffer() {
-            guard let result = try? cnnsketchclassifier().prediction(image: pixelBuffer) else {
-                return currentWord = ""
+        if self.canvas.drawing.strokes.isEmpty {
+            currentWwNode = WWNode(externalId: "")
+        } else {
+            var image = self.canvas.drawing.image(from: canvasView.drawing.bounds, scale: 10.0)
+            if (colorScheme == .dark){
+                image = image.invert()
             }
-            currentWord = translateDrawingClassificationLabel(label: result.classLabel)
+            if let resizedImage = image.fit(in: TRAINED_IMAGE_SIZE, background: .white), let pixelBuffer = resizedImage.toCVPixelBuffer() {
+                guard let result = try? cnnsketchclassifier().prediction(image: pixelBuffer) else {
+                    return currentWwNode = WWNode(externalId: "")
+                }
+                currentWwNode = WWNode(externalId: "ww.node.word.\(translateDrawingClassificationLabel(label: result.classLabel))")
+            }
         }
     }
     var body: some View {
@@ -66,7 +71,7 @@ struct KeyboardDrawingView: View {
             KeyboardWordContainerView(
                 onWordSubmit: { word in
                     onWordSubmit(word)
-                    currentWord = ""
+                    currentWwNode = WWNode(externalId: "")
                     canvas.drawing = PKDrawing()
                 },
                 onWordDelete: {
@@ -77,7 +82,7 @@ struct KeyboardDrawingView: View {
                     }
                 },
                 deleteKeyIcon: $canvas.drawing.strokes.isEmpty ? "delete.backward.fill" : "eraser.fill",
-                currentWord: $currentWord
+                currentWwNode: $currentWwNode
             )
             if (generatedImage != nil) {
                 Image(uiImage: generatedImage!)

@@ -11,7 +11,7 @@ struct KeyboardWordContainerView: View {
     var onWordSubmit: (String) -> Void
     var onWordDelete: () -> Void
     var deleteKeyIcon: String = "delete.backward.fill"
-    @Binding var currentWord: String
+    @Binding var currentWwNode: WWNode
     var body: some View {
         HStack {
             Button("", systemImage: deleteKeyIcon, action: {
@@ -21,13 +21,23 @@ struct KeyboardWordContainerView: View {
                 .tint(.red)
                 .labelStyle(.iconOnly)
                 .controlSize(.regular)
-            Button(currentWord, action: {})
-                .frame(maxWidth: .infinity)
+            Text(self.currentWwNode.name)
                 .fontWeight(.black)
                 .fontDesign(.rounded)
+                .padding(.horizontal)
+            Spacer()
+            if (currentWwNode.type != .empty && currentWwNode.type != .root) {
+                Button("", systemImage: "speaker.wave.3.fill", action: {
+                    currentWwNode.speak()
+                })
+                    .buttonStyle(.plain)
+                    .labelStyle(.iconOnly)
+                    .controlSize(.regular)
+                    .padding(.horizontal)
+            }
             Button("", systemImage: "return", action: {
-                if (currentWord != "") {
-                    onWordSubmit(currentWord)
+                if (self.currentWwNode.name != "") {
+                    onWordSubmit(self.currentWwNode.name)
                 }
             })
                 .buttonStyle(.borderedProminent)

@@ -38,7 +38,7 @@ struct ContentView: View {
                     wwGeneratedText += " \(word)"
                 },
                 onWordDelete: {
-                    wwGeneratedText = wwGeneratedText.replacing(/\w+\s*$/, with: "") 
+                    wwGeneratedText = wwGeneratedText.replacing(/\S+\s*$/, with: "") 
                 }
             )
         }

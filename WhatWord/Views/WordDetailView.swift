@@ -6,22 +6,38 @@
 //
 
 import SwiftUI
+import ContactsUI
 
 struct WordDetailView: View {
     @ObservedObject var currentNode: WWNode
     
-    @State private var newNodeAlertShowing: Bool = false
-    @State private var newNodeAlertName: String = ""
+    @State private var newWordNodeShowing: Bool = false
+    @State private var newWordNodeAlertName: String = ""
+    
+    @State private var newContactNodeShowing: Bool = false
     
     var body: some View {
         NavigationView {
             Form{
                 Section("Pinned") {
-                    Button("New...", systemImage: "plus", action: {
-                        newNodeAlertShowing.toggle()
-                    })
+                    Menu("Add...", systemImage: "plus") {
+                        Button("Add word...", systemImage: "note.text.badge.plus", action: {
+                            newWordNodeShowing.toggle()
+                        })
+                        Button("Add contact...", systemImage: "person.crop.circle.badge.plus", action: {
+                            newContactNodeShowing.toggle()
+                        })
+                    }
                     ForEach(currentNode.pinnedNodeIds, id: \.self){ externalId in
-                        Text(WWNode(externalId: externalId).name)
+                        let node = WWNode(externalId: externalId)
+                        HStack {
+                            if (node.type == .contact) {
+                                Image(systemName: "person.crop.circle")
+                            } else {
+                                Image(systemName: "pin.fill")
+                            }
+                            Text(node.name)
+                        }
                     }
                     .onDelete(perform: { indexSet in
                         currentNode.pinnedNodeIds.remove(atOffsets: indexSet)
@@ -31,10 +47,20 @@ struct WordDetailView: View {
             .navigationBarItems(leading: Button("Done", action: {
             }))
             .navigationBarTitle(currentNode.name, displayMode: .large)
-            .alert("New node", isPresented: $newNodeAlertShowing) {
-                TextField("", text: $newNodeAlertName)
+            
+            .alert("New node", isPresented: $newWordNodeShowing) {
+                TextField("", text: $newWordNodeAlertName)
                 Button("OK", action: {
-                    currentNode.pinnedNodeIds.append("ww.node.word.\(newNodeAlertName.lowercased())")
+                    currentNode.pinnedNodeIds.append("ww.node.word.\(newWordNodeAlertName.lowercased())")
+                })
+                Button("Cancel", action: {
+                    newWordNodeShowing.toggle()
+                })
+            }
+            
+            .sheet(isPresented: $newContactNodeShowing) {
+                ContactPicker(isPresented: $newContactNodeShowing, onSelect: { contact in
+                    currentNode.pinnedNodeIds.append("ww.node.contact.\(contact.identifier)")
                 })
             }
         }

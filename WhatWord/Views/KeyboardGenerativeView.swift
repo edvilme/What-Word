@@ -21,7 +21,7 @@ struct KeyboardGenerativeView: View {
         set: {_ in }
     )}
     
-    func generateWordKeysFromExternalIds(externalIds: [String]) -> ForEach<[String], String, some View>{
+    func generateKeysFromExternalIds(externalIds: [String]) -> ForEach<[String], String, some View>{
         return ForEach(externalIds, id: \.self) { externalId in
             let node = WWNode(externalId: externalId)
             Button(node.name, action: {
@@ -49,30 +49,29 @@ struct KeyboardGenerativeView: View {
                     }
                 },
                 deleteKeyIcon: currentWWNode.wrappedValue.externalId == KeyboardGenerativeView.rootNodeExternalId ? "delete.backward.fill" : "chevron.backward", 
-                currentWord: currentWWNode.name
+                currentWwNode: currentWWNode
             )
             ScrollView(content: {
-                Section {
-                    
-                }
-                // Pinned words
-                Section {
-                    HFlow(horizontalAlignment: .center, verticalAlignment: .top) {
-                        Button("Edit...", systemImage: "pencil", action: {
-                            showingWordDetail.toggle()
-                        })
-                        .buttonStyle(.bordered)
-                        self.generateWordKeysFromExternalIds(externalIds: currentWWNode.pinnedNodeIds.wrappedValue)
+                if (currentWWNode.wrappedValue.type != .data){
+                    // Pinned words
+                    Section {
+                        HFlow(horizontalAlignment: .center, verticalAlignment: .top) {
+                            Button("Edit...", systemImage: "pencil", action: {
+                                showingWordDetail.toggle()
+                            })
+                            .buttonStyle(.bordered)
+                            self.generateKeysFromExternalIds(externalIds: currentWWNode.pinnedNodeIds.wrappedValue)
+                        }
+                        .padding(.bottom)
                     }
-                    .padding(.bottom)
-                }
-                Divider()
-                // Related words
-                Section {
-                    HFlow(horizontalAlignment: .center, verticalAlignment: .top) {
-                        self.generateWordKeysFromExternalIds(externalIds: currentWWNode.wrappedValue.getRelatedNodeExternalIds())
+                    Divider()
+                    // Related words
+                    Section {
+                        HFlow(horizontalAlignment: .center, verticalAlignment: .top) {
+                            self.generateKeysFromExternalIds(externalIds: currentWWNode.wrappedValue.getRelatedNodeExternalIds())
+                        }
+                        .padding(.bottom)
                     }
-                    .padding(.bottom)
                 }
             })
                 .frame(maxWidth: .infinity)
