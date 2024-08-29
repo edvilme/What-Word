@@ -10,13 +10,13 @@ import NaturalLanguage
 import Combine
 import AVFoundation
 import Contacts
+import ContactsUI
 
 enum WWNodeType {
     case root
     case empty
     case word
     case contact
-    case data
 }
 
 class WWNode: ObservableObject {
@@ -30,13 +30,11 @@ class WWNode: ObservableObject {
     // Computed property to access pinnedNodeIds
     var pinnedNodeIds: [String] {
         get {
-            return _pinnedNodeIds
+            return _pinnedNodeIds.sorted()
         }
         set {
-            if (self.type != .data) {
-                _pinnedNodeIds = Array(Set(newValue))  // Ensure uniqueness
-                UserDefaults.standard.set(_pinnedNodeIds, forKey: externalId)
-            }
+            _pinnedNodeIds = Array(Set(newValue))  // Ensure uniqueness
+            UserDefaults.standard.set(_pinnedNodeIds, forKey: externalId)
         }
     }
     
@@ -48,8 +46,6 @@ class WWNode: ObservableObject {
             self.externalId = externalId
             _pinnedNodeIds = UserDefaults.standard.array(forKey: externalId) as? [String] ?? []
             switch regexMatches.1 {
-                case "data":
-                    self.type = .data
                 case "contact":
                     self.type = .contact
                 case "root":
@@ -64,16 +60,13 @@ class WWNode: ObservableObject {
                     if (permissionGranted) {
                         self.contact = try? contactStore.unifiedContact(withIdentifier: String(regexMatches.2), keysToFetch: [
                             CNContactFormatter.descriptorForRequiredKeys(for: .fullName),
-                            CNContactPhoneNumbersKey as CNKeyDescriptor,
-                            CNContactEmailAddressesKey as CNKeyDescriptor,
+                            CNContactViewController.descriptorForRequiredKeys(),
                         ])
                     }
                 })
             }
             // Name
             switch self.type {
-            case .data:
-                self.name = String(regexMatches.2)
             case .word:
                 self.name = String(regexMatches.2)
             case .contact:
@@ -98,20 +91,11 @@ class WWNode: ObservableObject {
                 return true
             }
         }
-        // Contact
-        if (type == .contact && self.contact != nil) {
-            for phoneNumber in self.contact!.phoneNumbers {
-                relatedNodeExternalIds.append("ww.node.data.\( phoneNumber.value.stringValue )")
-            }
-            for email in self.contact!.emailAddresses {
-                relatedNodeExternalIds.append("ww.node.data.\( email.value )")
-            }
-        }
         return relatedNodeExternalIds
     }
     
     func speak() -> Void {
-        let utterance = AVSpeechUtterance(string: self.name)
+        var utterance = AVSpeechUtterance(string: self.name)
         utterance.voice = AVSpeechSynthesisVoice(language: NSLocale.current.language.languageCode?.identifier)
         AVSpeechSynthesizer().speak(utterance)
     }

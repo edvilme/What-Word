@@ -3,6 +3,12 @@
   "strings" : {
     "" : {
       "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : ""
+          }
+        },
         "es-419" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12,13 +18,52 @@
       }
     },
     "Add contact..." : {
-
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Agregar contacto…"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Agregar contacto…"
+          }
+        }
+      }
     },
     "Add word..." : {
-
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Agregar palabra…"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Agregar palabra…"
+          }
+        }
+      }
     },
     "Add..." : {
-
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Agregar…"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Agregar…"
+          }
+        }
+      }
     },
     "Aknowledgments" : {
       "localizations" : {
@@ -96,6 +141,22 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cancelar"
+          }
+        }
+      }
+    },
+    "Contact info…" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Información de contacto…"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Información de contacto…"
           }
         }
       }
@@ -7387,18 +7448,18 @@
         }
       }
     },
-    "Edit..." : {
+    "Edit…" : {
       "localizations" : {
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Editar..."
+            "value" : "Editar…"
           }
         },
         "es-419" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Editar..."
+            "value" : "Editar…"
           }
         }
       }
@@ -7500,23 +7561,6 @@
         }
       }
     },
-    "New..." : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Nuevo..."
-          }
-        },
-        "es-419" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Nuevo..."
-          }
-        }
-      }
-    },
     "OK" : {
       "localizations" : {
         "es" : {
@@ -7543,13 +7587,13 @@
         },
         "es" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "translated",
             "value" : "Abrir Ajustes..."
           }
         },
         "es-419" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "translated",
             "value" : "Abrir Ajustes..."
           }
         }
@@ -7572,7 +7616,20 @@
       }
     },
     "Restore App Data" : {
-
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Restaurar datos de aplicación"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Restaurar datos de aplicación"
+          }
+        }
+      }
     },
     "Settings" : {
       "localizations" : {

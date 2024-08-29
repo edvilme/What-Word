@@ -13,6 +13,7 @@
 		9D1FFC2E2C7C5EFA005870E2 /* DefaultPins.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1FFC2D2C7C5EFA005870E2 /* DefaultPins.swift */; };
 		9D1FFC302C7C5F0D005870E2 /* DrawingClassificationLabels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1FFC2F2C7C5F0D005870E2 /* DrawingClassificationLabels.swift */; };
 		9D1FFC322C7DC677005870E2 /* ContactPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1FFC312C7DC677005870E2 /* ContactPickerView.swift */; };
+		9D1FFC342C7E9760005870E2 /* ContactDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1FFC332C7E9760005870E2 /* ContactDetailView.swift */; };
 		9D3A3BE82B0F282800341559 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3A3BE72B0F282800341559 /* SettingsView.swift */; };
 		9D69F57A2C7989700011C741 /* KeyboardDrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D69F5792C7989700011C741 /* KeyboardDrawingView.swift */; };
 		9D6A135B2B0AF6A8000C7E98 /* WhatWordApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6A135A2B0AF6A8000C7E98 /* WhatWordApp.swift */; };
@@ -55,6 +56,7 @@
 		9D1FFC2D2C7C5EFA005870E2 /* DefaultPins.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultPins.swift; sourceTree = "<group>"; };
 		9D1FFC2F2C7C5F0D005870E2 /* DrawingClassificationLabels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingClassificationLabels.swift; sourceTree = "<group>"; };
 		9D1FFC312C7DC677005870E2 /* ContactPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactPickerView.swift; sourceTree = "<group>"; };
+		9D1FFC332C7E9760005870E2 /* ContactDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailView.swift; sourceTree = "<group>"; };
 		9D3A3BE72B0F282800341559 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		9D69F5792C7989700011C741 /* KeyboardDrawingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardDrawingView.swift; sourceTree = "<group>"; };
 		9D6A13572B0AF6A8000C7E98 /* WhatWord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhatWord.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -184,6 +186,7 @@
 				9DCA06172C75CDF100F12A30 /* KeyboardContainerView.swift */,
 				9DCA061E2C77E1DE00F12A30 /* KeyboardWordContainerView.swift */,
 				9DCA06192C75D75000F12A30 /* KeyboardGenerativeView.swift */,
+				9D1FFC332C7E9760005870E2 /* ContactDetailView.swift */,
 				9DCA06202C784B3E00F12A30 /* WordDetailView.swift */,
 				9D69F5792C7989700011C741 /* KeyboardDrawingView.swift */,
 				9D1FFC312C7DC677005870E2 /* ContactPickerView.swift */,
@@ -350,6 +353,7 @@
 				9D69F57A2C7989700011C741 /* KeyboardDrawingView.swift in Sources */,
 				9D1FFC2E2C7C5EFA005870E2 /* DefaultPins.swift in Sources */,
 				9D1FFC292C7C312D005870E2 /* ImageExtensions.swift in Sources */,
+				9D1FFC342C7E9760005870E2 /* ContactDetailView.swift in Sources */,
 				9D1FFC302C7C5F0D005870E2 /* DrawingClassificationLabels.swift in Sources */,
 				9DCA06212C784B3E00F12A30 /* WordDetailView.swift in Sources */,
 				9D6A135B2B0AF6A8000C7E98 /* WhatWordApp.swift in Sources */,
@@ -507,7 +511,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = WhatWord/WhatWord.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 9;
+				CURRENT_PROJECT_VERSION = 10;
 				DEVELOPMENT_ASSET_PATHS = "\"WhatWord/Preview Content\"";
 				DEVELOPMENT_TEAM = 4HM8MJRNPP;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -552,7 +556,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = WhatWord/WhatWord.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 9;
+				CURRENT_PROJECT_VERSION = 10;
 				DEVELOPMENT_ASSET_PATHS = "\"WhatWord/Preview Content\"";
 				DEVELOPMENT_TEAM = 4HM8MJRNPP;
 				ENABLE_HARDENED_RUNTIME = YES;

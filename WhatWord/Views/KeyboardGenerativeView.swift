@@ -7,6 +7,7 @@
 
 import SwiftUI
 import Flow
+import ContactsUI
 
 struct KeyboardGenerativeView: View {
     static var rootNodeExternalId = "ww.node.root.root"
@@ -15,6 +16,7 @@ struct KeyboardGenerativeView: View {
     
     @State var wwNodeExternalIdsStack: [String] = [KeyboardGenerativeView.rootNodeExternalId]
     @State var showingWordDetail: Bool = false
+    @State var showingContactDetail: Bool = false
     
     var currentWWNode: Binding<WWNode> { Binding(
         get: {WWNode(externalId: self.wwNodeExternalIdsStack.last!)},
@@ -52,32 +54,40 @@ struct KeyboardGenerativeView: View {
                 currentWwNode: currentWWNode
             )
             ScrollView(content: {
-                if (currentWWNode.wrappedValue.type != .data){
-                    // Pinned words
-                    Section {
-                        HFlow(horizontalAlignment: .center, verticalAlignment: .top) {
-                            Button("Edit...", systemImage: "pencil", action: {
-                                showingWordDetail.toggle()
-                            })
-                            .buttonStyle(.bordered)
-                            self.generateKeysFromExternalIds(externalIds: currentWWNode.pinnedNodeIds.wrappedValue)
-                        }
-                        .padding(.bottom)
+                // Pinned words
+                Section {
+                    HFlow(horizontalAlignment: .center, verticalAlignment: .top) {
+                        Button("Edit…", systemImage: "pencil", action: {
+                            showingWordDetail.toggle()
+                        })
+                        .buttonStyle(.bordered)
+                        self.generateKeysFromExternalIds(externalIds: currentWWNode.pinnedNodeIds.wrappedValue)
                     }
-                    Divider()
-                    // Related words
-                    Section {
+                }
+                    .padding(.bottom)
+                Divider()
+                // Related words
+                Section {
+                    if (currentWWNode.type.wrappedValue == .contact && currentWWNode.contact.wrappedValue != nil) {
+                        Button("Contact info…", systemImage: "person.fill", action: {
+                            showingContactDetail.toggle()
+                        })
+                            .buttonStyle(.borderedProminent)
+                    } else {
                         HFlow(horizontalAlignment: .center, verticalAlignment: .top) {
                             self.generateKeysFromExternalIds(externalIds: currentWWNode.wrappedValue.getRelatedNodeExternalIds())
                         }
-                        .padding(.bottom)
                     }
                 }
+
             })
                 .frame(maxWidth: .infinity)
         } 
             .sheet(isPresented: $showingWordDetail, content: {
                 WordDetailView(currentNode: currentWWNode.wrappedValue)
+            })
+            .sheet(isPresented: $showingContactDetail, content: {
+                ContactDetailView(contact: currentWWNode.wrappedValue.contact!)
             })
     }
 }
