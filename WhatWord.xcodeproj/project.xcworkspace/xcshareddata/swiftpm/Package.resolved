@@ -1,6 +1,15 @@
 {
   "pins" : [
     {
+      "identity" : "airkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/heestand-xyz/AirKit",
+      "state" : {
+        "revision" : "abe502035f18cf2aaa1e5d3a8df902418b039328",
+        "version" : "1.2.0"
+      }
+    },
+    {
       "identity" : "swiftui-flow",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/tevelee/SwiftUI-Flow.git",

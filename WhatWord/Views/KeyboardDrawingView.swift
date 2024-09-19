@@ -48,17 +48,22 @@ struct KeyboardDrawingView: View {
     @State private var currentWwNode: WWNode = WWNode(externalId: "")
     @State private var generatedImage: UIImage?
     
+    var isDrawingEmpty: Binding<Bool> { Binding(
+        get: {canvas.drawing.strokes.isEmpty},
+        set: {_ in }
+    )}
+    
     @Environment(\.colorScheme) var colorScheme
 
     func predictInput(canvasView: PKCanvasView) -> Void {
-        if self.canvas.drawing.strokes.isEmpty {
+        if isDrawingEmpty.wrappedValue {
             currentWwNode = WWNode(externalId: "")
         } else {
-            var image = self.canvas.drawing.image(from: canvasView.drawing.bounds, scale: 10.0)
-            if (colorScheme == .dark){
+            var image = canvas.drawing.image(from: canvasView.drawing.bounds, scale: 10.0)
+            if colorScheme == .dark {
                 image = image.invert()
             }
-            if let resizedImage = image.fit(in: TRAINED_IMAGE_SIZE, background: .white), let pixelBuffer = resizedImage.toCVPixelBuffer() {
+            if let resizedImage = image.fit(in: TRAINED_IMAGE_SIZE, background: .white), let pixelBuffer = resizedImage.toCVPixelBuffer(format: kCVPixelFormatType_OneComponent8) {
                 guard let result = try? cnnsketchclassifier().prediction(image: pixelBuffer) else {
                     return currentWwNode = WWNode(externalId: "")
                 }
@@ -75,13 +80,13 @@ struct KeyboardDrawingView: View {
                     canvas.drawing = PKDrawing()
                 },
                 onWordDelete: {
-                    if (canvas.drawing.strokes.isEmpty) {
+                    if canvas.drawing.strokes.isEmpty {
                         onWordDelete()
                     } else {
                         canvas.drawing = PKDrawing()
                     }
                 },
-                deleteKeyIcon: $canvas.drawing.strokes.isEmpty ? "delete.backward.fill" : "eraser.fill",
+                deleteKeyIcon: isDrawingEmpty.wrappedValue ? "delete.backward.fill" : "eraser.fill",
                 currentWwNode: $currentWwNode
             )
             if (generatedImage != nil) {

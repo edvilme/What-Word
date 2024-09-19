@@ -6,30 +6,34 @@
 //
 
 import SwiftUI
+import AirKit
 
 
 struct ContentView: View {
     @State private var wwGeneratedText: String = ""
     @State private var systemKeyboardHidden: Bool = true
     var body: some View {
-        VStack {
-            VStack{
-                HStack{
-                    Button("", systemImage: "xmark", action: {
-                        wwGeneratedText = ""
-                    })
-                    Spacer()
-                    Button("", systemImage: "sparkles", action: {})
-                        .disabled(true)
-                    ShareLink("", item: wwGeneratedText)
+        NavigationStack {
+            TextEditor(text: $wwGeneratedText)
+                .font(.system(size: 30, weight: .black, design: .rounded))
+                .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .topLeading)
+                .padding()
+                .disabled(systemKeyboardHidden)
+                .airPlay()
+                .toolbar {
+                    ToolbarItemGroup(placement: .topBarLeading) {
+                        Button("", systemImage: "trash", action: {
+                            wwGeneratedText = ""
+                        })
+                            .labelStyle(.iconOnly)
+                    }
+                    ToolbarItemGroup(placement: .topBarTrailing) {
+                        Button("", systemImage: "sparkles", action: {})
+                            .disabled(true)
+                        ShareLink("", item: wwGeneratedText)
+                            .labelStyle(.iconOnly)
+                    }
                 }
-                    .padding(.horizontal)
-                TextEditor(text: $wwGeneratedText)
-                    .font(.system(size: 30, weight: .black, design: .rounded))
-                    .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .topLeading)
-                    .padding()
-                    .disabled(systemKeyboardHidden)
-            }
             KeyboardContainerView(
                 onKeyboardTypeChange: { keyboardType in
                     systemKeyboardHidden = keyboardType.name != "keyboard"
@@ -38,7 +42,7 @@ struct ContentView: View {
                     wwGeneratedText += " \(word)"
                 },
                 onWordDelete: {
-                    wwGeneratedText = wwGeneratedText.replacing(/\S+\s*$/, with: "") 
+                    wwGeneratedText = wwGeneratedText.replacing(/\S+\s*$/, with: "")
                 }
             )
         }

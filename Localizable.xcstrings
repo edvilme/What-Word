@@ -14,6 +14,56 @@
             "state" : "translated",
             "value" : ""
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : ""
+          }
+        }
+      }
+    },
+    "[Joshua Newnham CNN Sketch Classifier](https://github.com/wikibook/coreml) model for sketch classification" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "[Joshua Newnham CNN Sketch Classifier](https://github.com/wikibook/coreml) modelo para clasificación de dibujos"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "[Joshua Newnham CNN Sketch Classifier](https://github.com/wikibook/coreml) modelo para clasificación de dibujos"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "[Joshua Newnham CNN Sketch Classifier] (https://github.com/wikibook/coreml) modèle de classification de croquis"
+          }
+        }
+      }
+    },
+    "[YOLOv3](https://github.com/pjreddie/darknet) for image object detection (beta)" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "[YOLOv3](https://github.com/pjreddie/darknet) modelo para detección de objetos en imágenes (beta)"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "[YOLOv3](https://github.com/pjreddie/darknet) modelo para detección de objetos en imágenes (beta)"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "[YOLOv3](https://github.com/pjreddie/darknet) pour la détection d'objets dans les images (beta)"
+          }
         }
       }
     },
@@ -29,6 +79,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Agregar contacto…"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajouter un contact..."
           }
         }
       }
@@ -46,6 +102,12 @@
             "state" : "translated",
             "value" : "Agregar palabra…"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajouter un mot..."
+          }
         }
       }
     },
@@ -61,6 +123,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Agregar…"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajouter"
           }
         }
       }
@@ -78,6 +146,12 @@
             "state" : "translated",
             "value" : "Reconocimientos"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Remerciements"
+          }
         }
       }
     },
@@ -93,6 +167,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Datos de aplicación"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Données de l'application"
           }
         }
       }
@@ -110,21 +190,11 @@
             "state" : "translated",
             "value" : "¿Estás seguro?"
           }
-        }
-      }
-    },
-    "Camera coming soon!" : {
-      "localizations" : {
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "¡Esta característica estará disponible pronto!"
-          }
         },
-        "es-419" : {
+        "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "¡Esta característica estará disponible pronto!"
+            "value" : "Êtes-vous sûr?"
           }
         }
       }
@@ -142,6 +212,12 @@
             "state" : "translated",
             "value" : "Cancelar"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Annuler"
+          }
         }
       }
     },
@@ -157,6 +233,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Información de contacto…"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Informations de contact…"
           }
         }
       }
@@ -181,6 +263,12 @@
             "state" : "translated",
             "value" : "actividad"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "activité"
+          }
         }
       }
     },
@@ -203,6 +291,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "enojado"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "fâché"
           }
         }
       }
@@ -227,6 +321,12 @@
             "state" : "translated",
             "value" : "brazo"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "bras"
+          }
         }
       }
     },
@@ -249,6 +349,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "tía"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "tante"
           }
         }
       }
@@ -273,6 +379,12 @@
             "state" : "translated",
             "value" : "atrás"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "dos"
+          }
         }
       }
     },
@@ -295,6 +407,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "banco"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "banque"
           }
         }
       }
@@ -319,6 +437,12 @@
             "state" : "translated",
             "value" : "bañarse"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "bain"
+          }
         }
       }
     },
@@ -341,6 +465,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "baño"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "toilettes"
           }
         }
       }
@@ -365,6 +495,12 @@
             "state" : "translated",
             "value" : "cama"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "lit"
+          }
         }
       }
     },
@@ -387,6 +523,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "cuerpo"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "corps"
           }
         }
       }
@@ -411,6 +553,12 @@
             "state" : "translated",
             "value" : "hermano"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "frère"
+          }
         }
       }
     },
@@ -433,6 +581,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "adiós"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "salut"
           }
         }
       }
@@ -457,6 +611,12 @@
             "state" : "translated",
             "value" : "coche"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "voiture"
+          }
         }
       }
     },
@@ -479,6 +639,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "tarjeta"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "carte"
           }
         }
       }
@@ -503,6 +669,12 @@
             "state" : "translated",
             "value" : "niño"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "enfant"
+          }
         }
       }
     },
@@ -525,6 +697,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "cine"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "cinéma"
           }
         }
       }
@@ -549,6 +727,12 @@
             "state" : "translated",
             "value" : "ropa"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "vêtements"
+          }
         }
       }
     },
@@ -571,6 +755,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "cocinero"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "cuisinier"
           }
         }
       }
@@ -595,6 +785,12 @@
             "state" : "translated",
             "value" : "primo"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "cousin"
+          }
         }
       }
     },
@@ -617,6 +813,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "hija"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "fille"
           }
         }
       }
@@ -641,6 +843,12 @@
             "state" : "translated",
             "value" : "cenar"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "manger"
+          }
         }
       }
     },
@@ -663,6 +871,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "direcciones"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "directions"
           }
         }
       }
@@ -687,6 +901,12 @@
             "state" : "translated",
             "value" : "doctor"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "médecin"
+          }
         }
       }
     },
@@ -709,6 +929,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "puerta"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "porte"
           }
         }
       }
@@ -733,6 +959,12 @@
             "state" : "translated",
             "value" : "abajo"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "bas"
+          }
         }
       }
     },
@@ -755,6 +987,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "vestirse"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "robe"
           }
         }
       }
@@ -779,6 +1017,12 @@
             "state" : "translated",
             "value" : "beber"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "boisson"
+          }
         }
       }
     },
@@ -801,6 +1045,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "conductor"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "conducteur"
           }
         }
       }
@@ -825,6 +1075,12 @@
             "state" : "translated",
             "value" : "orejas"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "oreilles"
+          }
         }
       }
     },
@@ -847,6 +1103,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "comer"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "manger"
           }
         }
       }
@@ -871,6 +1133,12 @@
             "state" : "translated",
             "value" : "codo"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "coude"
+          }
         }
       }
     },
@@ -893,6 +1161,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "expresión"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "expression"
           }
         }
       }
@@ -917,6 +1191,12 @@
             "state" : "translated",
             "value" : "ojo"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "œil"
+          }
         }
       }
     },
@@ -939,6 +1219,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "familia"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "famille"
           }
         }
       }
@@ -963,6 +1249,12 @@
             "state" : "translated",
             "value" : "padre"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "père"
+          }
         }
       }
     },
@@ -985,6 +1277,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "sentimiento"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "sentiment"
           }
         }
       }
@@ -1009,6 +1307,12 @@
             "state" : "translated",
             "value" : "dedo"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "doigt"
+          }
         }
       }
     },
@@ -1031,6 +1335,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "pie"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "pied"
           }
         }
       }
@@ -1055,6 +1365,12 @@
             "state" : "translated",
             "value" : "amigo"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ami"
+          }
         }
       }
     },
@@ -1077,6 +1393,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "delante"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "avant"
           }
         }
       }
@@ -1101,6 +1423,12 @@
             "state" : "translated",
             "value" : "lentes"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "lunettes"
+          }
         }
       }
     },
@@ -1123,6 +1451,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "nieta"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "petite-fille"
           }
         }
       }
@@ -1147,6 +1481,12 @@
             "state" : "translated",
             "value" : "nieto"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "petite-fils"
+          }
         }
       }
     },
@@ -1169,6 +1509,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "pelo"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "cheveux"
           }
         }
       }
@@ -1193,6 +1539,12 @@
             "state" : "translated",
             "value" : "mano"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "main"
+          }
         }
       }
     },
@@ -1215,6 +1567,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "feliz"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "heureux"
           }
         }
       }
@@ -1239,6 +1597,12 @@
             "state" : "translated",
             "value" : "cabeza"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "tête"
+          }
         }
       }
     },
@@ -1261,6 +1625,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "hola"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "bonjour"
           }
         }
       }
@@ -1285,6 +1655,12 @@
             "state" : "translated",
             "value" : "hospital"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "hôpital"
+          }
         }
       }
     },
@@ -1307,6 +1683,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "casa"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "maison"
           }
         }
       }
@@ -1331,6 +1713,12 @@
             "state" : "translated",
             "value" : "hambriento"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "affamé"
+          }
         }
       }
     },
@@ -1353,6 +1741,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "esposo"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "mari"
           }
         }
       }
@@ -1377,6 +1771,12 @@
             "state" : "translated",
             "value" : "enfermo"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "malade"
+          }
         }
       }
     },
@@ -1399,6 +1799,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "político"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "beau"
           }
         }
       }
@@ -1423,6 +1829,12 @@
             "state" : "translated",
             "value" : "adentro"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "intérieur"
+          }
         }
       }
     },
@@ -1445,6 +1857,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "abrigo"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "veste"
           }
         }
       }
@@ -1469,6 +1887,12 @@
             "state" : "translated",
             "value" : "llave"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "clé"
+          }
         }
       }
     },
@@ -1491,6 +1915,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "cocina"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "cuisine"
           }
         }
       }
@@ -1515,6 +1945,12 @@
             "state" : "translated",
             "value" : "rodilla"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "genou"
+          }
         }
       }
     },
@@ -1537,6 +1973,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "izquierda"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "gauche"
           }
         }
       }
@@ -1561,6 +2003,12 @@
             "state" : "translated",
             "value" : "pierna"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "jambe"
+          }
         }
       }
     },
@@ -1583,6 +2031,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "luces"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "lumières"
           }
         }
       }
@@ -1607,6 +2061,12 @@
             "state" : "translated",
             "value" : "sala"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "salon"
+          }
         }
       }
     },
@@ -1629,6 +2089,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "amor"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "amour"
           }
         }
       }
@@ -1653,6 +2119,12 @@
             "state" : "translated",
             "value" : "plaza"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "centre"
+          }
         }
       }
     },
@@ -1675,6 +2147,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "hombre"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "homme"
           }
         }
       }
@@ -1699,6 +2177,12 @@
             "state" : "translated",
             "value" : "mercado"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "marché"
+          }
         }
       }
     },
@@ -1721,6 +2205,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "madre"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "mère"
           }
         }
       }
@@ -1745,6 +2235,12 @@
             "state" : "translated",
             "value" : "boca"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "bouche"
+          }
         }
       }
     },
@@ -1767,6 +2263,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "nervioso"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "nerveux"
           }
         }
       }
@@ -1791,6 +2293,12 @@
             "state" : "translated",
             "value" : "sobrino"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "nièce"
+          }
         }
       }
     },
@@ -1813,6 +2321,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "no"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "non"
           }
         }
       }
@@ -1837,6 +2351,12 @@
             "state" : "translated",
             "value" : "nariz"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "nez"
+          }
         }
       }
     },
@@ -1859,6 +2379,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "enfermero"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "infirmière"
           }
         }
       }
@@ -1883,6 +2409,12 @@
             "state" : "translated",
             "value" : "afuera"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "extérieur"
+          }
         }
       }
     },
@@ -1905,6 +2437,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "dolor"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "douleur"
           }
         }
       }
@@ -1929,6 +2467,12 @@
             "state" : "translated",
             "value" : "pantalones"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "pantalon"
+          }
         }
       }
     },
@@ -1951,6 +2495,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "parque"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "parc"
           }
         }
       }
@@ -1975,6 +2525,12 @@
             "state" : "translated",
             "value" : "pluma"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "stylo"
+          }
         }
       }
     },
@@ -1997,6 +2553,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "gente"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "personnes"
           }
         }
       }
@@ -2021,6 +2583,12 @@
             "state" : "translated",
             "value" : "teléfono"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "téléphone"
+          }
         }
       }
     },
@@ -2043,6 +2611,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "lugar"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "lieu"
           }
         }
       }
@@ -2067,6 +2641,12 @@
             "state" : "translated",
             "value" : "favor"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "plaît"
+          }
         }
       }
     },
@@ -2089,6 +2669,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "pregunta"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "question"
           }
         }
       }
@@ -2113,6 +2699,12 @@
             "state" : "translated",
             "value" : "leer"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "lire"
+          }
         }
       }
     },
@@ -2135,6 +2727,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "control"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "contrôle"
           }
         }
       }
@@ -2159,6 +2757,12 @@
             "state" : "translated",
             "value" : "derecho"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "droit"
+          }
         }
       }
     },
@@ -2178,6 +2782,12 @@
           }
         },
         "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "triste"
+          }
+        },
+        "fr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "triste"
@@ -2205,6 +2815,12 @@
             "state" : "translated",
             "value" : "escuela"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "école"
+          }
         }
       }
     },
@@ -2227,6 +2843,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "playera"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "chemise"
           }
         }
       }
@@ -2251,6 +2873,12 @@
             "state" : "translated",
             "value" : "zapato"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "chaussure"
+          }
         }
       }
     },
@@ -2273,6 +2901,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "bañarse"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "douche"
           }
         }
       }
@@ -2297,6 +2931,12 @@
             "state" : "translated",
             "value" : "hermana"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "sœur"
+          }
         }
       }
     },
@@ -2316,6 +2956,12 @@
           }
         },
         "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "dormir"
+          }
+        },
+        "fr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "dormir"
@@ -2343,6 +2989,12 @@
             "state" : "translated",
             "value" : "hijo"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "fils"
+          }
         }
       }
     },
@@ -2365,6 +3017,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "hablar"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "parler"
           }
         }
       }
@@ -2389,6 +3047,12 @@
             "state" : "translated",
             "value" : "escaleras"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "escaliers"
+          }
         }
       }
     },
@@ -2411,6 +3075,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "tienda"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "boutique"
           }
         }
       }
@@ -2435,6 +3105,12 @@
             "state" : "translated",
             "value" : "gracias"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "merci"
+          }
         }
       }
     },
@@ -2457,6 +3133,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "terapeuta"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "thérapeute"
           }
         }
       }
@@ -2481,6 +3163,12 @@
             "state" : "translated",
             "value" : "terapia"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "thérapie"
+          }
         }
       }
     },
@@ -2503,6 +3191,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "cosa"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "chose"
           }
         }
       }
@@ -2527,6 +3221,12 @@
             "state" : "translated",
             "value" : "sediento"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "assoiffé"
+          }
         }
       }
     },
@@ -2549,6 +3249,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "cansado"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "fatigué"
           }
         }
       }
@@ -2573,6 +3279,12 @@
             "state" : "translated",
             "value" : "diente"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "dent"
+          }
         }
       }
     },
@@ -2595,6 +3307,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "torso"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "torse"
           }
         }
       }
@@ -2619,6 +3337,12 @@
             "state" : "translated",
             "value" : "viajar"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "voyage"
+          }
         }
       }
     },
@@ -2641,6 +3365,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "tv"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "télévision"
           }
         }
       }
@@ -2665,6 +3395,12 @@
             "state" : "translated",
             "value" : "tío"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "oncleq"
+          }
         }
       }
     },
@@ -2687,6 +3423,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "arriba"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "monter"
           }
         }
       }
@@ -2711,6 +3453,12 @@
             "state" : "translated",
             "value" : "cartera"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "portefeuille"
+          }
         }
       }
     },
@@ -2733,6 +3481,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "reloj"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "regarder"
           }
         }
       }
@@ -2757,6 +3511,12 @@
             "state" : "translated",
             "value" : "esposa"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "épouse"
+          }
         }
       }
     },
@@ -2779,6 +3539,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "mujer"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "femme"
           }
         }
       }
@@ -2803,6 +3569,12 @@
             "state" : "translated",
             "value" : "si"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "oui"
+          }
         }
       }
     },
@@ -2819,22 +3591,11 @@
             "state" : "translated",
             "value" : "Borrar"
           }
-        }
-      }
-    },
-    "Delete App Data" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Borrar datos de la aplicación"
-          }
         },
-        "es-419" : {
+        "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Borrar datos de aplicación"
+            "value" : "Supprimer"
           }
         }
       }
@@ -2852,6 +3613,34 @@
             "state" : "translated",
             "value" : "Diseñado y desarrollado con <3 por Eduardo Villalpando Mello (@edvilme)"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Conçu et développé avec <3 par Eduardo Villalpando Mello (@edvilme)"
+          }
+        }
+      }
+    },
+    "Dictionary obtained from system" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Diccionario obtenido del Sistema"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Diccionario obtenido del Sistema"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dictionnaire obtenu à partir du système"
+          }
         }
       }
     },
@@ -2867,6 +3656,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hecho"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fait"
           }
         }
       }
@@ -2891,6 +3686,12 @@
             "state" : "translated",
             "value" : "avión"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "avion"
+          }
         }
       }
     },
@@ -2913,6 +3714,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ángel"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ange"
           }
         }
       }
@@ -2937,6 +3744,12 @@
             "state" : "translated",
             "value" : "hormiga"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "fourmi"
+          }
         }
       }
     },
@@ -2959,6 +3772,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "manzana"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "pomme"
           }
         }
       }
@@ -2983,6 +3802,12 @@
             "state" : "translated",
             "value" : "brazo"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "arn"
+          }
         }
       }
     },
@@ -3005,6 +3830,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "cenicero"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "cendrier"
           }
         }
       }
@@ -3029,6 +3860,12 @@
             "state" : "translated",
             "value" : "hacha"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "hache"
+          }
         }
       }
     },
@@ -3051,6 +3888,41 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "mochila"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "sac"
+          }
+        }
+      }
+    },
+    "DRAWING_BALL" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ball"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "balón"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "balón"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "boule"
           }
         }
       }
@@ -3075,6 +3947,12 @@
             "state" : "translated",
             "value" : "globo"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ballon"
+          }
         }
       }
     },
@@ -3097,6 +3975,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "plátano"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "banane"
           }
         }
       }
@@ -3121,6 +4005,12 @@
             "state" : "translated",
             "value" : "granero"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "étable"
+          }
         }
       }
     },
@@ -3143,6 +4033,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "beisból"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "baseball"
           }
         }
       }
@@ -3167,6 +4063,12 @@
             "state" : "translated",
             "value" : "canasta"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "panier"
+          }
         }
       }
     },
@@ -3189,6 +4091,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "baño"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "bain"
           }
         }
       }
@@ -3213,6 +4121,12 @@
             "state" : "translated",
             "value" : "oso"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ours"
+          }
         }
       }
     },
@@ -3235,6 +4149,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "cama"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "lit"
           }
         }
       }
@@ -3259,6 +4179,12 @@
             "state" : "translated",
             "value" : "abeja"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "abeille"
+          }
         }
       }
     },
@@ -3281,6 +4207,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "cerveza"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "bière"
           }
         }
       }
@@ -3305,6 +4237,12 @@
             "state" : "translated",
             "value" : "campana"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "cloche"
+          }
         }
       }
     },
@@ -3327,6 +4265,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "banca"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "banc"
           }
         }
       }
@@ -3351,6 +4295,12 @@
             "state" : "translated",
             "value" : "bicicleta"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "bicyclette"
+          }
         }
       }
     },
@@ -3373,6 +4323,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "pájaro"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "oiseau"
           }
         }
       }
@@ -3397,6 +4353,12 @@
             "state" : "translated",
             "value" : "dirigible"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "dirigeable"
+          }
         }
       }
     },
@@ -3419,6 +4381,41 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "bote"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "bateau"
+          }
+        }
+      }
+    },
+    "DRAWING_BOOK" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "book"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "libro"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "libro"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "livre"
           }
         }
       }
@@ -3443,6 +4440,12 @@
             "state" : "translated",
             "value" : "librero"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "bibliothèque"
+          }
         }
       }
     },
@@ -3465,6 +4468,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "botella"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "bouteille"
           }
         }
       }
@@ -3489,6 +4498,12 @@
             "state" : "translated",
             "value" : "plato"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "cuvette"
+          }
         }
       }
     },
@@ -3511,6 +4526,41 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "puente"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "pont"
+          }
+        }
+      }
+    },
+    "DRAWING_BROCOLI" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "broccoli"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "brócoli"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "brócoli"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "brocoli"
           }
         }
       }
@@ -3535,6 +4585,12 @@
             "state" : "translated",
             "value" : "buldozer"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "bulldozer"
+          }
         }
       }
     },
@@ -3554,6 +4610,12 @@
           }
         },
         "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "bus"
+          }
+        },
+        "fr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "bus"
@@ -3581,6 +4643,12 @@
             "state" : "translated",
             "value" : "mariposa"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "papillon"
+          }
         }
       }
     },
@@ -3603,6 +4671,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "cáctus"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "cactus"
           }
         }
       }
@@ -3627,6 +4701,12 @@
             "state" : "translated",
             "value" : "pastel"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "gâteau"
+          }
         }
       }
     },
@@ -3649,6 +4729,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "calculadora"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "calculatrice"
           }
         }
       }
@@ -3673,6 +4759,12 @@
             "state" : "translated",
             "value" : "camello"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "chameau"
+          }
         }
       }
     },
@@ -3695,6 +4787,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "cámara"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "caméra"
           }
         }
       }
@@ -3719,6 +4817,12 @@
             "state" : "translated",
             "value" : "vela"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "bougie"
+          }
         }
       }
     },
@@ -3741,6 +4845,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "cañón"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "canon"
           }
         }
       }
@@ -3765,6 +4875,41 @@
             "state" : "translated",
             "value" : "carro"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "voiture"
+          }
+        }
+      }
+    },
+    "DRAWING_CARROT" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "carrot"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "zanahoria"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "zanahoria"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "carotte"
+          }
         }
       }
     },
@@ -3787,6 +4932,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "castillo"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "château"
           }
         }
       }
@@ -3811,6 +4962,12 @@
             "state" : "translated",
             "value" : "gato"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "chat"
+          }
         }
       }
     },
@@ -3833,6 +4990,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "silla"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "chaise"
           }
         }
       }
@@ -3857,6 +5020,12 @@
             "state" : "translated",
             "value" : "navidad"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Noël"
+          }
         }
       }
     },
@@ -3879,6 +5048,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "iglesia"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "église"
           }
         }
       }
@@ -3903,6 +5078,12 @@
             "state" : "translated",
             "value" : "cigarro"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "cigarette"
+          }
         }
       }
     },
@@ -3925,6 +5106,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "reloj"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "horloge"
           }
         }
       }
@@ -3949,6 +5136,12 @@
             "state" : "translated",
             "value" : "nube"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "nuage"
+          }
         }
       }
     },
@@ -3971,6 +5164,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "vaca"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "vache"
           }
         }
       }
@@ -3995,6 +5194,12 @@
             "state" : "translated",
             "value" : "cangrejo"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "crabe"
+          }
         }
       }
     },
@@ -4017,6 +5222,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "grúa"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "grue"
           }
         }
       }
@@ -4041,6 +5252,12 @@
             "state" : "translated",
             "value" : "cocodrilo"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "crocodile"
+          }
         }
       }
     },
@@ -4063,6 +5280,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "corona"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "couronne"
           }
         }
       }
@@ -4087,6 +5310,41 @@
             "state" : "translated",
             "value" : "vaso"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "tasse"
+          }
+        }
+      }
+    },
+    "DRAWING_DINING" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "dining"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "cena"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "cena"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "repas"
+          }
         }
       }
     },
@@ -4109,6 +5367,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "perro"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "chien"
           }
         }
       }
@@ -4133,6 +5397,41 @@
             "state" : "translated",
             "value" : "delfín"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "dauphin"
+          }
+        }
+      }
+    },
+    "DRAWING_DONUT" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "donut"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "dona"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "dona"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "beignet"
+          }
         }
       }
     },
@@ -4155,6 +5454,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "dragón"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "dragon"
           }
         }
       }
@@ -4179,6 +5484,12 @@
             "state" : "translated",
             "value" : "pato"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "canard"
+          }
         }
       }
     },
@@ -4201,6 +5512,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "elefante"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "éléphant"
           }
         }
       }
@@ -4225,6 +5542,12 @@
             "state" : "translated",
             "value" : "sobre"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "enveloppe"
+          }
         }
       }
     },
@@ -4247,6 +5570,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ojo"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "œil"
           }
         }
       }
@@ -4271,6 +5600,12 @@
             "state" : "translated",
             "value" : "anteojos"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "lunettes"
+          }
         }
       }
     },
@@ -4293,6 +5628,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "cara"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "visage"
           }
         }
       }
@@ -4317,6 +5658,12 @@
             "state" : "translated",
             "value" : "ventilador"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ventilateur"
+          }
         }
       }
     },
@@ -4339,6 +5686,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "pez"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "poisson"
           }
         }
       }
@@ -4363,6 +5716,12 @@
             "state" : "translated",
             "value" : "linterna"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "torche"
+          }
         }
       }
     },
@@ -4385,6 +5744,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "flor"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "fleur"
           }
         }
       }
@@ -4409,6 +5774,70 @@
             "state" : "translated",
             "value" : "pie"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "pied"
+          }
+        }
+      }
+    },
+    "DRAWING_FORK" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "fork"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "tenedor"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "tenedor"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "fourchette"
+          }
+        }
+      }
+    },
+    "DRAWING_FRISBEE" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "frisbee"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "frisbee"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "frisbee"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "frisbee"
+          }
         }
       }
     },
@@ -4431,6 +5860,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "rana"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "grenouille"
           }
         }
       }
@@ -4455,6 +5890,12 @@
             "state" : "translated",
             "value" : "jirafa"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "girafe"
+          }
         }
       }
     },
@@ -4477,6 +5918,41 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "guitarra"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "guitare"
+          }
+        }
+      }
+    },
+    "DRAWING_HAIRDRIER" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "hair drier"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "secadora de pelo"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "secadora de pelo"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "sèche-cheveux"
           }
         }
       }
@@ -4501,6 +5977,12 @@
             "state" : "translated",
             "value" : "martillo"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "marteau"
+          }
         }
       }
     },
@@ -4523,6 +6005,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "mano"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "main"
           }
         }
       }
@@ -4547,6 +6035,12 @@
             "state" : "translated",
             "value" : "sombrero"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "chapeau"
+          }
         }
       }
     },
@@ -4569,6 +6063,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "cabeza"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "tête"
           }
         }
       }
@@ -4593,6 +6093,12 @@
             "state" : "translated",
             "value" : "erizo"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "hérisson"
+          }
         }
       }
     },
@@ -4615,6 +6121,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "helicóptero"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "hélicoptère"
           }
         }
       }
@@ -4639,6 +6151,12 @@
             "state" : "translated",
             "value" : "caballo"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "cheval"
+          }
         }
       }
     },
@@ -4658,6 +6176,12 @@
           }
         },
         "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "hotdog"
+          }
+        },
+        "fr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "hotdog"
@@ -4685,6 +6209,12 @@
             "state" : "translated",
             "value" : "reloj"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "sablier"
+          }
         }
       }
     },
@@ -4707,6 +6237,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "casa"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "maison"
           }
         }
       }
@@ -4731,6 +6267,12 @@
             "state" : "translated",
             "value" : "hidrante"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "hydrant"
+          }
         }
       }
     },
@@ -4754,6 +6296,12 @@
             "state" : "translated",
             "value" : "helado"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "glace"
+          }
         }
       }
     },
@@ -4773,6 +6321,12 @@
           }
         },
         "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "iPod"
+          }
+        },
+        "fr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "iPod"
@@ -4800,6 +6354,12 @@
             "state" : "translated",
             "value" : "canguro"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "kangourou"
+          }
         }
       }
     },
@@ -4822,6 +6382,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "llave"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "clé"
           }
         }
       }
@@ -4846,6 +6412,41 @@
             "state" : "translated",
             "value" : "teclado"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "clavier"
+          }
+        }
+      }
+    },
+    "DRAWING_KITE" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "kite"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "cometa"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "cometa"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "cerf-volant"
+          }
         }
       }
     },
@@ -4868,6 +6469,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "cuchillo"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "couteau"
           }
         }
       }
@@ -4892,6 +6499,12 @@
             "state" : "translated",
             "value" : "escalera"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "échelle"
+          }
         }
       }
     },
@@ -4914,6 +6527,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "lámpara"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "lampe"
           }
         }
       }
@@ -4938,6 +6557,12 @@
             "state" : "translated",
             "value" : "laptop"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ordinateur"
+          }
         }
       }
     },
@@ -4960,6 +6585,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "hoja"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "feuille"
           }
         }
       }
@@ -4984,6 +6615,12 @@
             "state" : "translated",
             "value" : "foco"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ampoule"
+          }
         }
       }
     },
@@ -5006,6 +6643,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "león"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "lion"
           }
         }
       }
@@ -5030,6 +6673,12 @@
             "state" : "translated",
             "value" : "langosta"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "homard"
+          }
         }
       }
     },
@@ -5052,6 +6701,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "buzón"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "lettres"
           }
         }
       }
@@ -5076,6 +6731,12 @@
             "state" : "translated",
             "value" : "megáfono"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "mégaphone"
+          }
         }
       }
     },
@@ -5098,6 +6759,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "sirena"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "sirène"
           }
         }
       }
@@ -5122,6 +6789,12 @@
             "state" : "translated",
             "value" : "micrófono"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "microphone"
+          }
         }
       }
     },
@@ -5144,6 +6817,41 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "microscopio"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "microscope"
+          }
+        }
+      }
+    },
+    "DRAWING_MICROWAVE" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "microwave"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "microondas"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "microondas"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "micro-ondes"
           }
         }
       }
@@ -5168,6 +6876,12 @@
             "state" : "translated",
             "value" : "monitor"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "moniteur"
+          }
         }
       }
     },
@@ -5190,6 +6904,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "mono"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "singe"
           }
         }
       }
@@ -5214,6 +6934,12 @@
             "state" : "translated",
             "value" : "luna"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "lune"
+          }
         }
       }
     },
@@ -5236,6 +6962,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "mosquito"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "moustique"
           }
         }
       }
@@ -5260,6 +6992,12 @@
             "state" : "translated",
             "value" : "motocicleta"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "motocyclette"
+          }
         }
       }
     },
@@ -5282,6 +7020,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ratón"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "souris"
           }
         }
       }
@@ -5306,6 +7050,12 @@
             "state" : "translated",
             "value" : "boca"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "bouche"
+          }
         }
       }
     },
@@ -5328,6 +7078,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "taza"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "tasse"
           }
         }
       }
@@ -5352,6 +7108,12 @@
             "state" : "translated",
             "value" : "hongo"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "champignon"
+          }
         }
       }
     },
@@ -5374,6 +7136,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "nariz"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "nez"
           }
         }
       }
@@ -5398,6 +7166,70 @@
             "state" : "translated",
             "value" : "pulpo"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "pieuvre"
+          }
+        }
+      }
+    },
+    "DRAWING_ORANGE" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "orange"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "naranja"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "naranja"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "orange"
+          }
+        }
+      }
+    },
+    "DRAWING_OVEN" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "oven"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "horno"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "horno"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "four"
+          }
         }
       }
     },
@@ -5420,6 +7252,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "búho"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "hibou"
           }
         }
       }
@@ -5444,6 +7282,12 @@
             "state" : "translated",
             "value" : "palma"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "palmier"
+          }
         }
       }
     },
@@ -5463,6 +7307,12 @@
           }
         },
         "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "panda"
+          }
+        },
+        "fr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "panda"
@@ -5490,6 +7340,12 @@
             "state" : "translated",
             "value" : "clip"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "trombone"
+          }
         }
       }
     },
@@ -5512,6 +7368,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "paracaídas"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "parachute"
           }
         }
       }
@@ -5536,6 +7398,12 @@
             "state" : "translated",
             "value" : "estacionamiento"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "stationnement"
+          }
         }
       }
     },
@@ -5558,6 +7426,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "perico"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "perroquet"
           }
         }
       }
@@ -5582,6 +7456,12 @@
             "state" : "translated",
             "value" : "pera"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "poire"
+          }
         }
       }
     },
@@ -5604,6 +7484,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "pluma"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "stylo"
           }
         }
       }
@@ -5628,6 +7514,41 @@
             "state" : "translated",
             "value" : "pingüino"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "pingouin"
+          }
+        }
+      }
+    },
+    "DRAWING_PERSON" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "person"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "persona"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "persona"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "personne"
+          }
         }
       }
     },
@@ -5651,6 +7572,12 @@
             "state" : "translated",
             "value" : "teléfono"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "téléphone"
+          }
         }
       }
     },
@@ -5670,6 +7597,12 @@
           }
         },
         "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "piano"
+          }
+        },
+        "fr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "piano"
@@ -5697,6 +7630,12 @@
             "state" : "translated",
             "value" : "cerdo"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "porc"
+          }
         }
       }
     },
@@ -5719,6 +7658,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "paloma"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "pigeon"
           }
         }
       }
@@ -5743,6 +7688,12 @@
             "state" : "translated",
             "value" : "pipa"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "pipe"
+          }
         }
       }
     },
@@ -5762,6 +7713,12 @@
           }
         },
         "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "pizza"
+          }
+        },
+        "fr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "pizza"
@@ -5789,6 +7746,12 @@
             "state" : "translated",
             "value" : "planta"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "plante"
+          }
         }
       }
     },
@@ -5811,6 +7774,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "enchufe"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "électrique"
           }
         }
       }
@@ -5835,6 +7804,12 @@
             "state" : "translated",
             "value" : "presente"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "présent"
+          }
         }
       }
     },
@@ -5857,6 +7832,41 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "calabaza"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "citrouille"
+          }
+        }
+      }
+    },
+    "DRAWING_PURSE" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "purse"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "bolso"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "bolso"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "sac à main"
           }
         }
       }
@@ -5881,6 +7891,12 @@
             "state" : "translated",
             "value" : "conejo"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "lapin"
+          }
         }
       }
     },
@@ -5904,6 +7920,12 @@
             "state" : "translated",
             "value" : "carreras"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "course"
+          }
         }
       }
     },
@@ -5923,6 +7945,12 @@
           }
         },
         "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "radio"
+          }
+        },
+        "fr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "radio"
@@ -5950,6 +7978,70 @@
             "state" : "translated",
             "value" : "arcoíris"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "arc-en-ciel"
+          }
+        }
+      }
+    },
+    "DRAWING_REFRIGERATOR" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "refrigerator"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "refrigerador"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "refrigerador"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "réfrigérateur"
+          }
+        }
+      }
+    },
+    "DRAWING_REMOTE" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "remote"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "control"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "control"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "à distance"
+          }
         }
       }
     },
@@ -5972,6 +8064,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "revólver"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "révolver"
           }
         }
       }
@@ -5996,6 +8094,12 @@
             "state" : "translated",
             "value" : "rifle"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "riffle"
+          }
         }
       }
     },
@@ -6018,6 +8122,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "patines"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "rollers"
           }
         }
       }
@@ -6042,6 +8152,12 @@
             "state" : "translated",
             "value" : "gallo"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "coq"
+          }
         }
       }
     },
@@ -6064,6 +8180,41 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "velero"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "voilier"
+          }
+        }
+      }
+    },
+    "DRAWING_SANDWICH" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "sandwich"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "sándwich"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "sándwich"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "sandwich"
           }
         }
       }
@@ -6088,6 +8239,12 @@
             "state" : "translated",
             "value" : "satélite"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "satellite"
+          }
         }
       }
     },
@@ -6110,6 +8267,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "platillo"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "soucoupe"
           }
         }
       }
@@ -6134,6 +8297,12 @@
             "state" : "translated",
             "value" : "saxofón"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "saxophone"
+          }
         }
       }
     },
@@ -6156,6 +8325,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "tijeras"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ciseaux"
           }
         }
       }
@@ -6180,6 +8355,12 @@
             "state" : "translated",
             "value" : "desarmador"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "tournevis"
+          }
         }
       }
     },
@@ -6202,6 +8383,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "gaviota"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "mouette"
           }
         }
       }
@@ -6226,6 +8413,12 @@
             "state" : "translated",
             "value" : "tiburón"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "requin"
+          }
         }
       }
     },
@@ -6248,6 +8441,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "borrego"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "mouton"
           }
         }
       }
@@ -6272,6 +8471,12 @@
             "state" : "translated",
             "value" : "barco"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "navire"
+          }
         }
       }
     },
@@ -6294,6 +8499,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "playera"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "chemise"
           }
         }
       }
@@ -6318,6 +8529,12 @@
             "state" : "translated",
             "value" : "zapato"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "chaussure"
+          }
         }
       }
     },
@@ -6340,6 +8557,41 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "pala"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "pelle"
+          }
+        }
+      }
+    },
+    "DRAWING_SINK" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "sink"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "lavabo"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "lavabo"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "évier"
           }
         }
       }
@@ -6364,6 +8616,41 @@
             "state" : "translated",
             "value" : "sentarse"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "s'asseoir"
+          }
+        }
+      }
+    },
+    "DRAWING_SKATEBOARD" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "skateboard"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "patineta"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "patineta"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "planche à roulettes"
+          }
         }
       }
     },
@@ -6386,6 +8673,41 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "esqueleto"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "squelette"
+          }
+        }
+      }
+    },
+    "DRAWING_SKIS" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "skis"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "skís"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "skis"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "skis"
           }
         }
       }
@@ -6410,6 +8732,12 @@
             "state" : "translated",
             "value" : "cráneo"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "crâne"
+          }
         }
       }
     },
@@ -6432,6 +8760,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "rascacielos"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "gratte-ciel"
           }
         }
       }
@@ -6456,6 +8790,12 @@
             "state" : "translated",
             "value" : "caracol"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "escargot"
+          }
         }
       }
     },
@@ -6478,6 +8818,41 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "serpiente"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "serpent"
+          }
+        }
+      }
+    },
+    "DRAWING_SNOWBOARD" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "snowboard"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "snowboard"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "snowboard"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "planche à neige"
           }
         }
       }
@@ -6502,6 +8877,41 @@
             "state" : "translated",
             "value" : "nieve"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "neige"
+          }
+        }
+      }
+    },
+    "DRAWING_SOFA" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "sofa"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "sofá"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "sofá"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "canapé"
+          }
         }
       }
     },
@@ -6524,6 +8934,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "cohete"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "navette spatiale"
           }
         }
       }
@@ -6548,6 +8964,12 @@
             "state" : "translated",
             "value" : "bocina"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "orateur"
+          }
         }
       }
     },
@@ -6570,6 +8992,41 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "araña"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "araignée"
+          }
+        }
+      }
+    },
+    "DRAWING_SPOON" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "spoon"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "cuchara"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "cuchara"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "cuillère"
           }
         }
       }
@@ -6594,6 +9051,41 @@
             "state" : "translated",
             "value" : "ardilla"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "écureuil"
+          }
+        }
+      }
+    },
+    "DRAWING_STOP" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "stop"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "alto"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "alto"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "arrêter"
+          }
         }
       }
     },
@@ -6616,6 +9108,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "fresa"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "fraise"
           }
         }
       }
@@ -6640,6 +9138,12 @@
             "state" : "translated",
             "value" : "poste"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "lampadaire"
+          }
         }
       }
     },
@@ -6662,6 +9166,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "submarino"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "sous-marin"
           }
         }
       }
@@ -6686,6 +9196,12 @@
             "state" : "translated",
             "value" : "maleta"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "valise"
+          }
         }
       }
     },
@@ -6709,6 +9225,41 @@
             "state" : "translated",
             "value" : "sol"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "soleil"
+          }
+        }
+      }
+    },
+    "DRAWING_SURFBOAT" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "surfboat"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "surf"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "surf"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "surf"
+          }
         }
       }
     },
@@ -6728,6 +9279,12 @@
           }
         },
         "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "suv"
+          }
+        },
+        "fr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "suv"
@@ -6755,6 +9312,12 @@
             "state" : "translated",
             "value" : "cisne"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "cygne"
+          }
         }
       }
     },
@@ -6777,6 +9340,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "espada"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "épée"
           }
         }
       }
@@ -6801,6 +9370,12 @@
             "state" : "translated",
             "value" : "jeringa"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "seringue"
+          }
         }
       }
     },
@@ -6823,6 +9398,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "mesa"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "table"
           }
         }
       }
@@ -6847,6 +9428,12 @@
             "state" : "translated",
             "value" : "té"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "thé"
+          }
         }
       }
     },
@@ -6870,6 +9457,12 @@
             "state" : "translated",
             "value" : "tetera"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "théière"
+          }
         }
       }
     },
@@ -6889,6 +9482,12 @@
           }
         },
         "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "peluche"
+          }
+        },
+        "fr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "peluche"
@@ -6916,6 +9515,12 @@
             "state" : "translated",
             "value" : "teléfono"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "téléphone"
+          }
         }
       }
     },
@@ -6935,6 +9540,12 @@
           }
         },
         "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "tennis"
+          }
+        },
+        "fr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "tennis"
@@ -6962,6 +9573,41 @@
             "state" : "translated",
             "value" : "acampar"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "tente"
+          }
+        }
+      }
+    },
+    "DRAWING_TIE" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "tie"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "corbata"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "corbata"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "cravate"
+          }
         }
       }
     },
@@ -6984,6 +9630,70 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "tigre"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "tigre"
+          }
+        }
+      }
+    },
+    "DRAWING_TOASTER" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "toaster"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "tostadora"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "tostadora"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "grille-pain"
+          }
+        }
+      }
+    },
+    "DRAWING_TOILET" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "toilet"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "inodoro"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "inodoro"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "toilette"
           }
         }
       }
@@ -7008,6 +9718,41 @@
             "state" : "translated",
             "value" : "tomate"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "tomate"
+          }
+        }
+      }
+    },
+    "DRAWING_TOOTHBRUSH" : {
+      "comment" : "drawing label",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "toothbrush"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "cepillo de dientes"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "cepillo de dientes"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "brosse à dents"
+          }
         }
       }
     },
@@ -7030,6 +9775,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "tractor"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "tracteur"
           }
         }
       }
@@ -7054,6 +9805,12 @@
             "state" : "translated",
             "value" : "semáforo"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "feu de signalisation"
+          }
         }
       }
     },
@@ -7076,6 +9833,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "tren"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "train"
           }
         }
       }
@@ -7100,6 +9863,12 @@
             "state" : "translated",
             "value" : "árbol"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "arbre"
+          }
         }
       }
     },
@@ -7122,6 +9891,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "pantalones"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "pantalon"
           }
         }
       }
@@ -7146,6 +9921,12 @@
             "state" : "translated",
             "value" : "camión"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "camion"
+          }
         }
       }
     },
@@ -7168,6 +9949,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "trompeta"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "trompette"
           }
         }
       }
@@ -7192,6 +9979,12 @@
             "state" : "translated",
             "value" : "tortuga"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "tortue"
+          }
         }
       }
     },
@@ -7214,6 +10007,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "televisión"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "télévision"
           }
         }
       }
@@ -7238,6 +10037,12 @@
             "state" : "translated",
             "value" : "sombrilla"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "parapluie"
+          }
         }
       }
     },
@@ -7260,6 +10065,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "camioneta"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "fourgon"
           }
         }
       }
@@ -7284,6 +10095,12 @@
             "state" : "translated",
             "value" : "florero"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "vase"
+          }
         }
       }
     },
@@ -7306,6 +10123,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "violin"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "violon"
           }
         }
       }
@@ -7330,6 +10153,12 @@
             "state" : "translated",
             "value" : "caminar"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "marcher"
+          }
         }
       }
     },
@@ -7352,6 +10181,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "reloj"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "regarder"
           }
         }
       }
@@ -7376,6 +10211,12 @@
             "state" : "translated",
             "value" : "rueda"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "roue"
+          }
         }
       }
     },
@@ -7398,6 +10239,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "molino"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "moulin"
           }
         }
       }
@@ -7422,6 +10269,12 @@
             "state" : "translated",
             "value" : "copa"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "vin"
+          }
         }
       }
     },
@@ -7445,6 +10298,12 @@
             "state" : "translated",
             "value" : "cebra"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "zèbre"
+          }
         }
       }
     },
@@ -7460,6 +10319,80 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Editar…"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Modifier…"
+          }
+        }
+      }
+    },
+    "EEG coming soon**" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "EEG disponible pronto**"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "EEG disponible pronto**"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "EEG bientôt disponible**"
+          }
+        }
+      }
+    },
+    "Feature coming soon!" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Característica disponible pronto"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Característica disponible pronto"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fonctionnalité bientôt disponible !"
+          }
+        }
+      }
+    },
+    "Follow us: @whatwordapp" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Síguenos: @whatwordapp"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Síguenos: @whatwordapp"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Suivez-nous: @whatwordapp"
           }
         }
       }
@@ -7477,10 +10410,17 @@
             "state" : "translated",
             "value" : "Imágenes obtenidas de Unsplash API (https://unsplash.com)"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Images récupérées depuis l'API Unsplash (https://unsplash.com)"
+          }
         }
       }
     },
     "Joshua Newnham CNN Sketch Classifier (https://github.com/wikibook/coreml) for sketch classification" : {
+      "extractionState" : "stale",
       "localizations" : {
         "es" : {
           "stringUnit" : {
@@ -7492,6 +10432,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Joshua Newnham CNN Sketch Classifier (https://github.com/wikibook/coreml) para clasificación de bosquejos"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Joshua Newnham CNN Sketch Classifier (https://github.com/wikibook/coreml) pour la classification de croquis"
           }
         }
       }
@@ -7510,6 +10456,12 @@
             "state" : "translated",
             "value" : "Llave"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Clé"
+          }
         }
       }
     },
@@ -7525,6 +10477,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tipo de Teclado"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Type de clavier"
           }
         }
       }
@@ -7542,6 +10500,12 @@
             "state" : "translated",
             "value" : "Más traducciones pronto. Contáctame para sugerir nuevos idiomas"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "D’autres traductions à venir. Contactez-nous pour suggérer de nouvelles langues"
+          }
         }
       }
     },
@@ -7558,6 +10522,12 @@
             "state" : "translated",
             "value" : "Nuevo nodo"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nouveau nœud"
+          }
         }
       }
     },
@@ -7573,6 +10543,34 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "OK"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
+          }
+        }
+      }
+    },
+    "Open dictionary..." : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Abrir diccionario..."
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Abrir diccionario..."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ouvrir le dictionnaire…"
           }
         }
       }
@@ -7596,6 +10594,12 @@
             "state" : "translated",
             "value" : "Abrir Ajustes..."
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ouvrir les paramètres…"
+          }
         }
       }
     },
@@ -7611,6 +10615,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fijado"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Épinglé"
           }
         }
       }
@@ -7628,6 +10638,34 @@
             "state" : "translated",
             "value" : "Restaurar datos de aplicación"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Restaurer les données de l'application"
+          }
+        }
+      }
+    },
+    "Select an image to continue" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Selecciona una imagen para continuar"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Selecciona una imagen para continuar"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sélectionnez une image pour continuer"
+          }
         }
       }
     },
@@ -7643,6 +10681,34 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ajustes"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Paramètres"
+          }
+        }
+      }
+    },
+    "Speak word" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pronunciar palabra"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pronunciar palabra"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Parler mot"
           }
         }
       }
@@ -7660,10 +10726,39 @@
             "state" : "translated",
             "value" : "Traducciones"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Traductions"
+          }
+        }
+      }
+    },
+    "Version %@" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Versión %@"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Versión %@"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Version %@"
+          }
         }
       }
     },
     "Version 2.0" : {
+      "extractionState" : "stale",
       "localizations" : {
         "es" : {
           "stringUnit" : {
@@ -7675,6 +10770,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Versión 2.0"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Version 2.0"
           }
         }
       }

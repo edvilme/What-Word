@@ -12,6 +12,7 @@ struct KeyboardWordContainerView: View {
     var onWordDelete: () -> Void
     var deleteKeyIcon: String = "delete.backward.fill"
     @Binding var currentWwNode: WWNode
+    @State var showingReferenceLibraryView: Bool = false
     var body: some View {
         HStack {
             Button("", systemImage: deleteKeyIcon, action: {
@@ -21,30 +22,41 @@ struct KeyboardWordContainerView: View {
                 .tint(.red)
                 .labelStyle(.iconOnly)
                 .controlSize(.regular)
-            Text(self.currentWwNode.name)
+            Text(currentWwNode.name)
                 .fontWeight(.black)
                 .fontDesign(.rounded)
                 .padding(.horizontal)
             Spacer()
             if (currentWwNode.type != .empty && currentWwNode.type != .root) {
-                Button("", systemImage: "speaker.wave.3.fill", action: {
-                    currentWwNode.speak()
-                })
+                Menu("", systemImage: "ellipsis.circle"){
+                    Button("Speak word", systemImage: "waveform", action: {
+                        currentWwNode.speak()
+                    })
+                    if (currentWwNode.type == .word) {
+                        Button("Open dictionary...", systemImage: "character.book.closed.fill", action: {
+                            showingReferenceLibraryView.toggle()
+                        })
+                    }
+                }
                     .buttonStyle(.plain)
                     .labelStyle(.iconOnly)
                     .controlSize(.regular)
                     .padding(.horizontal)
             }
             Button("", systemImage: "return", action: {
-                if (self.currentWwNode.name != "") {
-                    onWordSubmit(self.currentWwNode.name)
+                if (currentWwNode.name != "") {
+                    onWordSubmit(currentWwNode.name)
                 }
             })
                 .buttonStyle(.borderedProminent)
                 .labelStyle(.iconOnly)
                 .controlSize(.regular)
+                .disabled(currentWwNode.type == .empty || currentWwNode.name == "")
         }
             .padding(.horizontal)
             .padding(.bottom, 1)
+            .sheet(isPresented: $showingReferenceLibraryView, content: {
+                AccessoryWordReferenceView(term: currentWwNode.name)
+            })
     }
 }

@@ -19,6 +19,8 @@ enum WWNodeType {
     case contact
 }
 
+let WWNODE_SPEECH_SYNTHESIZER = AVSpeechSynthesizer()
+
 class WWNode: ObservableObject {
     var externalId: String = "ww.node.empty. "
     var name: String = ""
@@ -95,8 +97,8 @@ class WWNode: ObservableObject {
     }
     
     func speak() -> Void {
-        var utterance = AVSpeechUtterance(string: self.name)
+        let utterance = AVSpeechUtterance(string: self.name)
         utterance.voice = AVSpeechSynthesisVoice(language: NSLocale.current.language.languageCode?.identifier)
-        AVSpeechSynthesizer().speak(utterance)
+        WWNODE_SPEECH_SYNTHESIZER.speak(utterance)
     }
 }

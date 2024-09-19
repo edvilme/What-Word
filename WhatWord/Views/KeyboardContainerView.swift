@@ -15,7 +15,8 @@ struct WWKeyboardViewType: Hashable {
 var wwKeyboardViewTypes: [WWKeyboardViewType] = [
     WWKeyboardViewType(name: "generative", icon: "sparkles.rectangle.stack.fill"),
     WWKeyboardViewType(name: "drawing", icon: "scribble.variable"),
-    WWKeyboardViewType(name: "camera", icon: "camera.fill"),
+    WWKeyboardViewType(name: "image", icon: "photo.fill"),
+    //WWKeyboardViewType(name: "eeg", icon: "brain.filled.head.profile"),
     WWKeyboardViewType(name: "keyboard", icon: "keyboard.fill"),
     WWKeyboardViewType(name: "settings", icon: "gearshape.fill"),
 ]
@@ -45,9 +46,8 @@ struct KeyboardContainerView: View {
                     KeyboardGenerativeView(onWordSubmit: onWordSubmit, onWordDelete: onWordDelete)
                 case "drawing":
                     KeyboardDrawingView(onWordSubmit: onWordSubmit, onWordDelete: onWordDelete)
-                case "camera":
-                    Text("Camera coming soon!")
-                    Spacer()
+                case "image":
+                    KeyboardImageView(onWordSubmit: onWordSubmit, onWordDelete: onWordDelete)
                 case "settings":
                     Button("Open Settings") {
                         showingSettings.toggle()

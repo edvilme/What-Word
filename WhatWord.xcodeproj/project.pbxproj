@@ -12,8 +12,13 @@
 		9D1FFC292C7C312D005870E2 /* ImageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1FFC282C7C312D005870E2 /* ImageExtensions.swift */; };
 		9D1FFC2E2C7C5EFA005870E2 /* DefaultPins.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1FFC2D2C7C5EFA005870E2 /* DefaultPins.swift */; };
 		9D1FFC302C7C5F0D005870E2 /* DrawingClassificationLabels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1FFC2F2C7C5F0D005870E2 /* DrawingClassificationLabels.swift */; };
-		9D1FFC322C7DC677005870E2 /* ContactPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1FFC312C7DC677005870E2 /* ContactPickerView.swift */; };
-		9D1FFC342C7E9760005870E2 /* ContactDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1FFC332C7E9760005870E2 /* ContactDetailView.swift */; };
+		9D1FFC322C7DC677005870E2 /* AccesoryContactPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1FFC312C7DC677005870E2 /* AccesoryContactPickerView.swift */; };
+		9D1FFC342C7E9760005870E2 /* AccessoryContactDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1FFC332C7E9760005870E2 /* AccessoryContactDetailView.swift */; };
+		9D1FFC372C86552F005870E2 /* AirKit in Frameworks */ = {isa = PBXBuildFile; productRef = 9D1FFC362C86552F005870E2 /* AirKit */; };
+		9D394F2B2C9B78A800F2EB2D /* KeyboardImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D394F2A2C9B78A800F2EB2D /* KeyboardImageView.swift */; };
+		9D394F2E2C9B7E0F00F2EB2D /* ButtonKeyWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D394F2D2C9B7E0F00F2EB2D /* ButtonKeyWord.swift */; };
+		9D394F362C9BBB4C00F2EB2D /* YOLOv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 9D394F352C9BBB4C00F2EB2D /* YOLOv3.mlmodel */; };
+		9D394F3C2C9BD37900F2EB2D /* MLMultiArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D394F3B2C9BD37900F2EB2D /* MLMultiArray.swift */; };
 		9D3A3BE82B0F282800341559 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3A3BE72B0F282800341559 /* SettingsView.swift */; };
 		9D69F57A2C7989700011C741 /* KeyboardDrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D69F5792C7989700011C741 /* KeyboardDrawingView.swift */; };
 		9D6A135B2B0AF6A8000C7E98 /* WhatWordApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6A135A2B0AF6A8000C7E98 /* WhatWordApp.swift */; };
@@ -30,6 +35,7 @@
 		9DCA061D2C75F23F00F12A30 /* Flow in Frameworks */ = {isa = PBXBuildFile; productRef = 9DCA061C2C75F23F00F12A30 /* Flow */; };
 		9DCA061F2C77E1DE00F12A30 /* KeyboardWordContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCA061E2C77E1DE00F12A30 /* KeyboardWordContainerView.swift */; };
 		9DCA06212C784B3E00F12A30 /* WordDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCA06202C784B3E00F12A30 /* WordDetailView.swift */; };
+		9DE4E7702C8837820044164B /* AccessoryWordReferenceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE4E76F2C8837820044164B /* AccessoryWordReferenceView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,11 +58,15 @@
 /* Begin PBXFileReference section */
 		9D1FFC222C7C1AA1005870E2 /* DrawingDetection.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = DrawingDetection.mlmodel; sourceTree = "<group>"; };
 		9D1FFC262C7C25DF005870E2 /* cnnsketchclassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = cnnsketchclassifier.mlmodel; sourceTree = "<group>"; };
-		9D1FFC282C7C312D005870E2 /* ImageExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageExtensions.swift; path = Extensions/ImageExtensions.swift; sourceTree = "<group>"; };
+		9D1FFC282C7C312D005870E2 /* ImageExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageExtensions.swift; sourceTree = "<group>"; };
 		9D1FFC2D2C7C5EFA005870E2 /* DefaultPins.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultPins.swift; sourceTree = "<group>"; };
 		9D1FFC2F2C7C5F0D005870E2 /* DrawingClassificationLabels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingClassificationLabels.swift; sourceTree = "<group>"; };
-		9D1FFC312C7DC677005870E2 /* ContactPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactPickerView.swift; sourceTree = "<group>"; };
-		9D1FFC332C7E9760005870E2 /* ContactDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailView.swift; sourceTree = "<group>"; };
+		9D1FFC312C7DC677005870E2 /* AccesoryContactPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccesoryContactPickerView.swift; sourceTree = "<group>"; };
+		9D1FFC332C7E9760005870E2 /* AccessoryContactDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessoryContactDetailView.swift; sourceTree = "<group>"; };
+		9D394F2A2C9B78A800F2EB2D /* KeyboardImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardImageView.swift; sourceTree = "<group>"; };
+		9D394F2D2C9B7E0F00F2EB2D /* ButtonKeyWord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonKeyWord.swift; sourceTree = "<group>"; };
+		9D394F352C9BBB4C00F2EB2D /* YOLOv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = YOLOv3.mlmodel; sourceTree = "<group>"; };
+		9D394F3B2C9BD37900F2EB2D /* MLMultiArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLMultiArray.swift; sourceTree = "<group>"; };
 		9D3A3BE72B0F282800341559 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		9D69F5792C7989700011C741 /* KeyboardDrawingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardDrawingView.swift; sourceTree = "<group>"; };
 		9D6A13572B0AF6A8000C7E98 /* WhatWord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhatWord.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -77,6 +87,7 @@
 		9DCA06192C75D75000F12A30 /* KeyboardGenerativeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardGenerativeView.swift; sourceTree = "<group>"; };
 		9DCA061E2C77E1DE00F12A30 /* KeyboardWordContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardWordContainerView.swift; sourceTree = "<group>"; };
 		9DCA06202C784B3E00F12A30 /* WordDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordDetailView.swift; sourceTree = "<group>"; };
+		9DE4E76F2C8837820044164B /* AccessoryWordReferenceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessoryWordReferenceView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D1FFC372C86552F005870E2 /* AirKit in Frameworks */,
 				9DCA061D2C75F23F00F12A30 /* Flow in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -114,6 +126,23 @@
 			path = Data;
 			sourceTree = "<group>";
 		};
+		9D394F2C2C9B7DEF00F2EB2D /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				9D394F2D2C9B7E0F00F2EB2D /* ButtonKeyWord.swift */,
+			);
+			path = Controls;
+			sourceTree = "<group>";
+		};
+		9D394F382C9BD34C00F2EB2D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9D1FFC282C7C312D005870E2 /* ImageExtensions.swift */,
+				9D394F3B2C9BD37900F2EB2D /* MLMultiArray.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		9D6A134E2B0AF6A8000C7E98 = {
 			isa = PBXGroup;
 			children = (
@@ -138,8 +167,9 @@
 		9D6A13592B0AF6A8000C7E98 /* WhatWord */ = {
 			isa = PBXGroup;
 			children = (
+				9D394F382C9BD34C00F2EB2D /* Extensions */,
+				9D394F352C9BBB4C00F2EB2D /* YOLOv3.mlmodel */,
 				9D1FFC2C2C7C5EFA005870E2 /* Data */,
-				9D1FFC282C7C312D005870E2 /* ImageExtensions.swift */,
 				9D1FFC262C7C25DF005870E2 /* cnnsketchclassifier.mlmodel */,
 				9D1FFC222C7C1AA1005870E2 /* DrawingDetection.mlmodel */,
 				9DCA06142C6AC98400F12A30 /* Models */,
@@ -181,15 +211,16 @@
 		9D8E26632B0C48D900C5872C /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				9D394F2C2C9B7DEF00F2EB2D /* Controls */,
+				9DE4E7712C93F9EB0044164B /* Accesories */,
 				9D6A135C2B0AF6A8000C7E98 /* ContentView.swift */,
 				9D3A3BE72B0F282800341559 /* SettingsView.swift */,
 				9DCA06172C75CDF100F12A30 /* KeyboardContainerView.swift */,
+				9D394F2A2C9B78A800F2EB2D /* KeyboardImageView.swift */,
 				9DCA061E2C77E1DE00F12A30 /* KeyboardWordContainerView.swift */,
 				9DCA06192C75D75000F12A30 /* KeyboardGenerativeView.swift */,
-				9D1FFC332C7E9760005870E2 /* ContactDetailView.swift */,
 				9DCA06202C784B3E00F12A30 /* WordDetailView.swift */,
 				9D69F5792C7989700011C741 /* KeyboardDrawingView.swift */,
-				9D1FFC312C7DC677005870E2 /* ContactPickerView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -200,6 +231,16 @@
 				9DCA06152C6AC9A000F12A30 /* WWNode.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		9DE4E7712C93F9EB0044164B /* Accesories */ = {
+			isa = PBXGroup;
+			children = (
+				9DE4E76F2C8837820044164B /* AccessoryWordReferenceView.swift */,
+				9D1FFC312C7DC677005870E2 /* AccesoryContactPickerView.swift */,
+				9D1FFC332C7E9760005870E2 /* AccessoryContactDetailView.swift */,
+			);
+			path = Accesories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,6 +261,7 @@
 			name = WhatWord;
 			packageProductDependencies = (
 				9DCA061C2C75F23F00F12A30 /* Flow */,
+				9D1FFC362C86552F005870E2 /* AirKit */,
 			);
 			productName = WhatWord;
 			productReference = 9D6A13572B0AF6A8000C7E98 /* WhatWord.app */;
@@ -269,7 +311,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1400;
-				LastUpgradeCheck = 1400;
+				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					9D6A13562B0AF6A8000C7E98 = {
 						CreatedOnToolsVersion = 14.0.1;
@@ -293,10 +335,12 @@
 				Base,
 				"es-419",
 				es,
+				fr,
 			);
 			mainGroup = 9D6A134E2B0AF6A8000C7E98;
 			packageReferences = (
 				9DCA061B2C75F23F00F12A30 /* XCRemoteSwiftPackageReference "SwiftUI-Flow" */,
+				9D1FFC352C86552F005870E2 /* XCRemoteSwiftPackageReference "AirKit" */,
 			);
 			productRefGroup = 9D6A13582B0AF6A8000C7E98 /* Products */;
 			projectDirPath = "";
@@ -346,16 +390,21 @@
 				9DCA06162C6AC9A000F12A30 /* WWNode.swift in Sources */,
 				9D3A3BE82B0F282800341559 /* SettingsView.swift in Sources */,
 				9DCA061A2C75D75000F12A30 /* KeyboardGenerativeView.swift in Sources */,
-				9D1FFC322C7DC677005870E2 /* ContactPickerView.swift in Sources */,
+				9D1FFC322C7DC677005870E2 /* AccesoryContactPickerView.swift in Sources */,
 				9D1FFC272C7C25DF005870E2 /* cnnsketchclassifier.mlmodel in Sources */,
 				9DCA06182C75CDF100F12A30 /* KeyboardContainerView.swift in Sources */,
 				9DCA061F2C77E1DE00F12A30 /* KeyboardWordContainerView.swift in Sources */,
 				9D69F57A2C7989700011C741 /* KeyboardDrawingView.swift in Sources */,
 				9D1FFC2E2C7C5EFA005870E2 /* DefaultPins.swift in Sources */,
 				9D1FFC292C7C312D005870E2 /* ImageExtensions.swift in Sources */,
-				9D1FFC342C7E9760005870E2 /* ContactDetailView.swift in Sources */,
+				9D1FFC342C7E9760005870E2 /* AccessoryContactDetailView.swift in Sources */,
+				9D394F2B2C9B78A800F2EB2D /* KeyboardImageView.swift in Sources */,
+				9D394F362C9BBB4C00F2EB2D /* YOLOv3.mlmodel in Sources */,
 				9D1FFC302C7C5F0D005870E2 /* DrawingClassificationLabels.swift in Sources */,
+				9DE4E7702C8837820044164B /* AccessoryWordReferenceView.swift in Sources */,
 				9DCA06212C784B3E00F12A30 /* WordDetailView.swift in Sources */,
+				9D394F3C2C9BD37900F2EB2D /* MLMultiArray.swift in Sources */,
+				9D394F2E2C9B7E0F00F2EB2D /* ButtonKeyWord.swift in Sources */,
 				9D6A135B2B0AF6A8000C7E98 /* WhatWordApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -397,6 +446,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -426,9 +476,11 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -443,7 +495,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -456,6 +508,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -485,9 +538,11 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -496,7 +551,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -511,15 +566,19 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = WhatWord/WhatWord.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 10;
+				CURRENT_PROJECT_VERSION = 4;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"WhatWord/Preview Content\"";
 				DEVELOPMENT_TEAM = 4HM8MJRNPP;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = WhatWord/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "What Word?";
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Provide access to camera to identify objects and people";
+				INFOPLIST_KEY_NSContactsUsageDescription = "Provide access to contacts to pin to your favorite words.";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = Test;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
@@ -527,6 +586,7 @@
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
 				INFOPLIST_KEY_UIStatusBarStyle = "";
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
@@ -536,7 +596,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 12.3;
-				MARKETING_VERSION = 2;
+				MARKETING_VERSION = 2.0.4;
 				PRODUCT_BUNDLE_IDENTIFIER = com.edvilme.WhatWord;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
@@ -556,15 +616,19 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = WhatWord/WhatWord.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 10;
+				CURRENT_PROJECT_VERSION = 4;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"WhatWord/Preview Content\"";
 				DEVELOPMENT_TEAM = 4HM8MJRNPP;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = WhatWord/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "What Word?";
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Provide access to camera to identify objects and people";
+				INFOPLIST_KEY_NSContactsUsageDescription = "Provide access to contacts to pin to your favorite words.";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = Test;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
@@ -572,6 +636,7 @@
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
 				INFOPLIST_KEY_UIStatusBarStyle = "";
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
@@ -581,7 +646,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 12.3;
-				MARKETING_VERSION = 2;
+				MARKETING_VERSION = 2.0.4;
 				PRODUCT_BUNDLE_IDENTIFIER = com.edvilme.WhatWord;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
@@ -601,6 +666,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 4HM8MJRNPP;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
@@ -624,6 +690,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 4HM8MJRNPP;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
@@ -646,6 +713,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 4HM8MJRNPP;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
@@ -668,6 +736,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 4HM8MJRNPP;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
@@ -726,6 +795,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		9D1FFC352C86552F005870E2 /* XCRemoteSwiftPackageReference "AirKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/heestand-xyz/AirKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.0;
+			};
+		};
 		9DCA061B2C75F23F00F12A30 /* XCRemoteSwiftPackageReference "SwiftUI-Flow" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/tevelee/SwiftUI-Flow.git";
@@ -737,6 +814,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		9D1FFC362C86552F005870E2 /* AirKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9D1FFC352C86552F005870E2 /* XCRemoteSwiftPackageReference "AirKit" */;
+			productName = AirKit;
+		};
 		9DCA061C2C75F23F00F12A30 /* Flow */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 9DCA061B2C75F23F00F12A30 /* XCRemoteSwiftPackageReference "SwiftUI-Flow" */;

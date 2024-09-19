@@ -21,7 +21,7 @@ struct SettingsView: View {
     }
     
     var body: some View {
-        NavigationView {
+        NavigationStack {
             Form {
                 Section("App Data"){
                     Button {
@@ -31,23 +31,27 @@ struct SettingsView: View {
                     }   .tint(.red)
                 }
                 Section("Aknowledgments"){
-                    Text("Joshua Newnham CNN Sketch Classifier (https://github.com/wikibook/coreml) for sketch classification")
+                    Text("[Joshua Newnham CNN Sketch Classifier](https://github.com/wikibook/coreml) model for sketch classification")
+                    Text("[YOLOv3](https://github.com/pjreddie/darknet) for image object detection (beta)")
                     Text("Images fetched from Unsplash API (https://unsplash.com)")
+                    Text("Dictionary obtained from system")
                 }
                 Section("Translations"){
                     Text("More translations coming soon. Reach out to suggest new languages")
                 }
                 Section{
+                    Button("Follow us: @whatwordapp", action: {
+                        UIApplication.shared.open(URL(string: "https://x.com/whatwordapp")!)
+                    })
+                        .buttonStyle(.plain)
                     Text("Designed and developed with <3 by Eduardo Villalpando Mello (@edvilme)")
-                        .font(.caption)
-                    Text("Version 2.0")
-                        .font(.caption2)
+                    Text("Version \(Bundle.main.infoDictionary?["CFBundleShortVersionString"]! as! String)")
                 }
             }
-        }
-            .navigationBarTitleDisplayMode(.large)
-            /// Navigation options
             .navigationTitle("Settings")
+            .navigationBarTitleDisplayMode(.large)
+
+        }
             /// Attached alerts and sheets
             .confirmationDialog("Are you sure", isPresented: $shouldShowDeletionConfirmation) {
                 Button {

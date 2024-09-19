@@ -50,16 +50,16 @@ struct WordDetailView: View {
             
             .alert("New node", isPresented: $newWordNodeShowing) {
                 TextField("", text: $newWordNodeAlertName)
-                Button("OK", action: {
-                    currentNode.pinnedNodeIds.append("ww.node.word.\(newWordNodeAlertName.lowercased())")
-                })
                 Button("Cancel", action: {
                     newWordNodeShowing.toggle()
+                })
+                Button("OK", action: {
+                    currentNode.pinnedNodeIds.append("ww.node.word.\(newWordNodeAlertName.lowercased())")
                 })
             }
             
             .sheet(isPresented: $newContactNodeShowing) {
-                ContactPicker(isPresented: $newContactNodeShowing, onSelect: { contact in
+                AccessoryContactPickerView(isPresented: $newContactNodeShowing, onSelect: { contact in
                     currentNode.pinnedNodeIds.append("ww.node.contact.\(contact.identifier)")
                 })
             }

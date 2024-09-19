@@ -26,12 +26,9 @@ struct KeyboardGenerativeView: View {
     func generateKeysFromExternalIds(externalIds: [String]) -> ForEach<[String], String, some View>{
         return ForEach(externalIds, id: \.self) { externalId in
             let node = WWNode(externalId: externalId)
-            Button(node.name, action: {
+            ButtonKeyWord(node: node, action: {
                 wwNodeExternalIdsStack.append(externalId)
             })
-                .buttonStyle(.bordered)
-                .background(.background)
-                .foregroundStyle(.primary)
         }
     }
     
@@ -60,11 +57,13 @@ struct KeyboardGenerativeView: View {
                         Button("Edit…", systemImage: "pencil", action: {
                             showingWordDetail.toggle()
                         })
+                        .font(.title3)
                         .buttonStyle(.bordered)
                         self.generateKeysFromExternalIds(externalIds: currentWWNode.pinnedNodeIds.wrappedValue)
                     }
                 }
                     .padding(.bottom)
+                    .padding(.horizontal)
                 Divider()
                 // Related words
                 Section {
@@ -79,15 +78,15 @@ struct KeyboardGenerativeView: View {
                         }
                     }
                 }
-
+                    .padding(.horizontal)
             })
                 .frame(maxWidth: .infinity)
-        } 
+        }
             .sheet(isPresented: $showingWordDetail, content: {
                 WordDetailView(currentNode: currentWWNode.wrappedValue)
             })
             .sheet(isPresented: $showingContactDetail, content: {
-                ContactDetailView(contact: currentWWNode.wrappedValue.contact!)
+                AccessoryContactDetailView(contact: currentWWNode.wrappedValue.contact!)
             })
     }
 }
