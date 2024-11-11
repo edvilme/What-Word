@@ -16,6 +16,7 @@ struct AccessoryContactDetailView : UIViewControllerRepresentable {
         let vc = CNContactViewController(for: contact!)
         vc.allowsActions = true
         vc.allowsEditing = false
+        vc.modalPresentationStyle = .overFullScreen
         return vc
     }
     func updateUIViewController(_ uiViewController: CNContactViewController, context: Context) {

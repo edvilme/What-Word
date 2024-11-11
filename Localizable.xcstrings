@@ -222,6 +222,7 @@
       }
     },
     "Contact info…" : {
+      "extractionState" : "stale",
       "localizations" : {
         "es" : {
           "stringUnit" : {
@@ -4547,13 +4548,13 @@
         },
         "es" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "translated",
             "value" : "brócoli"
           }
         },
         "es-419" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "translated",
             "value" : "brócoli"
           }
         },
@@ -9738,13 +9739,13 @@
         },
         "es" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "translated",
             "value" : "cepillo de dientes"
           }
         },
         "es-419" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "translated",
             "value" : "cepillo de dientes"
           }
         },
@@ -10709,6 +10710,28 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Parler mot"
+          }
+        }
+      }
+    },
+    "Tap a word to see related words. Tap %@ to enter the word" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pulsa una palabra para ver palabras relacionadas. Pulsa %@ para introducir la palabra"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pulsa una palabra para ver palabras relacionadas. Pulsa %@ para introducir la palabra"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cliquez sur un mot pour afficher les mots apparentés. Appuyez sur %@ pour saisir le mot"
           }
         }
       }

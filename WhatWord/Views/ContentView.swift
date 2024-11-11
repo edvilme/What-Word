@@ -26,12 +26,14 @@ struct ContentView: View {
                             wwGeneratedText = ""
                         })
                             .labelStyle(.iconOnly)
+                            .disabled(wwGeneratedText.isEmpty)
                     }
                     ToolbarItemGroup(placement: .topBarTrailing) {
                         Button("", systemImage: "sparkles", action: {})
                             .disabled(true)
                         ShareLink("", item: wwGeneratedText)
                             .labelStyle(.iconOnly)
+                            .disabled(wwGeneratedText.isEmpty)
                     }
                 }
             KeyboardContainerView(

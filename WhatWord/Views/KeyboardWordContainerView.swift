@@ -26,6 +26,7 @@ struct KeyboardWordContainerView: View {
                 .fontWeight(.black)
                 .fontDesign(.rounded)
                 .padding(.horizontal)
+                .font(.title3)
             Spacer()
             if (currentWwNode.type != .empty && currentWwNode.type != .root) {
                 Menu("", systemImage: "ellipsis.circle"){

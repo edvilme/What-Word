@@ -10,24 +10,52 @@ import Flow
 import ContactsUI
 
 struct KeyboardGenerativeView: View {
-    static var rootNodeExternalId = "ww.node.root.root"
+    static var ROOT_EXTERNAL_ID = "ww.node.root.root"
+    
     var onWordSubmit: (String) -> Void
     var onWordDelete: () -> Void
     
-    @State var wwNodeExternalIdsStack: [String] = [KeyboardGenerativeView.rootNodeExternalId]
-    @State var showingWordDetail: Bool = false
-    @State var showingContactDetail: Bool = false
-    
+    @State var wwNodeExternalIdsStack: [String] = ["ww.node.root.root"]
     var currentWWNode: Binding<WWNode> { Binding(
         get: {WWNode(externalId: self.wwNodeExternalIdsStack.last!)},
         set: {_ in }
     )}
     
+    var body: some View {
+        KeyboardGenerativeViewOld(
+            onWordSubmit: {word in
+                onWordSubmit(word)
+                wwNodeExternalIdsStack = ["ww.node.root.root"]
+            },
+            onWordDelete: {
+                if currentWWNode.wrappedValue.externalId != "ww.node.root.root" {
+                    wwNodeExternalIdsStack.removeLast()
+                } else {
+                    onWordDelete()
+                }
+            },
+            onWordSelect: {word in
+                wwNodeExternalIdsStack.append(word)
+            },
+            node: currentWWNode
+        )
+    }
+}
+
+struct KeyboardGenerativeViewOld: View {
+    var onWordSubmit: (String) -> Void
+    var onWordDelete: () -> Void
+    var onWordSelect: (String) -> Void
+    
+    @Binding var node: WWNode
+    @State var showingWordDetail: Bool = false
+    @State var showingContactDetail: Bool = false
+    
     func generateKeysFromExternalIds(externalIds: [String]) -> ForEach<[String], String, some View>{
         return ForEach(externalIds, id: \.self) { externalId in
             let node = WWNode(externalId: externalId)
             ButtonKeyWord(node: node, action: {
-                wwNodeExternalIdsStack.append(externalId)
+                onWordSelect(node.externalId)
             })
         }
     }
@@ -35,22 +63,15 @@ struct KeyboardGenerativeView: View {
     var body: some View {
         VStack{
             KeyboardWordContainerView(
-                onWordSubmit: { word in
-                    onWordSubmit(word)
-                    wwNodeExternalIdsStack = [KeyboardGenerativeView.rootNodeExternalId]
-                },
-                onWordDelete: {
-                    if(currentWWNode.wrappedValue.externalId != KeyboardGenerativeView.rootNodeExternalId){
-                        wwNodeExternalIdsStack.removeLast()
-                    }
-                    else {
-                        onWordDelete()
-                    }
-                },
-                deleteKeyIcon: currentWWNode.wrappedValue.externalId == KeyboardGenerativeView.rootNodeExternalId ? "delete.backward.fill" : "chevron.backward", 
-                currentWwNode: currentWWNode
+                onWordSubmit: onWordSubmit,
+                onWordDelete: onWordDelete,
+                deleteKeyIcon: node.externalId == KeyboardGenerativeView.ROOT_EXTERNAL_ID ? "delete.backward.fill" : "chevron.backward",
+                currentWwNode: $node
             )
             ScrollView(content: {
+                Text("Tap a word to see related words. Tap \(Image(systemName: "return")) to enter the word")
+                    .font(.caption)
+                    .foregroundStyle(.tertiary)
                 // Pinned words
                 Section {
                     HFlow(horizontalAlignment: .center, verticalAlignment: .top) {
@@ -59,22 +80,29 @@ struct KeyboardGenerativeView: View {
                         })
                         .font(.title3)
                         .buttonStyle(.bordered)
-                        self.generateKeysFromExternalIds(externalIds: currentWWNode.pinnedNodeIds.wrappedValue)
+                        self.generateKeysFromExternalIds(externalIds: node.pinnedNodeIds)
                     }
                 }
                     .padding(.bottom)
                     .padding(.horizontal)
+                // Additional Info
                 Divider()
-                // Related words
                 Section {
-                    if (currentWWNode.type.wrappedValue == .contact && currentWWNode.contact.wrappedValue != nil) {
-                        Button("Contact info…", systemImage: "person.fill", action: {
+                    // Contacts: Contact Info
+                    if (node.type == .contact && node.contact != nil) {
+                        /*Button("Contact info…", systemImage: "person.fill", action: {
                             showingContactDetail.toggle()
                         })
                             .buttonStyle(.borderedProminent)
+                            .font(.title2)
+                            .padding()
+                         */
+                        AccessoryContactDetailView(contact: node.contact!)
+                            .frame(height: 300)
+                    // Words: Related words
                     } else {
                         HFlow(horizontalAlignment: .center, verticalAlignment: .top) {
-                            self.generateKeysFromExternalIds(externalIds: currentWWNode.wrappedValue.getRelatedNodeExternalIds())
+                            self.generateKeysFromExternalIds(externalIds: node.getRelatedNodeExternalIds())
                         }
                     }
                 }
@@ -83,10 +111,10 @@ struct KeyboardGenerativeView: View {
                 .frame(maxWidth: .infinity)
         }
             .sheet(isPresented: $showingWordDetail, content: {
-                WordDetailView(currentNode: currentWWNode.wrappedValue)
+                WordDetailView(currentNode: node)
             })
             .sheet(isPresented: $showingContactDetail, content: {
-                AccessoryContactDetailView(contact: currentWWNode.wrappedValue.contact!)
+                AccessoryContactDetailView(contact: node.contact!)
             })
     }
 }

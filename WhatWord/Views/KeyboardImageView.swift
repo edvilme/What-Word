@@ -38,6 +38,7 @@ struct KeyboardImageView: View {
     }
     
     func parsePredictions(result: MLMultiArray, labels: [String]) -> Void {
+        var temporaryResults: [String] = []
         let objectCount = result.shape[0].intValue
         // Iterate objects
         for objectIndex in 0..<objectCount {
@@ -49,8 +50,9 @@ struct KeyboardImageView: View {
                 .prefix(5)
                 .map { "ww.node.word.\(translateDrawingClassificationLabel(label: $0.key))" }
             // Append
-            detectedNodesExternalIds.append(contentsOf: topLabeledScores)
+            temporaryResults.append(contentsOf: topLabeledScores)
         }
+        detectedNodesExternalIds = Array(Set(temporaryResults))
     }
     
     func reset() {
@@ -69,6 +71,8 @@ struct KeyboardImageView: View {
                 },
                 onWordDelete: {
                     if currentWwNode.type != .empty {
+                        currentWwNode = WWNode(externalId: "")
+                    } else if selectedUIImage != nil {
                         reset()
                     } else {
                         onWordDelete()
@@ -102,6 +106,8 @@ struct KeyboardImageView: View {
                         ButtonKeyWord(node: node, action: {
                             currentWwNode = node
                         })
+                        .border(Color.primary, width: currentWwNode.externalId == node.externalId ? 2: 0)
+
                     }
                 }
                     .padding(.horizontal)
@@ -110,9 +116,11 @@ struct KeyboardImageView: View {
         }
         .onChange(of: selectedItems) {
             Task {
+                
                 if let imageData = try? await selectedItems.first?.loadTransferable(type: Data.self){
                     selectedUIImage = UIImage(data: imageData)
                     await predictInput()
+                    currentWwNode = WWNode(externalId: "")
                 }
             }
         }
